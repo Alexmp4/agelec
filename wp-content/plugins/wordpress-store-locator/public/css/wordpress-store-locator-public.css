@@ -1,0 +1,564 @@
+/**
+ * Store Locator Modal 
+ */
+#store_locator * {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+#store_locator *:before,
+#store_locator *:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.store_locator_result_list_box hr {
+  margin: 0 !important;
+}
+
+.modal-open #store_modal{
+  overflow: hidden;
+}
+#store_modal.store-locator-modal {
+  position: fixed;
+  top: 40px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1050;
+  display: none;
+  overflow: hidden;
+  -webkit-overflow-scrolling: touch;
+  outline: 0;
+}
+
+.modal-open #store_modal.store-locator-modal {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+#store_modal .store-locator-modal-dialog {
+  position: relative;
+  width: auto;
+  margin: 10px;
+}
+#store_modal.store-locator-modal.fade .store-locator-modal-dialog {
+    -webkit-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none;
+}
+#store_modal .store-locator-modal-content {
+  position: relative;
+  background-color: #fff;
+  -webkit-background-clip: padding-box;
+          background-clip: padding-box;
+  border: 1px solid #999;
+  border: 1px solid rgba(0, 0, 0, .2);
+  border-radius: 6px;
+  outline: 0;
+  -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+          box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+}
+.store-locator-modal-backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1040;
+  background-color: #000;
+}
+.store-locator-modal-backdrop.fade {
+  filter: alpha(opacity=0);
+  opacity: 0;
+}
+.store-locator-modal-backdrop.in {
+  filter: alpha(opacity=50);
+  opacity: .5;
+}
+#store_modal .store-locator-modal-title {
+  margin: 0;
+  line-height: 1.42857143;
+}
+#store_locator.store-locator-modal-body {
+  padding: 15px 0;
+}
+#store_modal .store-locator-modal-body {
+  position: relative;
+  padding: 15px;
+}
+#store_modal .store-locator-modal-footer {
+  padding: 15px;
+  text-align: right;
+  border-top: 1px solid #e5e5e5;
+}
+#store_modal .store-locator-modal-footer .btn + .btn {
+  margin-bottom: 0;
+  margin-left: 5px;
+}
+#store_modal .store-locator-modal-footer .btn-group .btn + .btn {
+  margin-left: -1px;
+}
+#store_modal .store-locator-modal-footer .btn-block + .btn-block {
+  margin-left: 0;
+}
+#store_modal .store-locator-modal-scrollbar-measure {
+  position: absolute;
+  top: -9999px;
+  width: 50px;
+  height: 50px;
+  overflow: scroll;
+}
+@media (min-width: 768px) {
+  #store_modal .store-locator-modal-dialog {
+    width: 600px;
+    margin: 30px auto;
+  }
+  #store_modal .store-locator-modal-content {
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+  }
+  #store_modal .store-locator-modal-sm {
+    width: 300px;
+  }
+}
+@media (min-width: 992px) {
+  #store_modal .store-locator-modal-lg {
+    width: 900px;
+  }
+}
+
+#store_modal_close {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  z-index: 99;
+}
+/**
+ * Store Locator Result List
+ */
+
+/**
+ * Store Locator Map
+ */
+#store_locator_result_list {
+  max-height: 400px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.store_locator_result_list_item {
+  border-bottom: 1px solid #E6E6E6;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+.store_locator_result_list_title {
+  border-top: 1px solid #E6E6E6;
+}
+
+.store_locator_result_list_item:hover {
+  cursor: pointer;
+  background-color: #eeeeee;
+}
+
+.store_locator_filter_box {
+  margin: 0 0 15px;
+}
+
+.store_locator_filter_box h3 {
+  margin-bottom: 0px;
+}
+
+.store_locator_filter_box h4 {
+  margin: 10px 0 0;
+}
+
+.store_locator_details p {
+  margin: 0;
+}
+
+.store_locator_icon {
+  margin-top: 30px;
+}
+
+.pac-container {
+  z-index: 99999;
+}
+
+.store_locator_loading {
+  background-color: #FFFFFF;
+  height: 100%;
+  width: 100%;
+  z-index: 99999;
+  position: absolute;
+  left: 0;
+  top: 0;
+  zoom: 1;
+  filter: alpha(opacity=80);
+  opacity: 0.8;
+}
+
+.store_locator_loading i {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+
+i.fa {
+    -moz-transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.store_locator_name {
+  margin-bottom: 0px;
+}
+
+.store_locator_name i.fa {
+  font-size: 85%;
+}
+
+.store_locator_filter_radius, .store_locator_find_stores_button, .store_locator_address_field {
+  width: 100%;
+}
+
+.store_locator_filter_categories {
+  width: 100% !important;
+}
+
+.store_modal_title {
+  margin-bottom: 0px;
+}
+
+.store_locator .store_locator_address_field:focus {
+  background-color: #FFFFFF;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+}
+
+.store_locator .store_locator_address_field, 
+.store_locator .select {
+    padding: 20px 15px;
+    border: 1px solid #EEE;
+    background-color: #FFF;
+    border-radius: 0px;
+    box-shadow: none;
+    color: #484c51;
+}
+
+.store_locator .select {
+  height: 40px;  
+}
+
+.store_locator_search_box .store-locator-row {
+  margin-bottom: 15px;
+}
+
+.store_locator .select {
+  display: inline-block;
+  /* 1 */
+  position: relative;
+  /* 2 */
+  vertical-align: middle;
+  /* 3 */
+  padding: 0;
+  /* 4 */
+  overflow: hidden;
+  /* 5 */
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  -moz-transition: box-shadow 0.25s ease;
+  -o-transition: box-shadow 0.25s ease;
+  -webkit-transition: box-shadow 0.25s ease;
+  transition: box-shadow 0.25s ease;
+  /* 6 */
+  /* 6 */
+}
+.store_locator .select:hover {
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+}
+.store_locator .select:before {
+  position: absolute;
+  top: 0.5em;
+  right: 0.5em;
+  pointer-events: none;
+}
+.store_locator .select select {
+  cursor: pointer;
+  padding: 0.5em;
+  padding-right: 2em;
+  width: 130%;
+  border: none;
+  background: transparent;
+  background-image: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  text-indent: 0.01px;
+  text-overflow: '';
+  width: 160% \9;
+}
+.store_locator .select select:focus {
+  outline: none;
+}
+
+.store_locator .select:before {
+  font-family: "FontAwesome";
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.store_locator .icon--down:before, .select:before {
+  content: "\f063";
+}
+
+.store_locator_filter_open_close:hover {
+  cursor:pointer;
+}
+
+.store_locator_filter_title {
+  display: inline;
+}
+
+.store_locator_filter_categories {
+    margin-top: 10px;
+} 
+
+.store_locator_filter_open_close i {
+  float:right;
+  margin-top: 10px;
+}
+
+.single_filter h5 {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+
+.single_filter_checkbox {
+  margin-top: 5px;
+}
+
+/* TEST */
+.control {
+  display: block;
+  position: relative;
+  padding-left: 30px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.control input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+.control__indicator {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  margin-left:2px;
+  height: 20px;
+  width: 20px;
+  background: #e6e6e6;
+}
+.control--radio .control__indicator {
+  border-radius: 50%;
+}
+.control:hover input ~ .control__indicator,
+.control input:focus ~ .control__indicator {
+  background: #ccc;
+}
+.control input:checked ~ .control__indicator {
+  background: #60646c;
+}
+.control:hover input:not([disabled]):checked ~ .control__indicator,
+.control input:checked:focus ~ .control__indicator {
+  background: #60646c;
+}
+.control input:disabled ~ .control__indicator {
+  background: #e6e6e6;
+  opacity: 0.6;
+  pointer-events: none;
+}
+.control__indicator:after {
+  content: '';
+  position: absolute;
+  display: none;
+}
+.control input:checked ~ .control__indicator:after {
+  display: block;
+}
+.control--checkbox .control__indicator:after {
+  left: 8px;
+  top: 4px;
+  width: 3px;
+  height: 8px;
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+.control--checkbox input:disabled ~ .control__indicator:after {
+  border-color: #60646c;
+}
+
+.store_locator_actions a {
+  margin-right: 5px;
+}
+
+.store_locator_opening_hours {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.store_locator_opening_hours h3 {
+  margin-bottom: 5px;
+}
+
+.store_locator_no_stores {
+    color: #fc5000;
+    font-size: 18px;
+}
+
+ .store_locator_result_list_title {
+         padding-top: 20px;
+ }
+
+.store_locator_filter_title, .store_locator_result_list_title  {
+    font-size: 20px;
+}
+
+.store_locator_details .store_locator_contact {
+  margin-bottom: 10px;
+}
+
+.store_locator_details .store_locator_address {
+  margin-top: 10px;
+}
+
+.store_locator_dragged_button {
+  position: absolute;
+  bottom: 30px;
+  right: 40%;
+}
+
+.store_locator_single_map {
+  margin-top:50px;
+  height: 300px;
+}
+
+.store_locator_single_contact {
+  width: 45%;
+  float:left;
+  padding-left:4%;
+}
+
+.store_locator_single_address {
+  width: 45%;
+  float:left;
+}
+
+.store_locator_single_clear {
+  clear: both;
+  float: none;
+  display: block;
+}
+
+.store_locator_single_contact_store a.store_locator_contact_store_button {
+  display: inline-block;
+  margin: 20px auto;
+}
+
+.store_locator_result_list_item {
+  font-size:14px;
+  line-height: 16px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.store_locator_result_list_item h3.store_locator_name {
+  margin-bottom: 5px;
+}
+
+.store_locator_actions {
+margin-bottom: 0px;
+}
+
+.store_locator_filter_active_filter_box {
+  font-size: 15px;
+}
+
+.store_modal_title {
+  margin-bottom: 5px;
+  line-height: 20px;
+}
+
+.store_modal_title, .store_locator_name {
+    margin-top: 0px;
+}
+
+.store_locator_opening_hours h3 {
+    margin-top: 0;
+}
+
+.store_locator_single_categories, .store_locator_single_filter {
+  font-size: 90%;
+}
+
+.store_locator_single_filter {
+  padding-bottom: 15px;
+}
+
+.store_locator_category_filter_image {
+  text-align: center;
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+
+.store_locator_category_filter_image:hover {
+  cursor: pointer;
+}
+
+.store_locator_category_filter_image_name {
+  font-size: 80%;
+}
+
+.store_locator_form_store_name input, 
+.store_locator_form_store_address input, 
+.store_locator_form_store_zip input, 
+.store_locator_form_store_city input, 
+.store_locator_form_store_country input, 
+.store_locator_form_store_region input, 
+.store_locator_form_store_telephone input, 
+.store_locator_form_store_mobile input, 
+.store_locator_form_store_fax input, 
+.store_locator_form_store_email input, 
+.store_locator_form_store_website input {
+  cursor: not-allowed;
+}
+
+.store-form-contact {
+  width: 60%;
+  float: left;
+}
+
+.store-form-details {
+  width: 40%;
+  padding-left: 10%;
+  float: left;
+}
+
+.store_locator_search .store-locator-row {
+  margin-bottom: 20px;
+}

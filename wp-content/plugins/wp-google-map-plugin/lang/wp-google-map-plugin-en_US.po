@@ -1,0 +1,1133 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wp google map lite version 4.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-07-25 18:38+0530\n"
+"PO-Revision-Date: 2017-07-25 18:38+0530\n"
+"Last-Translator: Flipper Code <hello@flippercode.com>\n"
+"Language-Team: flippercode <hello@flippercode.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-"
+"google-map-plugin\n"
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/wp-google-map-plugin.php:139
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/wp-google-map-plugin.php:560
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/wp-google-map-plugin.php:561
+msgid "Google Maps"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/wp-google-map-plugin.php:215
+msgid "Enter Location :"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/wp-google-map-plugin.php:223
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/location/views/form.php:77
+msgid "Latitude"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/wp-google-map-plugin.php:223
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/location/views/form.php:86
+msgid "Longitude"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/wp-google-map-plugin.php:232
+msgid "Choose Marker Categories :"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/wp-google-map-plugin.php:258
+msgid "Do you want to assign a category? Please create category <a href='"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/wp-google-map-plugin.php:268
+msgid "Location Redirect :"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/wp-google-map-plugin.php:293
+msgid "Please enter link."
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/wp-google-map-plugin.php:299
+msgid "Select Map :"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/wp-google-map-plugin.php:319
+msgid "Please <a href=\""
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/wp-google-map-plugin.php:412
+msgid "Select Radius"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/wp-google-map-plugin.php:413
+msgid ""
+"Enter address or latitude or longitude or title or city or state or country "
+"or postal code here..."
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/wp-google-map-plugin.php:414
+msgid "Select"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/wp-google-map-plugin.php:415
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/locations-form.php:47
+msgid "Select All"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/wp-google-map-plugin.php:416
+msgid "Select Category"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/wp-google-map-plugin.php:417
+msgid "All"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/wp-google-map-plugin.php:418
+msgid "Show Locations"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/wp-google-map-plugin.php:419
+msgid "Sort by"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/wp-google-map-plugin.php:420
+msgid "not working..."
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/wp-google-map-plugin.php:422
+msgid "No results found."
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/wp-google-map-plugin.php:423
+msgid "Route is not available for your requested route."
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/wp-google-map-plugin.php:427
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/wp-google-map-plugin.php:690
+msgid "Hide"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/wp-google-map-plugin.php:428
+msgid "Show"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/wp-google-map-plugin.php:429
+msgid "Start Location"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/wp-google-map-plugin.php:430
+msgid "Start Point"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/wp-google-map-plugin.php:431
+msgid "Radius"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/wp-google-map-plugin.php:432
+msgid "End Location"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/wp-google-map-plugin.php:433
+msgid "Take Current Location"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/wp-google-map-plugin.php:434
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/wp-google-map-plugin.php:435
+msgid "Your Location"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/wp-google-map-plugin.php:436
+msgid "Driving"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/wp-google-map-plugin.php:437
+msgid "Bicycling"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/wp-google-map-plugin.php:438
+msgid "Walking"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/wp-google-map-plugin.php:439
+msgid "Transit"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/wp-google-map-plugin.php:440
+msgid "Metric"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/wp-google-map-plugin.php:441
+msgid "Imperial"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/wp-google-map-plugin.php:442
+msgid "Find Direction"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/wp-google-map-plugin.php:443
+msgid "Miles"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/wp-google-map-plugin.php:444
+msgid "KM"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/wp-google-map-plugin.php:445
+msgid "Show Amenities"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/wp-google-map-plugin.php:446
+msgid "Find Locations"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/wp-google-map-plugin.php:447
+msgid "Prev"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/wp-google-map-plugin.php:448
+msgid "Next"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/wp-google-map-plugin.php:696
+msgid "Are you sure to delete item?"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/wp-google-map-plugin.php:810
+msgid "Choose Icons"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/wp-google-map-plugin.php:874
+msgid "Choose marker icon"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/wp-google-map-plugin.php:880
+msgid "Choose icon"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/wp-google-map-plugin.php:880
+msgid "Search icons"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/wp-google-map-plugin.php:908
+msgid "Insert into Post"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/location/model.location.php:41
+msgid "Add Location"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/location/model.location.php:42
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/location/views/form.php:41
+msgid "Manage Locations"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/location/model.location.php:132
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/location/model.location.php:197
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/group_map/model.group_map.php:122
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/model.map.php:198
+msgid "Something went wrong. Please try again."
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/location/model.location.php:134
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/location/model.location.php:199
+msgid "Location updated successfully"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/location/model.location.php:136
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/location/model.location.php:201
+msgid "Location added successfully."
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/location/views/form.php:41
+msgid "Location Information"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/location/views/form.php:46
+msgid ""
+"Google Maps API Key is missing. Follow instructions to <a target=\"_blank\" "
+"href=\"http://bit.ly/29Rlmfc\">create google maps api key </a> and then "
+"insert your key <a target=\"_blank\" href=\""
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/location/views/form.php:56
+msgid "Location Title"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/location/views/form.php:59
+msgid "Enter Location Title"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/location/views/form.php:63
+msgid "Location Address"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/location/views/form.php:65
+msgid "Enter here the address. Google auto suggest helps you to choose one."
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/location/views/form.php:68
+msgid "Type Location Address"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/location/views/form.php:72
+msgid "Latitude and Longitude"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/location/views/form.php:91
+msgid "City and State"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/location/views/form.php:95
+msgid "City"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/location/views/form.php:103
+msgid "State"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/location/views/form.php:108
+msgid "Country and Postal Code"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/location/views/form.php:112
+msgid "Country"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/location/views/form.php:120
+msgid "Postal Code"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/location/views/form.php:126
+msgid "Current Location"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/location/views/form.php:133
+msgid "On Click"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/location/views/form.php:134
+msgid "Display Infowindow"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/location/views/form.php:134
+msgid "Redirect"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/location/views/form.php:143
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/layers-form.php:22
+msgid "Infowindow Message"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/location/views/form.php:145
+msgid "Enter here the infoWindow message."
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/location/views/form.php:154
+msgid "Redirect Url"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/location/views/form.php:156
+msgid "Enter here the redirect url. e.g http://www.flippercode.com"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/location/views/form.php:164
+msgid "YES"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/location/views/form.php:164
+msgid "NO"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/location/views/form.php:165
+msgid "Open new tab"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/location/views/form.php:167
+msgid "Open a new window tab."
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/location/views/form.php:176
+msgid "Infowindow Default Open"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/location/views/form.php:180
+msgid "Check to enable infowindow default open."
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/location/views/form.php:184
+msgid "Marker Draggable"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/location/views/form.php:188
+msgid "Check if you want to allow visitors to drag the marker."
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/location/views/form.php:192
+msgid "Marker Animation"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/location/views/form.php:200
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/group_map/model.group_map.php:41
+msgid "Marker Categories"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/location/views/form.php:240
+msgid "You don't have categorie(s)."
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/location/views/form.php:254
+msgid "Save Location"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/location/views/manage.php:14
+msgid "Start Geocoding Process"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/overview/model.overview.php:27
+msgid "How to Use"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/group_map/model.group_map.php:40
+msgid "Add Marker Category"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/group_map/model.group_map.php:124
+msgid "Category updated successfully"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/group_map/model.group_map.php:126
+msgid "Category added successfully."
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/group_map/views/form.php:32
+msgid "Marker Category"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/group_map/views/form.php:32
+msgid "Manage Marker Categories"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/group_map/views/form.php:40
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/group_map/views/manage.php:54
+msgid "Parent Category"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/group_map/views/form.php:42
+msgid "Assign parent category if any."
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/group_map/views/form.php:49
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/group_map/views/form.php:54
+msgid "Marker Category Title"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/group_map/views/form.php:52
+msgid "Enter here marker category title."
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/group_map/views/form.php:60
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/layers-form.php:45
+msgid "Choose Marker Image"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/group_map/views/form.php:63
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/layers-form.php:48
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/locations-form.php:46
+msgid "Choose"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/group_map/views/form.php:64
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/layers-form.php:49
+msgid "Remove"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/group_map/views/manage.php:52
+msgid "Category Title"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/group_map/views/manage.php:53
+msgid "Marker Image"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/group_map/views/manage.php:55
+msgid "Updated On"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/model.map.php:39
+msgid "Add Map"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/model.map.php:40
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/form.php:49
+msgid "Manage Maps"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/model.map.php:200
+msgid "Map updated successfully"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/model.map.php:202
+msgid "Map added successfully."
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/model.map.php:229
+msgid "Copy"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/form.php:49
+msgid "Map Information"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/form.php:54
+msgid ""
+"Google Maps API Key is missing. Follow instructions to <a target=\"_blank\" "
+"href=\"http://bit.ly/292gCV2\">create google maps api key </a> and then "
+"insert your key <a target=\"_blank\" href=\""
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/form.php:88
+msgid "Save Map"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/control-setting-form.php:8
+msgid "Control Setting"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/control-setting-form.php:14
+msgid "Turn Off Zoom Control"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/control-setting-form.php:18
+msgid "Please check to disable zoom control."
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/control-setting-form.php:24
+msgid "Turn Off Full Screen Control"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/control-setting-form.php:28
+msgid "Please check to disable full screen control."
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/control-setting-form.php:34
+msgid "Turn Off Map Type Control"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/control-setting-form.php:38
+msgid "Please check to disable map type control."
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/control-setting-form.php:42
+msgid "Turn Off Scale Control"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/control-setting-form.php:46
+msgid "Please check to disable scale control."
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/control-setting-form.php:50
+msgid "Turn Off Street View Control"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/control-setting-form.php:54
+msgid "Please check to disable street view control."
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/control-setting-form.php:58
+msgid "Turn Off Overview Map Control"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/control-setting-form.php:62
+msgid "Please check to disable overview map control."
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/control-position-style-form.php:24
+msgid "Control Position(s) Settings"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/control-position-style-form.php:30
+msgid "Zoom Control"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/control-position-style-form.php:32
+msgid "Please select position of zoom control."
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/control-position-style-form.php:37
+msgid "Zoom Control Style"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/control-position-style-form.php:39
+msgid "Please select style of zoom control."
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/control-position-style-form.php:44
+msgid "Map Type Control"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/control-position-style-form.php:47
+msgid "Please select position of map type control."
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/control-position-style-form.php:54
+msgid "Map Type Control Style"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/control-position-style-form.php:56
+msgid "Please select style of map type control."
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/control-position-style-form.php:62
+msgid "Full Screen Control"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/control-position-style-form.php:65
+msgid "Please select position of full screen control."
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/control-position-style-form.php:70
+msgid "Street View Control"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/control-position-style-form.php:72
+msgid "Please select position of street view control."
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/layers-form.php:9
+msgid "Infowindow Settings"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/layers-form.php:14
+msgid ""
+"Enter placeholders {marker_title},{marker_address},{marker_message},"
+"{marker_latitude},{marker_longitude}."
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/layers-form.php:38
+msgid "Show Infowindow on"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/layers-form.php:40
+msgid "Open infowindow on Mouse Click or Mouse Hover."
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/layers-form.php:54
+msgid "InfoWindow Open"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/layers-form.php:58
+msgid "Please check to enable infowindow default open."
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/layers-form.php:63
+msgid "Close InfoWindow"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/layers-form.php:67
+msgid "Please check to close infowindow on map click."
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/layers-form.php:71
+msgid "Select Animation"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/layers-form.php:71
+msgid "Mouse Click"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/layers-form.php:71
+msgid "Mouse Hover"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/layers-form.php:73
+msgid "Bounce Animation"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/layers-form.php:75
+msgid ""
+"Apply bounce animation on mousehover or mouse click. BOUNCE indicates that "
+"the marker should bounce in place."
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/layers-form.php:80
+msgid "Apply Drop Animation"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/layers-form.php:84
+msgid "DROP indicates that the marker should drop from the top of the map. "
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/layers-form.php:90
+msgid "Layers Settings"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/layers-form.php:96
+msgid "Traffic Layer"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/layers-form.php:100
+msgid "Please check to enable traffic Layer."
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/layers-form.php:105
+msgid "Transit Layer"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/layers-form.php:109
+msgid "Please check to enable Transit Layer."
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/layers-form.php:115
+msgid "Bicycling Layer"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/layers-form.php:119
+msgid "Please check to enable Bicycling Layer."
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/locations-form.php:41
+msgid "Choose Locations"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/locations-form.php:48
+msgid "Deselect All"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/street-view-setting-form.php:9
+msgid "Street View Settings"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/street-view-setting-form.php:15
+msgid "Turn On Street View"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/street-view-setting-form.php:19
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/street-view-setting-form.php:29
+msgid "Please check to enable Street View control."
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/street-view-setting-form.php:25
+msgid "Turn On Close Button."
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/street-view-setting-form.php:36
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/street-view-setting-form.php:47
+msgid "Turn Off links Control."
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/street-view-setting-form.php:40
+msgid "Please check to disable links control."
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/street-view-setting-form.php:51
+msgid "Please check to disable Street View Pan control."
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/street-view-setting-form.php:58
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/street-view-setting-form.php:67
+msgid "POV Heading"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/street-view-setting-form.php:61
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/street-view-setting-form.php:70
+msgid "Please enter POV heading."
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/street-view-setting-form.php:77
+msgid "POV Pitch"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/street-view-setting-form.php:80
+msgid "Please enter POV Pitch."
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/general-setting-form.php:8
+msgid "Map Title"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/general-setting-form.php:10
+msgid "Enter here the map title."
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/general-setting-form.php:15
+msgid "Map Width"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/general-setting-form.php:17
+msgid "Enter here the map width in pixel. Leave it blank for 100% width."
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/general-setting-form.php:21
+msgid "Map Height"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/general-setting-form.php:23
+msgid "Enter here the map height in pixel."
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/general-setting-form.php:33
+msgid "Map Zoom Level"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/general-setting-form.php:35
+msgid "Available options 0 to 19."
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/general-setting-form.php:41
+msgid "Map Type"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/general-setting-form.php:47
+msgid "Turn Off Scrolling Wheel"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/general-setting-form.php:51
+msgid "Please check to disable scroll wheel zoom."
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/general-setting-form.php:55
+msgid "Map Draggable"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/general-setting-form.php:59
+msgid "Please check to disable map draggable."
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/general-setting-form.php:64
+msgid "45&deg; Imagery"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/general-setting-form.php:68
+msgid ""
+"Apply 45&deg; Imagery ? (only available for map type SATELLITE and HYBRID)."
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/map-center-settings.php:8
+msgid "Map's Center"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/map-center-settings.php:14
+msgid "Center Latitude"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/map-center-settings.php:16
+msgid "Enter here the center latitude."
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/map-center-settings.php:20
+msgid "Center Longitude"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/map/views/map-forms/map-center-settings.php:22
+msgid "Enter here the center longitude."
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/settings/model.settings.php:28
+msgid "Settings"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/settings/model.settings.php:72
+msgid "Setting(s) saved successfully."
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/settings/views/manage.php:10
+msgid "General Setting(s)"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/settings/views/manage.php:12
+msgid "Google Maps API Key"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/settings/views/manage.php:14
+msgid ""
+"Get here <a target=\"_blank\" href=\"https://developers.google.com/maps/"
+"documentation/javascript/get-api-key\"> Api Key </a> and insert here."
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/settings/views/manage.php:18
+msgid "ENGLISH"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/settings/views/manage.php:19
+msgid "ARABIC"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/settings/views/manage.php:20
+msgid "BASQUE"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/settings/views/manage.php:21
+msgid "BULGARIAN"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/settings/views/manage.php:22
+msgid "BENGALI"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/settings/views/manage.php:23
+msgid "CATALAN"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/settings/views/manage.php:24
+msgid "CZECH"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/settings/views/manage.php:25
+msgid "DANISH"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/settings/views/manage.php:26
+msgid "GERMAN"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/settings/views/manage.php:27
+msgid "GREEK"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/settings/views/manage.php:28
+msgid "ENGLISH (AUSTRALIAN)"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/settings/views/manage.php:29
+msgid "ENGLISH (GREAT BRITAIN)"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/settings/views/manage.php:30
+msgid "SPANISH"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/settings/views/manage.php:31
+msgid "FARSI"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/settings/views/manage.php:32
+msgid "FINNISH"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/settings/views/manage.php:33
+msgid "FILIPINO"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/settings/views/manage.php:34
+msgid "FRENCH"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/settings/views/manage.php:35
+msgid "GALICIAN"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/settings/views/manage.php:36
+msgid "GUJARATI"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/settings/views/manage.php:37
+msgid "HINDI"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/settings/views/manage.php:38
+msgid "CROATIAN"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/settings/views/manage.php:39
+msgid "HUNGARIAN"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/settings/views/manage.php:40
+msgid "INDONESIAN"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/settings/views/manage.php:41
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/settings/views/manage.php:49
+msgid "ITALIAN"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/settings/views/manage.php:42
+msgid "HEBREW"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/settings/views/manage.php:43
+msgid "JAPANESE"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/settings/views/manage.php:44
+msgid "KANNADA"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/settings/views/manage.php:45
+msgid "KOREAN"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/settings/views/manage.php:46
+msgid "LITHUANIAN"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/settings/views/manage.php:47
+msgid "LATVIAN"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/settings/views/manage.php:48
+msgid "MALAYALAM"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/settings/views/manage.php:50
+msgid "MARATHI"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/settings/views/manage.php:51
+msgid "DUTCH"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/settings/views/manage.php:52
+msgid "NORWEGIAN"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/settings/views/manage.php:53
+msgid "POLISH"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/settings/views/manage.php:54
+msgid "PORTUGUESE"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/settings/views/manage.php:55
+msgid "PORTUGUESE (BRAZIL)"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/settings/views/manage.php:56
+msgid "PORTUGUESE (PORTUGAL)"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/settings/views/manage.php:57
+msgid "ROMANIAN"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/settings/views/manage.php:58
+msgid "RUSSIAN"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/settings/views/manage.php:59
+msgid "SLOVAK"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/settings/views/manage.php:60
+msgid "SLOVENIAN"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/settings/views/manage.php:61
+msgid "SERBIAN"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/settings/views/manage.php:62
+msgid "SWEDISH"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/settings/views/manage.php:63
+msgid "TAGALOG"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/settings/views/manage.php:64
+msgid "TAMIL"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/settings/views/manage.php:65
+msgid "TELUGU"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/settings/views/manage.php:66
+msgid "THAI"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/settings/views/manage.php:67
+msgid "TURKISH"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/settings/views/manage.php:68
+msgid "UKRAINIAN"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/settings/views/manage.php:69
+msgid "VIETNAMESE"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/settings/views/manage.php:70
+msgid "CHINESE (SIMPLIFIED)"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/settings/views/manage.php:71
+msgid "CHINESE (TRADITIONAL)"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/settings/views/manage.php:75
+msgid "Map Language"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/settings/views/manage.php:77
+msgid "Choose your language for map. Default is English."
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/settings/views/manage.php:84
+msgid "Include Scripts in "
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/settings/views/manage.php:85
+msgid "Header"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/settings/views/manage.php:85
+msgid "Footer (Recommanded)"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/modules/settings/views/manage.php:92
+msgid "Save Setting"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/core/class.plugin-overview.php:458
+msgid "Download WP Google Map Pro 4.0.0"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/core/class.map-widget.php:25
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/classes/class.map-widget.php:25
+msgid "A widget to display google maps"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/core/class.map-widget.php:73
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/classes/class.map-widget.php:73
+msgid "Title:"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/core/class.map-widget.php:79
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/classes/class.map-widget.php:79
+msgid "Select Your Map:"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/core/class.map-widget.php:82
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/classes/class.map-widget.php:82
+msgid "Select map"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/core/class.tabular.php:230
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/core/class.tabular.php:415
+msgid "Selected "
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/core/class.tabular.php:248
+msgid "Manage "
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/core/class.tabular.php:582
+msgid "Filter"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/core/class.tabular.php:642
+msgid "Select Page"
+msgstr ""
+
+#: /usr/local/ampps/www/fcplug/wp-content/plugins/wp-google-map-plugin/classes/wpgmp-template.php:36
+msgid "WP Google Map Plugin"
+msgstr ""

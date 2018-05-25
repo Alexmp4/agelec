@@ -1,0 +1,2124 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wbk\n"
+"POT-Creation-Date: 2016-11-25 10:06+0200\n"
+"PO-Revision-Date: 2016-11-25 10:13+0200\n"
+"Language-Team: Webba Agency <support@webba-booking.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __\n"
+"Last-Translator: \n"
+"Language: he_IL\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: backend/classes\n"
+
+#: backend/class_wbk_backend.php:77
+#: backend/classes/class_wbk_backend_services.php:32
+#: backend/solo-framework/core/class_slf_table.php:176
+msgid "Cancel"
+msgstr ""
+
+#: backend/class_wbk_backend.php:78
+#: backend/classes/class_wbk_backend_schedule.php:37
+msgid "Add"
+msgstr ""
+
+#: backend/class_wbk_backend.php:79
+msgid "Add Webba Booking form"
+msgstr ""
+
+#: backend/class_wbk_backend.php:120
+msgid "All services"
+msgstr ""
+
+#: backend/class_wbk_backend.php:137
+msgid "Select service"
+msgstr ""
+
+#: backend/class_wbk_backend.php:146
+msgid "Webba Booking form"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_appearance.php:34
+#: backend/templates/tpl_wbk_backend_appearance.php:3
+msgid "Appearance"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_appointments.php:13
+#: backend/templates/tpl_wbk_backend_appointments.php:7
+msgid "Appointments"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:59
+msgid "General"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:66
+msgid "Week starts on"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:80
+msgid "Date format"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:94
+msgid "Time format"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:108
+msgid "Timezone"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:122
+msgid "Phone number mask input"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:136
+msgid "Phone format"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:150
+msgid "Show booked time slots"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:164
+msgid "Auto lock appointments"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:178
+#: backend/classes/class_wbk_backend_options.php:185
+msgid "Holidays"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:199
+msgid "Email notifications"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:205
+msgid "Send customer an email"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:218
+msgid "Subject of an email to a customer"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:231
+msgid "Message to a customer"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:244
+msgid "Send an email to other customers from the group (if provided)"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:257
+msgid "Subject of an email to a customers from the group"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:270
+msgid "Message to a customers from the group"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:283
+msgid "Send administrator an email"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:296
+msgid "Subject of an email to an administrator"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:309
+msgid "Message to an administrator"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:322
+msgid "Send administrator reminders"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:336
+msgid "Subject of administrator reminders"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:349
+msgid "Administrator reminders message"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:363
+msgid "Send customer reminders"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:377
+msgid "Subject of customer riminders"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:390
+msgid "Customer reminders message"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:404
+msgid "Time of a daily reminder"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:417
+msgid "From: name"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:430
+msgid "From: email"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:444
+#: backend/classes/class_wbk_backend_options.php:451
+msgid "Mode"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:465
+msgid "Time slot time string"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:479
+msgid "Time slot format"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:493
+msgid "Translation"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:499
+msgid "Select service label"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:512
+msgid "Select date label (extended mode)"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:525
+msgid "Select date label (basic mode)"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:539
+msgid "Select date input placeholder"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:553
+msgid "Select hours label"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:566
+msgid "Select time slots label"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:579
+msgid "Booking form label"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:592
+msgid "Booking items count label"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:606
+msgid "Booked time slot text"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:622
+msgid "Book button text (time slot)"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:636
+msgid "Book button text (form)"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:650
+msgid "Name label (booking form)"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:664
+msgid "Email label (booking form)"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:678
+msgid "Phone label (booking form)"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:692
+msgid "Comment label (booking form)"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:710
+#: backend/classes/class_wbk_backend_options.php:1808
+msgid "Booking done message"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:723
+#: backend/classes/class_wbk_backend_options.php:1857
+msgid "Time slots not found message"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:736
+msgid "PayPal payment button text"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:749
+msgid "Credit card payment button text"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:762
+msgid "Payment details title"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:775
+msgid "Payment item name"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:788
+msgid "Price format"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:801
+msgid "Subtotal title"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:814
+msgid "Total title"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:827
+#: backend/classes/class_wbk_backend_options.php:1765
+#: common/PayPal/class_wbk_paypal.php:182 webba-booking.php:108
+msgid "Approve payment"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:840
+msgid "Payment result title"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:853
+msgid "Payment result success message"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:866
+msgid "Payment result cancel message"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:880
+msgid "PayPal"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:887
+msgid "PayPal mode"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:900
+msgid "PayPal Sandbox ClientID"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:914
+msgid "PayPal Sandbox Secret"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:927
+msgid "PayPal Live ClientID"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:941
+msgid "PayPal Live Secret"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:954
+msgid "PayPal currency"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:967
+#: common/PayPal/class_wbk_paypal.php:167
+msgid "Tax"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:985
+msgid "Activation"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:991
+msgid "Purchase Code"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:1041
+#: backend/classes/class_wbk_backend_services.php:169
+#: backend/classes/class_wbk_backend_services.php:282
+#: common/class_wbk_business_hours.php:421
+#: common/class_wbk_date_time_utils.php:135
+#: common/class_wbk_date_time_utils.php:248
+#: frontend/classes/class_wbk_frontend_booking.php:137
+msgid "Sunday"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:1042
+#: backend/classes/class_wbk_backend_services.php:150
+#: backend/classes/class_wbk_backend_services.php:263
+#: common/class_wbk_business_hours.php:403
+#: common/class_wbk_business_hours.php:425
+#: common/class_wbk_date_time_utils.php:116
+#: common/class_wbk_date_time_utils.php:229
+#: frontend/classes/class_wbk_frontend_booking.php:138
+msgid "Monday"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:1043
+msgid "Wordpress default"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:1051
+msgid "Incorrect start of week"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:1063
+msgid "Leave empty to use Wordpress Date Format. "
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:1071
+msgid "Date format updated"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:1081
+msgid "Leave empty to use Wordpress Time Format. "
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:1089
+msgid "Time format updated"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:1099
+#: backend/classes/class_wbk_backend_options.php:1900
+#: backend/classes/class_wbk_backend_options.php:1920
+msgid "Enabled"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:1100
+#: backend/classes/class_wbk_backend_options.php:1901
+#: backend/classes/class_wbk_backend_options.php:1921
+msgid "Disabled"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:1119
+msgid ""
+"a - Represents an alpha character (A-Z,a-z), 9 - Represents a numeric "
+"character (0-9), * - Represents an alphanumeric character (A-Z,a-z,0-9)"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:1153
+msgid ""
+"Pick a holidays. This option should be used to set only holidays. Do not use "
+"it to set weekend (there is a Business hours parameter of a services for "
+"this porpose)"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:1164
+msgid "Check if you'd like to send customer an email"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:1171
+#: backend/classes/class_wbk_backend_options.php:1215
+#: backend/classes/class_wbk_backend_options.php:1320
+#: backend/classes/class_wbk_backend_options.php:1335
+#: backend/classes/class_wbk_backend_options.php:1350
+msgid "Email status updated"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:1199
+msgid "Customer email subject is wrong"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:1208
+msgid "Check if you'd like to send an email to a customers form the group"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:1258
+msgid "Administrator email subject is wrong"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:1297
+msgid "Current local time:"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:1304
+msgid "Administrator daily email time is wrong"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:1313
+msgid "Check if you'd like to send administrator an email"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:1328
+msgid "Check if you'd like to send reminders to administrator"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:1343
+msgid "Check if you'd like to send reminders to customer"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:1403
+msgid "\"From: email\" is wrong"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:1419
+msgid "\"From: name\" is wrong"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:1429
+msgid "Extended"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:1430
+msgid "Basic"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:1443
+#: backend/classes/class_wbk_backend_options.php:1444
+msgid "Start"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:1444
+msgid "end"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:1457
+msgid "Show details and BOOK button"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:1458
+msgid "Show time button only"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:1471
+msgid "Service frontend label"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:1483
+#: backend/classes/class_wbk_backend_options.php:1495
+msgid "Date frontend label"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:1507
+msgid "Hours frontend label"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:1519
+msgid "Time slots frontend label"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:1549
+msgid "Message before the booking form"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:1550
+#: backend/classes/class_wbk_backend_options.php:1809
+#: backend/classes/class_wbk_backend_options.php:1858
+#: backend/classes/class_wbk_backend_options.php:1959
+#: backend/classes/class_wbk_backend_options.php:2007
+msgid "Allowed HTML tags"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:1551
+msgid "Available placeholders"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:1581
+msgid "Text on booked time slot. Available placeholders: #username, #time."
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:1677
+msgid "Booking items count frontend label"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:1686 webba-booking.php:98
+msgid "Pay now with PayPal"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:1697 webba-booking.php:99
+msgid "Pay now with credit card"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:1708 webba-booking.php:100
+msgid "Payment details"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:1722
+msgid "Available placeholders: #service, #date, #time, #id."
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:1734
+msgid "Required placeholder: #price."
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:1776
+#: frontend/templates/tpl_wbk_frontend_booking_ui.php:12 webba-booking.php:109
+msgid "Payment status"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:1923
+msgid ""
+"Enable this option for auto lock time slots of all services on booking "
+"(connection between services)."
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:1938
+msgid "Payment complete."
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:1986
+#: frontend/templates/tpl_wbk_frontend_booking_ui.php:25 webba-booking.php:111
+msgid "Payment canceled."
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:2039
+msgid "Sandbox"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:2040
+msgid "Live"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:2111
+msgid "Australian Dollar"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:2112
+msgid "Brazilian Real"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:2113
+msgid "Canadian Dollar"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:2114
+msgid "Czech Koruna"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:2115
+msgid "Danish Krone"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:2116
+msgid "Euro"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:2117
+msgid "Hong Kong Dollar"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:2118
+msgid "Hungarian Forint"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:2119
+msgid "Israeli New Sheqel"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:2120
+msgid "Japanese Yen"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:2121
+msgid "Malaysian Ringgit"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:2122
+msgid "Mexican Peso"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:2123
+msgid "Norwegian Krone"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:2124
+msgid "New Zealand Dollar"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:2125
+msgid "Philippine Peso"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:2126
+msgid "Polish Zloty"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:2127
+msgid "Pound Sterling"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:2128
+msgid "Singapore Dollar"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:2129
+msgid "Swedish Krona"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:2130
+msgid "Swiss Franc"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:2131
+msgid "Taiwan New Dollar"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:2132
+msgid "Thai Baht"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:2133
+msgid "U.S. Dollar"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:2146
+msgid "Percentage of an amount"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_options.php:2156
+#: backend/classes/class_wbk_backend_options.php:2160
+msgid "Tax updated"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_schedule.php:36
+msgid "Add appointment"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_schedule.php:38
+#: frontend/classes/class_wbk_frontend_booking.php:153
+msgid "Close"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_schedule.php:39
+msgid "Appointment"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_schedule.php:40
+#: backend/classes/class_wbk_backend_services.php:33
+msgid "Delete"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_schedule.php:41
+msgid "Show next week"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_schedule.php:107
+#: backend/classes/class_wbk_backend_schedule.php:169
+msgid "open"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_schedule.php:111
+#: backend/classes/class_wbk_backend_schedule.php:206
+msgid "close"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_services.php:34
+#: backend/templates/tpl_wbk_backend_services.php:231
+msgid "Add service"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_services.php:35
+#: backend/templates/tpl_wbk_backend_services.php:233
+msgid "Edit service"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_services.php:36
+#: backend/solo-framework/core/class_slf_table.php:175
+msgid "Save"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_services.php:37
+#: backend/classes/class_wbk_backend_services.php:246
+#: common/class_wbk_date_time_utils.php:212
+msgid "Remove the second gap"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_services.php:38
+#: backend/classes/class_wbk_backend_services.php:252
+#: common/class_wbk_date_time_utils.php:218
+msgid "Add the second gap"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_services.php:153
+#: backend/classes/class_wbk_backend_services.php:266
+#: common/class_wbk_business_hours.php:406
+#: common/class_wbk_date_time_utils.php:119
+#: common/class_wbk_date_time_utils.php:232
+#: frontend/classes/class_wbk_frontend_booking.php:139
+msgid "Tuesday"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_services.php:157
+#: backend/classes/class_wbk_backend_services.php:270
+#: common/class_wbk_business_hours.php:409
+#: common/class_wbk_date_time_utils.php:123
+#: common/class_wbk_date_time_utils.php:236
+#: frontend/classes/class_wbk_frontend_booking.php:140
+msgid "Wednesday"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_services.php:160
+#: backend/classes/class_wbk_backend_services.php:273
+#: common/class_wbk_business_hours.php:412
+#: common/class_wbk_date_time_utils.php:126
+#: common/class_wbk_date_time_utils.php:239
+#: frontend/classes/class_wbk_frontend_booking.php:141
+msgid "Thursday"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_services.php:163
+#: backend/classes/class_wbk_backend_services.php:276
+#: common/class_wbk_business_hours.php:415
+#: common/class_wbk_date_time_utils.php:129
+#: common/class_wbk_date_time_utils.php:242
+#: frontend/classes/class_wbk_frontend_booking.php:142
+msgid "Friday"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_services.php:166
+#: backend/classes/class_wbk_backend_services.php:279
+#: common/class_wbk_business_hours.php:418
+#: common/class_wbk_date_time_utils.php:132
+#: common/class_wbk_date_time_utils.php:245
+#: frontend/classes/class_wbk_frontend_booking.php:143
+msgid "Saturday"
+msgstr ""
+
+#: backend/classes/class_wbk_backend_services.php:464
+#: backend/classes/class_wbk_backend_services.php:467
+#: backend/classes/class_wbk_backend_services.php:470
+#: backend/classes/class_wbk_backend_services.php:639
+#: backend/classes/class_wbk_backend_services.php:640
+#: backend/classes/class_wbk_backend_services.php:641
+#: backend/templates/tpl_wbk_backend_services.php:177
+#: backend/templates/tpl_wbk_backend_services.php:180
+#: backend/templates/tpl_wbk_backend_services.php:183
+msgid "minutes"
+msgstr ""
+
+#: backend/solo-framework/core/class_slf_table.php:100
+msgid "ID"
+msgstr ""
+
+#: backend/solo-framework/custom/class_wbk_appointments_table.php:35
+msgid "Time slots not found"
+msgstr ""
+
+#: backend/solo-framework/custom/class_wbk_appointments_table.php:58
+msgid "Service"
+msgstr ""
+
+#: backend/solo-framework/custom/class_wbk_appointments_table.php:72
+msgid "Date"
+msgstr ""
+
+#: backend/solo-framework/custom/class_wbk_appointments_table.php:85
+#: backend/templates/tpl_wbk_backend_schedule.php:11
+#: common/class_wbk_email_notifications.php:191
+msgid "Time"
+msgstr ""
+
+#: backend/solo-framework/custom/class_wbk_appointments_table.php:99
+msgid "Customer name"
+msgstr ""
+
+#: backend/solo-framework/custom/class_wbk_appointments_table.php:112
+msgid "Customer email"
+msgstr ""
+
+#: backend/solo-framework/custom/class_wbk_appointments_table.php:125
+msgid "Customer phone"
+msgstr ""
+
+#: backend/solo-framework/custom/class_wbk_appointments_table.php:138
+msgid "Places booked"
+msgstr ""
+
+#: backend/solo-framework/custom/class_wbk_appointments_table.php:151
+msgid "Customer comment"
+msgstr ""
+
+#: backend/solo-framework/custom/class_wbk_appointments_table.php:164
+msgid "Status"
+msgstr ""
+
+#: backend/solo-framework/custom/class_wbk_appointments_table.php:180
+msgid "Select date range:"
+msgstr ""
+
+#: backend/solo-framework/custom/class_wbk_appointments_table.php:184
+msgid "Select services:"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:218
+msgid "Outer container"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:219
+msgid "Booking form outer container appearance options"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:223
+#: backend/solo-framework/solo-framework.php:283
+#: backend/solo-framework/solo-framework.php:427
+#: backend/solo-framework/solo-framework.php:492
+#: backend/solo-framework/solo-framework.php:854
+msgid "Padding"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:224
+msgid "Outer container padding"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:232
+#: backend/solo-framework/solo-framework.php:436
+#: backend/solo-framework/solo-framework.php:701
+#: backend/solo-framework/solo-framework.php:845
+msgid "Margin"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:233
+msgid "Outer container margin"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:242
+#: backend/solo-framework/solo-framework.php:292
+#: backend/solo-framework/solo-framework.php:556
+#: backend/solo-framework/solo-framework.php:737
+#: backend/solo-framework/solo-framework.php:864
+msgid "Border"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:243
+msgid "Outer container border"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:251
+#: backend/solo-framework/solo-framework.php:303
+#: backend/solo-framework/solo-framework.php:565
+#: backend/solo-framework/solo-framework.php:746
+#: backend/solo-framework/solo-framework.php:873
+msgid "Border radius"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:252
+msgid "Outer container border radius"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:261
+#: backend/solo-framework/solo-framework.php:502
+#: backend/solo-framework/solo-framework.php:627
+#: backend/solo-framework/solo-framework.php:719
+#: backend/solo-framework/solo-framework.php:882
+msgid "Backround color"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:262
+msgid "Outer container background color"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:278
+msgid "Inner container"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:279
+msgid "Booking form inner container appearance options"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:284
+msgid "Inner container padding"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:293
+msgid "Inner container border"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:304
+msgid "Inner container border radius"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:314
+msgid "Background color"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:315
+msgid "Inner container backround color"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:331
+msgid "Separators"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:332
+msgid "Booking form separators"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:335
+msgid "Step separator margin"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:336
+msgid "Booking form step separator margin"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:345
+msgid "Step separator border"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:346
+msgid "Booking form step separator border"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:356
+msgid "Select hours label\tunderline margin"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:357
+msgid "Booking form select hours label underline margin"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:366
+msgid "Select hours label underline style"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:367
+msgid "Booking form select hours label underline style"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:377
+msgid "Day title underline margin"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:378
+msgid "Booking form day title underline margin"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:387
+msgid "Day title underline style"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:388
+msgid "Booking form day title underline style"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:398
+msgid "Customer details title underline margin"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:399
+msgid "Booking form customer details title underline margin"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:408
+msgid "Customer details title underline style"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:409
+msgid "Booking form customer details title underline style"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:423
+msgid "Input labels"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:424
+msgid "Booking form input labels"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:428
+msgid "Input label padding"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:437
+msgid "Outer label margin"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:447
+#: backend/solo-framework/solo-framework.php:657
+msgid "Label color"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:448
+msgid "Booking form input labels color"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:456
+#: backend/solo-framework/solo-framework.php:666
+msgid "Label font size"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:457
+msgid "Booking form input labels font size"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:465
+#: backend/solo-framework/solo-framework.php:675
+msgid "Label font style"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:466
+msgid "Booking form input labels font style"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:474
+#: backend/solo-framework/solo-framework.php:684
+msgid "Label font weight"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:475
+msgid "Booking form input labels font weight"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:487
+msgid "Inputs"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:488
+msgid "Booking form inputs"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:493
+msgid "Input padding"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:503
+msgid "Booking form input background color"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:511
+msgid "Input text color"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:512
+msgid "Booking form input text color"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:520
+msgid "Input font size"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:521
+msgid "Booking form input font size"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:529
+msgid "Input font style"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:530
+msgid "Booking form input font style"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:538
+msgid "Input font weight"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:539
+msgid "Booking form input font weight"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:547
+msgid "Input height"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:548
+msgid "Booking form input height"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:557
+msgid "Input border"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:566
+msgid "Booking form input border radius"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:577
+msgid "Checkboxes"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:578
+msgid "Booking form checkboxes"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:582
+msgid "Checkbox height"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:583
+msgid "Booking form checkbox height"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:591
+msgid "Checkbox width"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:592
+msgid "Booking form checkbox width"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:600
+msgid "Checkbox marker line-height"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:601
+msgid "Booking form marker line-height"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:609
+msgid "Checkbox marker size"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:610
+msgid "Booking form marker size"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:618
+msgid "Checkbox marker color"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:619
+msgid "Booking form checkbox marker color"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:628
+msgid "Booking form checkbox background"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:636
+msgid "Checkbox border"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:637
+msgid "Booking form checkbox border"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:645
+msgid "Checkbox border radius"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:646
+msgid "Booking form checkbox border radius"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:658
+msgid "Checkbox label color"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:667
+msgid "Checkbox label font size"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:676
+msgid "Checkbox label font style"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:685
+msgid "Checkbox label font weight"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:696
+msgid "Buttons"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:697
+msgid "Booking form buttons"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:702
+#: backend/solo-framework/solo-framework.php:981
+msgid "Button margin"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:710
+msgid "Height"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:711
+msgid "Button height"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:720
+msgid "Button background color"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:728
+msgid "Text color"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:729
+msgid "Button text color"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:738
+#: backend/solo-framework/solo-framework.php:1000
+msgid "Button border"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:747
+msgid "Button border radius"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:755
+#: backend/solo-framework/solo-framework.php:1038
+msgid "Button font size"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:756
+msgid "Booking form button font size"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:764
+#: backend/solo-framework/solo-framework.php:1056
+msgid "Button font style"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:765
+msgid "Booking form button font style"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:773
+#: backend/solo-framework/solo-framework.php:1065
+msgid "Button font weight"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:774
+msgid "Booking form button font weight"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:785
+msgid "Time slots"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:786
+msgid "Booking form time slots"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:790
+msgid "Day title align"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:800
+msgid "Day title font size"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:809
+msgid "Day title color"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:818
+msgid "Day title font style"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:827
+msgid "Day title font weight"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:836
+msgid "Day title line height"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:846
+msgid "Time slot block margin"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:855
+msgid "Time slot block padding"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:865
+msgid "Time slot block border"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:874
+msgid "Time slot border radius"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:883
+msgid "Time slot background color"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:891
+msgid "Time font size"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:892
+msgid "Time slot time font size"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:900
+msgid "Time color"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:901
+msgid "Time slot time color"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:909
+msgid "Time font style"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:910
+msgid "Time slot time font style"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:918
+msgid "Time font weight"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:919
+msgid "Time slot time font weight"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:927
+msgid "Time line height"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:928
+msgid "Time slot time line height"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:936
+msgid "Available font size"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:937
+msgid "Time slot time available size"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:945
+msgid "Available color"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:946
+msgid "Time slot available color"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:954
+msgid "Available font style"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:955
+msgid "Time slot available font style"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:963
+msgid "Available font weight"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:964
+msgid "Time slot available font weight"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:972
+msgid "Available line height"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:973
+msgid "Time slot available line height"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:982
+msgid "Time slot button margin"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:990
+msgid "Button backround"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:991
+msgid "Time slot button background"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:1001
+msgid "Time slot button border"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:1010
+msgid "Button color"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:1011
+msgid "Time slot button color"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:1019
+msgid "Active button backround"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:1020
+msgid "Time slot active button background"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:1028
+msgid "Active button color"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:1029
+msgid "Time slot active button color"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:1039
+msgid "Time slot button font size"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:1047
+msgid "Button line height"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:1048
+msgid "Time slot button line height"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:1057
+msgid "Time slot button font style"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:1066
+msgid "Time slot button font weight"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:1077
+msgid "Customer details"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:1078
+msgid "Booking form customer details"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:1082
+msgid "Title align"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:1083
+msgid "Customer details title align"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:1093
+msgid "Title font size"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:1094
+msgid "Customer details title font size"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:1102
+msgid "Title color"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:1103
+msgid "Customer details title color"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:1111
+msgid "Title font style"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:1112
+msgid "Customer details title font style"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:1120
+msgid "Title font weight"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:1121
+msgid "Customer details title font weight"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:1129
+msgid "Details title line height"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:1130
+msgid "Customer details title line height"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:1140
+msgid "Sub-title align"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:1141
+msgid "Customer details sub-title align"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:1151
+msgid "Sub-title font size"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:1152
+msgid "Customer details sub-title font size"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:1160
+msgid "Sub-title color"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:1161
+msgid "Customer details sub-title color"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:1169
+msgid "Sub-title font style"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:1170
+msgid "Customer details sub-title font style"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:1178
+msgid "Sub-title font weight"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:1179
+msgid "Customer details sub-title font weight"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:1187
+msgid "Details sub-title line height"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:1188
+msgid "Customer details sub-title line height"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:1430
+msgid "Save options"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:1444
+msgid "Load presets"
+msgstr ""
+
+#: backend/solo-framework/solo-framework.php:1456
+msgid "Serialize options"
+msgstr ""
+
+#: backend/templates/tpl_wbk_backend_options.php:8
+msgid "Settings"
+msgstr ""
+
+#: backend/templates/tpl_wbk_backend_schedule.php:14
+#: backend/templates/tpl_wbk_backend_services.php:25
+#: backend/templates/tpl_wbk_backend_services.php:115
+#: common/class_wbk_ajax_controller.php:298
+#: common/class_wbk_ajax_controller.php:303
+#: common/class_wbk_email_notifications.php:192 webba-booking.php:91
+msgid "Name"
+msgstr ""
+
+#: backend/templates/tpl_wbk_backend_schedule.php:16
+#: backend/templates/tpl_wbk_backend_services.php:32
+#: backend/templates/tpl_wbk_backend_services.php:121
+#: common/class_wbk_ajax_controller.php:299
+#: common/class_wbk_ajax_controller.php:306
+#: common/class_wbk_email_notifications.php:193 webba-booking.php:92
+msgid "Email"
+msgstr ""
+
+#: backend/templates/tpl_wbk_backend_schedule.php:18
+#: common/class_wbk_ajax_controller.php:300
+#: common/class_wbk_ajax_controller.php:309
+#: common/class_wbk_email_notifications.php:194 webba-booking.php:93
+msgid "Phone"
+msgstr ""
+
+#: backend/templates/tpl_wbk_backend_schedule.php:20
+msgid "Items count"
+msgstr ""
+
+#: backend/templates/tpl_wbk_backend_schedule.php:26
+msgid "Custom data"
+msgstr ""
+
+#: backend/templates/tpl_wbk_backend_schedule.php:28
+#: common/class_wbk_ajax_controller.php:301
+#: common/class_wbk_ajax_controller.php:312 webba-booking.php:94
+msgid "Comment"
+msgstr ""
+
+#: backend/templates/tpl_wbk_backend_schedule.php:35
+msgid "Schedule"
+msgstr ""
+
+#: backend/templates/tpl_wbk_backend_schedule.php:44
+msgid "Create at least one service. "
+msgstr ""
+
+#: backend/templates/tpl_wbk_backend_schedule.php:47
+msgid "Click to display the service schedule:"
+msgstr ""
+
+#: backend/templates/tpl_wbk_backend_services.php:7
+msgid "Confirm action"
+msgstr ""
+
+#: backend/templates/tpl_wbk_backend_services.php:9
+msgid ""
+"These services will be permanently deleted and cannot be recovered. Continue?"
+msgstr ""
+
+#: backend/templates/tpl_wbk_backend_services.php:12
+#: backend/templates/tpl_wbk_backend_services.php:17
+msgid "Error"
+msgstr ""
+
+#: backend/templates/tpl_wbk_backend_services.php:14
+msgid "Unable to add the gap."
+msgstr ""
+
+#: backend/templates/tpl_wbk_backend_services.php:19
+msgid "Unable to set the gap."
+msgstr ""
+
+#: backend/templates/tpl_wbk_backend_services.php:29
+#: backend/templates/tpl_wbk_backend_services.php:118
+msgid "Description"
+msgstr ""
+
+#: backend/templates/tpl_wbk_backend_services.php:35
+msgid "Maximum booking count per time slot"
+msgstr ""
+
+#: backend/templates/tpl_wbk_backend_services.php:38
+msgid "Duration (in minutes)"
+msgstr ""
+
+#: backend/templates/tpl_wbk_backend_services.php:40
+msgid "Gap (in minutes)"
+msgstr ""
+
+#: backend/templates/tpl_wbk_backend_services.php:42
+#: backend/templates/tpl_wbk_backend_services.php:130
+msgid "Step"
+msgstr ""
+
+#: backend/templates/tpl_wbk_backend_services.php:44
+msgid "Available to users"
+msgstr ""
+
+#: backend/templates/tpl_wbk_backend_services.php:53
+msgid " (has access)"
+msgstr ""
+
+#: backend/templates/tpl_wbk_backend_services.php:71
+msgid "Select form"
+msgstr ""
+
+#: backend/templates/tpl_wbk_backend_services.php:74
+msgid "default form"
+msgstr ""
+
+#: backend/templates/tpl_wbk_backend_services.php:86
+#: backend/templates/tpl_wbk_backend_services.php:142
+msgid "Price"
+msgstr ""
+
+#: backend/templates/tpl_wbk_backend_services.php:88
+msgid "Payment methods"
+msgstr ""
+
+#: backend/templates/tpl_wbk_backend_services.php:102
+msgid "Services"
+msgstr ""
+
+#: backend/templates/tpl_wbk_backend_services.php:124
+msgid "Duration "
+msgstr ""
+
+#: backend/templates/tpl_wbk_backend_services.php:127
+msgid "Gap"
+msgstr ""
+
+#: backend/templates/tpl_wbk_backend_services.php:133
+msgid "Items"
+msgstr ""
+
+#: backend/templates/tpl_wbk_backend_services.php:136
+msgid "Business hours"
+msgstr ""
+
+#: backend/templates/tpl_wbk_backend_services.php:139
+msgid "Users"
+msgstr ""
+
+#: backend/templates/tpl_wbk_backend_services.php:232
+msgid "Delete service"
+msgstr ""
+
+#: common/PayPal/class_wbk_paypal.php:159 webba-booking.php:77
+msgid "Booking items count"
+msgstr ""
+
+#: common/PayPal/class_wbk_paypal.php:162 webba-booking.php:103
+msgid "Subtotal"
+msgstr ""
+
+#: common/PayPal/class_wbk_paypal.php:172 webba-booking.php:104
+msgid "Total"
+msgstr ""
+
+#: common/PayPal/class_wbk_paypal.php:268
+msgid "Pay with PayPal"
+msgstr ""
+
+#: common/PayPal/class_wbk_paypal.php:271
+msgid "Pay with credit card"
+msgstr ""
+
+#: common/class_wbk_ajax_controller.php:64 webba-booking.php:74
+msgid "Suitable hours"
+msgstr ""
+
+#: common/class_wbk_ajax_controller.php:79
+#: common/class_wbk_ajax_controller.php:97
+msgid "from"
+msgstr ""
+
+#: common/class_wbk_ajax_controller.php:110
+msgid "Search time slots"
+msgstr ""
+
+#: common/class_wbk_ajax_controller.php:217
+msgid "Show more"
+msgstr ""
+
+#: common/class_wbk_ajax_controller.php:277
+msgid "Fill in a form"
+msgstr ""
+
+#: common/class_wbk_ajax_controller.php:342
+#: common/class_wbk_service_schedule.php:455 webba-booking.php:96
+#: webba-booking.php:97
+msgid "Book"
+msgstr ""
+
+#: common/class_wbk_ajax_controller.php:459
+#: frontend/classes/class_wbk_frontend_booking.php:96 webba-booking.php:78
+msgid "Thanks for booking appointment"
+msgstr ""
+
+#: common/class_wbk_appointment.php:92
+msgid "incorrect service"
+msgstr ""
+
+#: common/class_wbk_appointment.php:108 common/class_wbk_service.php:38
+msgid "incorrect email"
+msgstr ""
+
+#: common/class_wbk_appointment.php:125 common/class_wbk_service.php:55
+#: common/class_wbk_service.php:115
+msgid "incorrect duration"
+msgstr ""
+
+#: common/class_wbk_appointment.php:140 common/class_wbk_service.php:85
+msgid "incorrect quantity"
+msgstr ""
+
+#: common/class_wbk_appointment.php:155
+msgid "incorrect time"
+msgstr ""
+
+#: common/class_wbk_appointment.php:171
+msgid "incorrect day"
+msgstr ""
+
+#: common/class_wbk_appointment.php:186
+msgid "incorrect attachment"
+msgstr ""
+
+#: common/class_wbk_appointment.php:203
+msgid "incorrect extra"
+msgstr ""
+
+#: common/class_wbk_appointment.php:221
+msgid "incorrect phone"
+msgstr ""
+
+#: common/class_wbk_entity.php:29 common/class_wbk_service_schedule.php:57
+msgid "incorrect id"
+msgstr ""
+
+#: common/class_wbk_entity.php:44
+msgid "incorrect name"
+msgstr ""
+
+#: common/class_wbk_entity.php:60
+msgid "incorrect description"
+msgstr ""
+
+#: common/class_wbk_service.php:70
+msgid "incorrect step"
+msgstr ""
+
+#: common/class_wbk_service.php:99
+msgid "incorrect price"
+msgstr ""
+
+#: common/class_wbk_service_schedule.php:161
+#: common/class_wbk_service_schedule.php:451
+msgid "available"
+msgstr ""
+
+#: common/class_wbk_service_schedule.php:492 webba-booking.php:87
+msgid "Booked"
+msgstr ""
+
+#: frontend/classes/class_wbk_frontend_booking.php:84 webba-booking.php:72
+msgid "Book an appointment on or after"
+msgstr ""
+
+#: frontend/classes/class_wbk_frontend_booking.php:88
+msgid "Book appointment on"
+msgstr ""
+
+#: frontend/classes/class_wbk_frontend_booking.php:92 webba-booking.php:75
+msgid "Available time slots"
+msgstr ""
+
+#: frontend/classes/class_wbk_frontend_booking.php:100 webba-booking.php:95
+msgid "date..."
+msgstr ""
+
+#: frontend/classes/class_wbk_frontend_booking.php:113
+msgid "January"
+msgstr "ינואר"
+
+#: frontend/classes/class_wbk_frontend_booking.php:114
+msgid "February"
+msgstr "פברואר"
+
+#: frontend/classes/class_wbk_frontend_booking.php:115
+msgid "March"
+msgstr "מרץ"
+
+#: frontend/classes/class_wbk_frontend_booking.php:116
+msgid "April"
+msgstr "אפריל"
+
+#: frontend/classes/class_wbk_frontend_booking.php:117
+#: frontend/classes/class_wbk_frontend_booking.php:129
+msgid "May"
+msgstr "מאי"
+
+#: frontend/classes/class_wbk_frontend_booking.php:118
+msgid "June"
+msgstr "יוני"
+
+#: frontend/classes/class_wbk_frontend_booking.php:119
+msgid "July"
+msgstr "יולי"
+
+#: frontend/classes/class_wbk_frontend_booking.php:120
+msgid "August"
+msgstr "אוגוסט"
+
+#: frontend/classes/class_wbk_frontend_booking.php:121
+msgid "September"
+msgstr "ספטמבר"
+
+#: frontend/classes/class_wbk_frontend_booking.php:122
+msgid "October"
+msgstr "אוקטובר"
+
+#: frontend/classes/class_wbk_frontend_booking.php:123
+msgid "November"
+msgstr "נובמבר"
+
+#: frontend/classes/class_wbk_frontend_booking.php:124
+msgid "December"
+msgstr "דצמבר"
+
+#: frontend/classes/class_wbk_frontend_booking.php:125
+msgid "Jan"
+msgstr "ינו"
+
+#: frontend/classes/class_wbk_frontend_booking.php:126
+msgid "Feb"
+msgstr "פבר"
+
+#: frontend/classes/class_wbk_frontend_booking.php:127
+msgid "Mar"
+msgstr "מרץ"
+
+#: frontend/classes/class_wbk_frontend_booking.php:128
+msgid "Apr"
+msgstr "אפר"
+
+#: frontend/classes/class_wbk_frontend_booking.php:130
+msgid "Jun"
+msgstr "יונ"
+
+#: frontend/classes/class_wbk_frontend_booking.php:131
+msgid "Jul"
+msgstr "יול"
+
+#: frontend/classes/class_wbk_frontend_booking.php:132
+msgid "Aug"
+msgstr "אוג"
+
+#: frontend/classes/class_wbk_frontend_booking.php:133
+msgid "Sep"
+msgstr "ספט"
+
+#: frontend/classes/class_wbk_frontend_booking.php:134
+msgid "Oct"
+msgstr "אוק"
+
+#: frontend/classes/class_wbk_frontend_booking.php:135
+msgid "Nov"
+msgstr "נוב"
+
+#: frontend/classes/class_wbk_frontend_booking.php:136
+msgid "Dec"
+msgstr "דצמ"
+
+#: frontend/classes/class_wbk_frontend_booking.php:144
+msgid "Sun"
+msgstr "יום א"
+
+#: frontend/classes/class_wbk_frontend_booking.php:145
+msgid "Mon"
+msgstr "יום ב"
+
+#: frontend/classes/class_wbk_frontend_booking.php:146
+msgid "Tue"
+msgstr "יום ג"
+
+#: frontend/classes/class_wbk_frontend_booking.php:147
+msgid "Wed"
+msgstr "יום ד"
+
+#: frontend/classes/class_wbk_frontend_booking.php:148
+msgid "Thu"
+msgstr "יום ה"
+
+#: frontend/classes/class_wbk_frontend_booking.php:149
+msgid "Fri"
+msgstr "יום ו"
+
+#: frontend/classes/class_wbk_frontend_booking.php:150
+msgid "Sat"
+msgstr "יום שבת"
+
+#: frontend/classes/class_wbk_frontend_booking.php:151
+msgid "Today"
+msgstr "היום"
+
+#: frontend/classes/class_wbk_frontend_booking.php:152
+msgid "Clear"
+msgstr "נקה"
+
+#: frontend/classes/class_wbk_frontend_booking.php:155
+msgid "Next month"
+msgstr "חודש הבא"
+
+#: frontend/classes/class_wbk_frontend_booking.php:156
+msgid "Previous  month"
+msgstr "חודש קודם"
+
+#: frontend/templates/tpl_wbk_frontend_booking_ui.php:18 webba-booking.php:110
+msgid "Payment completed."
+msgstr ""
+
+#: frontend/templates/tpl_wbk_frontend_booking_ui.php:77
+msgid "select..."
+msgstr ""
+
+#: webba-booking.php:57
+msgid "You have successfully booked an appointment"
+msgstr ""
+
+#: webba-booking.php:67
+msgid "New appointment booking"
+msgstr ""
+
+#: webba-booking.php:71
+msgid "Select a service"
+msgstr ""
+
+#: webba-booking.php:73
+msgid "Book an appointment on"
+msgstr ""
+
+#: webba-booking.php:76
+msgid "You are booking #service on #date  at #time <br>Please, fill in a form:"
+msgstr ""
+
+#: webba-booking.php:79
+msgid ""
+"Unfortunately we were unable to meet your search criteria. Please change the "
+"criteria and try again."
+msgstr ""
+
+#: webba-booking.php:88
+msgid "Appointment notification"
+msgstr ""
+
+#: webba-booking.php:101
+msgid "#service on #date at #time"
+msgstr "#service ב#date"
+
+msgid "Find available times"
+msgstr ""
+
+msgid "Select date to start search with"
+msgstr ""
+
+msgid "Submit"
+msgstr ""
+
+msgid "of"
+msgstr ""
+
+msgid "Step 1 of 4"
+msgstr ""
+
+msgid "Step 1 of 3"
+msgstr ""
+
+msgid "Fill in a form:"
+msgstr ""
+
+msgid "Fill in a form to book an appointment on"
+msgstr ""
+
+msgid "Fill in a form to book an appointment on "
+msgstr ""
+
+msgid "Add WEBBA Booking form"
+msgstr ""
+
+msgid "Allow customers to choose a service"
+msgstr ""
+
+msgid "WEBBA Booking form"
+msgstr ""
+
+msgid "General options"
+msgstr ""
+
+msgid "Send email to a customer"
+msgstr ""
+
+msgid "Subject of email to a customer"
+msgstr ""
+
+msgid "Send email to an administrator"
+msgstr ""
+
+msgid "Subject of email to an administrator"
+msgstr ""
+
+msgid "Service select label"
+msgstr ""
+
+msgid "Options"
+msgstr ""
+
+msgid "Open services page"
+msgstr ""
+
+msgid "leave empty to use Wordpress default value. "
+msgstr ""

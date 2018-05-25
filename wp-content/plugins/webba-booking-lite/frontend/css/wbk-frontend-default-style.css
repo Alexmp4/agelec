@@ -1,0 +1,304 @@
+/* Webba Booking 1.4 frontend default style */
+.wbk-input-label{
+width: 100%;
+display: block !important;
+clear: both !important;
+}
+.wbk-input, .wbk-select, .wbk-text, .wbk-email-custom, .StripeElement {
+    width: 100% !important;
+    max-width: 100% !important;;
+    margin: 0!important;
+    display: block;
+    box-sizing: border-box!important;
+}
+.wbk-textarea{
+    height: 150px !important;
+    width: 100% !important;
+    margin: 0 !important;
+}
+
+.wbk-input:disabled{
+color:#CECCCC !important;
+}
+.wbk-frontend-row{
+width: 100% !important;
+display: inline-block !important;
+overflow: visible !important;
+}
+.wbk-time_table{
+border: none !important;
+width: 100% !important;
+display: table !important;
+border-collapse: separate !important;
+border-spacing: 0 !important;
+}
+.wbk-time_table tr td{
+border: none !important;
+padding: 0 0 5px 0 !important;
+display: table-cell !important;
+vertical-align: top !important;
+}
+.wbk-checkbox{
+-webkit-appearance: none !important;
+-moz-appearance: none !important;
+appearance: none !important;
+background: transparent !important;
+position: relative !important;
+margin: 0 !important;
+visibility: hidden !important;
+width: 0 !important;
+height: 0 !important;
+}
+.wbk-checkbox span{
+  visibility: visible !important;
+}
+.wbk-checkbox,
+.wbk-checkbox + label::before, .wbk-checkbox + span::before   {
+  cursor: pointer !important;
+  vertical-align: middle !important;
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+  -o-user-select: none !important;
+  user-select: none !important;
+}
+.wbk-checkbox + label::before, .wbk-checkbox + span::before {
+  content: '';
+  cursor: pointer !important;
+  text-align: center !important;
+  display: inline-block !important;
+  pointer-events: none !important;
+  opacity: 1 !important;
+  margin: 0 5px 0 0 !important;
+}
+.wbk-checkbox:checked + label::before, .wbk-checkbox:checked + span::before {
+content: '\2713';
+}
+.wbk-clear{
+clear: both !important;
+}
+.wbk-clear-block{
+clear: both !important;
+display: block;
+}
+.wbk-checkbox:before {
+content: '';
+width:0 !important;
+height: 0 !important;
+}
+.wbk-checkbox:after {
+content: '' !important;
+width:0 !important;
+height: 0 !important;
+}
+ .wbk-checkbox:checked:after {
+content: '\2713' !important;
+}
+.wbk-col-3-12{
+width: 25% !important;
+float: left !important;
+
+}
+.wbk-col-9-12{
+    width: 75% !important;
+    float: left !important;
+}
+@media (max-width: 768px) {
+   .wbk-col-9-12 {
+        width: 100% !important;
+   }
+}
+@media (max-width: 768px) {
+   .wbk-col-3-12 {
+        width: 100% !important;
+   }
+}
+.wbk-col-12-12{
+width: 100% !important;
+overflow: visible !important;
+}
+.wbk-table-cell{
+display: table-cel !importantl;
+}
+.wbk-checkbox-label{
+display: block !important;
+float: left !important;
+cursor: pointer !important;
+margin-right: 5px !important;
+}
+.wbk-separator, .wbk-hours-separator, .wbk-day-separator,.wbk-form-separator{
+border-bottom: none !important;
+border-left: none !important;
+border-right: none !important;
+background: none !important;
+}
+.wbk-button,.wbk-button:focus{
+width: 100% !important;
+padding: 0 !important;
+cursor: pointer !important;
+text-transform: none !important;
+outline: none !important;
+line-height: normal !important;
+}
+.wbk-col-4-6-12{
+width: 25%;
+float: left !important;
+margin: 0 !important;
+}
+@media (max-width: 1024px) {
+   .wbk-col-4-6-12{
+        width: 50% !important;
+   }
+}
+@media (max-width: 768px) {
+   .wbk-col-4-6-12{
+        width: 100% !important;
+   }
+}
+
+.wbk-slot-button,.wbk-slot-button:focus {
+width: 100% !important;
+cursor: pointer !important;
+outline: none !important;
+border-radius: 0 !important;
+}
+.wbk-slot-inner{
+display: block !important;
+position: relative !important;
+overflow: hidden !important;
+}
+.wbk-text-center{
+text-align: center !important;
+}
+.wbk-timeslot-list{
+margin: 0 !important;
+padding: 0 !important;
+list-style: none !important;
+overflow: auto !important;
+}
+.wbk-timeslot-list li{
+list-style: none !important;
+}
+.wbk-day-title{
+border-top: none !important;
+border-left: none !important;
+border-right: none !important;
+margin-top: 20px !important;
+}
+.wbk-loading{
+width: 100%  !important;
+height: 64px  !important;
+float: left  !important;
+display: block  !important;;
+background-image: url(../images/loading.svg) !important;
+margin: 10px 0 10px 0  !important;
+clear: both  !important;
+background-repeat: no-repeat  !important;
+background-position: center !important;
+}
+.wbk-input:focus{
+box-shadow: none !important;
+outline: none !important;
+}
+.wbk-input-error{
+border-left: 2px solid #FF2A2A !important;
+}
+.wbk-acceptance{
+clear: both !important;
+display: block !important;
+padding-top: 15px !important;
+vertical-align: top !important;
+height: 1px !important;
+}
+#wbk-booking-form-container label{
+display:block;
+}
+.wbk-slot-booked{
+background: #aaaaaa !important;
+border: none !important;
+cursor: default !important;
+}
+.wbk-mb-20{
+margin-bottom: 20px;
+}
+.wbk-align-right{
+text-align: right !important;
+}
+@media (max-width: 768px) {
+.wbk-align-right{
+text-align: left !important;
+} 
+}
+.picker__day--infocus{
+font-weight: normal; !important;
+}
+.picker__day--disabled{
+font-weight: normal !important;
+}
+.picker__table td {
+text-align: center !important;
+border: none !important;
+}
+.picker__table{
+border: 0 !important;
+}
+.picker__weekday{
+text-align: center;
+border: none !important;
+}
+.picker__day--disabled, .picker__day--disabled:hover, .picker--focused .picker__day--disabled {
+background: #fff  !important;
+border-color: #fff  !important;
+color: #ddd; 
+cursor: default  !important;
+}
+html{
+overflow-y: visible !important;
+}
+#wbk-to-checkout{
+position:fixed;
+top:0;
+z-index:10000;
+text-align: center;
+width: 100% !important;
+padding: 5px;
+cursor: pointer;
+outline: none;
+}
+.picker__day--outfocus{
+color:#000000 !important;
+}
+.picker__day--disabled{
+color:#ddd !important;
+}
+@media (max-width: 768px) {
+  .wbk-input, .StripeElement{
+    font-size: 16px !important;
+  }
+}
+.wbk_hidden{
+display: none !important
+}
+.wbk_mt_25{
+margin-top: 25px;
+}
+.StripeElement--focus {
+box-shadow: 0 1px 3px 0 #cfd7df;
+}
+.StripeElement--invalid {
+border-color: #fa755a;
+}
+.StripeElement--webkit-autofill {
+background-color: #fefde5 !important;
+}
+.wbk-service_chk_label{
+margin-bottom: 5px;
+}
+.wbk-textarea{
+padding-top: 12px !important;
+padding-bottom: 5px !important;
+}
+.wbk-multiple-service-title{
+display: inline-block;
+width: 100%;
+}

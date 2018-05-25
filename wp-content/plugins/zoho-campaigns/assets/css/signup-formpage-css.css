@@ -1,0 +1,959 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+*,
+*:after,
+*:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f1f1f1;
+}
+
+h1 {
+    font-size: 20px;
+    color: #333;
+    font-weight: normal;
+    margin: 0px;
+}
+
+.zcnewbuttonWP {
+    font-size: 14px;
+    color: #fff;
+    border: solid 1px #0074a2;
+    background-color: #2ea2cc;
+    padding: 10px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.zctright {
+    text-align: right;
+}
+
+.zctcenter {
+    text-align: center;
+}
+
+.zcheading {
+    font-size: 20px;
+    font-weight: bold;
+    color: #999;
+    text-shadow: 0px 1px 1px #fff;
+    padding: 20px;
+}
+
+.zcheading span {
+    color: #555;
+}
+
+.zclistname {
+    font-size: 18px;
+    margin: 25px 0px;
+}
+
+.zclistname img {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.zcsubtab {
+    margin-top: 20px;
+    border-bottom: solid 1px #CCC;
+}
+
+.zcsubtab ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.zcsubtab ul li {
+    margin: 0px;
+    display: inline-block;
+    margin-left: 15px;
+    list-style: none;
+}
+
+.zcsubtab ul li a {
+    padding: 10px 20px;
+    font-size: 14px;
+    border: solid 1px #cfcfcf;
+    display: inline-block;
+    background-color: #fff;
+    z-index: 1;
+    margin-bottom: -1px;
+    color: #0074a2;
+    cursor: pointer;
+}
+
+.zcsubtab ul li a.sel {
+    border-bottom: solid 1px #ffffff;
+    color: #000;
+    cursor: default;
+    background-color: #ffffff;
+}
+
+.zcoutercntr {
+    padding: 30px;
+}
+
+.zcoutercntrrespan {
+    padding: 10px 30px;
+}
+
+.zcsfrmcntr {
+    width: 400px;
+    padding: 10px;
+    margin: 0px auto;
+}
+
+.zcsfrmcntrcenter {
+    width: 400px;
+    padding: 20px;
+    margin: 0px auto;
+}
+
+.zcsfrmtitle {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.zcsfrmcstmzpan {
+    padding: 10px;
+}
+
+.zcctmzfldpan {
+    border: solid 1px #e0e0e0;
+    background-color: #fff;
+}
+
+.zcctmzfldpan .zcjustheading {
+    background-color: #eee;
+    font-size: 14px;
+    padding: 15px;
+    color: #888;
+}
+
+.zcctmzfldpan div {
+    padding: 10px;
+    font-size: 14px;
+    color: #555;
+}
+
+.zcctmzfldpan div input[type="text"] {
+    border: solid 1px #d8d8d8;
+    font-size: 14px;
+    color: #555;
+    height: 30px;
+    width: 70%;
+    font-size: 12px;
+}
+
+.zcctmzfldpan div input[type="text"]:focus {
+    border: solid 1px #00a0d4;
+    font-size: 14px;
+    color: #555;
+    height: 30px;
+    width: 70%;
+    font-size: 12px;
+    box-shadow: 0px 1px 5px #90e4ff;
+}
+
+.zcctmzrespan  input[type="text"] {
+    border: solid 1px #d8d8d8;
+    font-size: 14px;
+    color: #555;
+    height: 30px;
+    width: 100%;
+    font-size: 12px;
+}
+
+.zcctmzrespan input[type="text"]:focus {
+    border: solid 1px #00a0d4;
+    font-size: 14px;
+    color: #555;
+    height: 30px;
+    width: 100%;
+    font-size: 12px;
+    box-shadow: 0px 1px 5px #90e4ff;
+}
+
+.zcctmzrespan  textarea {
+    border: solid 1px #d8d8d8;
+    font-size: 14px;
+    color: #555;
+    height: 60px;
+    width: 100%;
+    font-size: 12px;
+    font-family: arial;
+}
+
+.zcctmzrespan textarea:focus {
+    border: solid 1px #00a0d4;
+    font-size: 14px;
+    color: #555;
+    height: 60px;
+    width: 100%;
+    font-size: 12px;
+    box-shadow: 0px 1px 5px #90e4ff;
+    font-family: arial;
+}
+
+.zcctmzrespan label {
+    color: #555;
+    font-size: 14px;
+}
+
+.zclstfld {
+    border: solid 1px #d8d8d8;
+    font-size: 14px;
+    color: #555;
+    height: 30px;
+    width: 100%;
+    font-size: 14px;
+    font-family: arial;
+    padding: 5px;
+    background-color: #f5f5f5;
+}
+
+.zclstoptpl10 option {
+    padding-left: 5px;
+}
+
+.zcdznpan {
+    border: solid 1px #d4d3d3;
+    background-color: #fff;
+}
+
+.zcdznpan div {
+    padding: 10px;
+    font-size: 14px;
+    color: #555;
+}
+
+.zcdznpan div input[type="text"] {
+    border: solid 1px #d8d8d8;
+    font-size: 14px;
+    color: #555;
+    height: 30px;
+    font-size: 12px;
+    padding: 5px;
+}
+
+.zcdznpan div select {
+    border: solid 1px #d8d8d8;
+    font-size: 14px;
+    color: #555;
+    height: 28px;
+    width: 100%;
+    padding: 2px;
+}
+
+.zcdznpan .zcclrpick {
+    border: solid 1px #555;
+    width: 25px;
+    height: 25px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.zcp10 {
+    padding: 10px;
+    text-transform: initial;
+}
+
+.zcml5 {
+    margin-left: 5px;
+}
+
+.zcclr {
+    clear: both;
+}
+
+.zcbtncntr {
+    text-align: center;
+    padding: 15px;
+}
+
+/*.zcbtncntr button {
+    font-size: 12px;
+    color: #fff;
+    border: solid 1px #0074a2;
+    background-color: #2ea2cc;
+    padding: 5px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}*/
+
+.zcml25 {
+    margin-left: 25px;
+}
+
+.zcotrcntr {
+    background-color: #fff;
+    border: dashed 1px #ccc;
+    padding: 25px;
+}
+
+.zclink a {
+    color: #0074a2;
+}
+
+/*.zcpantitle {
+    padding: 15px 20px;
+    background-color: #e9e9e9;
+    border: solid 1px #e9e9e9;
+    font-size: 14px;
+    color: #888;
+    cursor: pointer;
+}*/
+
+.zcrespontitle {
+    font-size: 17px;
+    color: #888;
+}
+
+.zcrespontitle  span label {
+    color: #0B6897;
+}
+
+.zcrespontitle  span a {
+    text-decoration: none;
+}
+
+.zcrespontitle  span a:hover {
+    text-decoration: underline;
+}
+
+.zcnewcnclbutton {
+    font-size: 14px;
+    color: #444;
+    border: solid 1px #ccc;
+    background-color: #f7f7f7;
+    padding: 10px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 0px 1px 0px #fff inset;
+}
+
+.zcmlist {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 35px;
+    border-bottom: solid 1px #e7e7e7;
+    background-color: #f5f5f5;
+}
+
+.zcmlist:hover {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 35px;
+    border-bottom: solid 1px #e7e7e7;
+    background-color: #eee;
+}
+
+.zccolors {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+}
+
+.zcfloat {
+    background-color: #F5F5F5;
+    border: 1px solid #CCCCCC;
+    height: 200px;
+    overflow: scroll;
+    position: absolute;
+    right: 0;
+    width: 490px;
+    z-index: 4;
+}
+
+.zcpopupun {
+    border: solid 1px #CCCCCC;
+    width: 600px;
+    background-color: #FFF;
+    z-index: 999;
+    top: 100px;
+    position: absolute;
+    box-shadow: 1px 2px 3px #1d1d1d;
+    text-transform: initial;
+}
+
+.zcouterpan {
+    background-color: #fff;
+    width: 600px;
+    margin: 100px auto;
+    border: solid 1px #ddd;
+    box-shadow: 0px 1px 5px #ddd;
+}
+
+.zcouterpan h1 {
+    font-size: 16px;
+    border-bottom: solid 1px #eee;
+    background-color: #f5f5f5;
+    color: #222;
+    padding: 10px 20px;
+    margin: 0px;
+}
+
+.zcp20 {
+    padding: 20px;
+}
+
+.zcdtdbdr {
+    border-bottom: dotted 1px #ccc;
+    margin-top: 20px;
+}
+
+.zclist {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 25px;
+    border-bottom: solid 1px #e7e7e7;
+    background-color: #f5f5f5;
+}
+
+.zclist:hover {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 25px;
+    border-bottom: solid 1px #e7e7e7;
+    background-color: #eee;
+}
+
+.zcbdrbtm {
+    border-bottom: solid 3px #eee;
+    margin-top: 30px;
+}
+
+.zcmt20 {
+    margin-top: 20px;
+}
+
+.zcmt30 {
+    margin-top: 30px;
+}
+
+.zcmt15 {
+    margin-top: 15px;
+}
+
+.zctxt {
+    font-size: 13px;
+    color: #555;
+    line-height: 1.7;
+}
+
+.zcgreentxt {
+    font-size: 14px;
+    color: #51b732;
+}
+
+.zcpopup {
+    background-color: #fff;
+    box-shadow: 0 1px 5px #ddd;
+    width: 600px;
+    position: absolute;
+    padding: 15px;
+}
+
+.zcpopup .zcpopuptitle {
+    font-size: 16px;
+    color: #555;
+    padding-bottom: 4px;
+    border-bottom: dotted 1px #ccc;
+}
+
+.zclstfld {
+    background-color: #F5F5F5;
+    border: 1px solid #D8D8D8;
+    color: #555555;
+    width: 45%;
+    font-family: arial;
+    font-size: 14px;
+    height: 30px;
+    padding: 5px;
+}
+
+.zcouterpreviewpan {
+    background-color: #fff;
+    width: 600px;
+    margin: 5px 0px;
+    border: solid 1px #ddd;
+    box-shadow: 0px 1px 5px #ddd;
+}
+
+.zcouterpreviewpan h1 {
+    font-size: 16px;
+    border-bottom: solid 1px #eee;
+    background-color: #f5f5f5;
+    color: #222;
+    padding: 10px 20px;
+    margin: 0px;
+}
+
+.zctitle {
+    font-size: 16px;
+    color: #555;
+    font-weight: bold;
+}
+
+.zcsilderMain {
+    float: left;
+    width: 693px;
+    padding: 0 5px 0 15px;
+    position: relative;
+}
+
+.zcsliderToolTip {
+    border: 1px solid #fff;
+    border-radius: 1px;
+    background: #3EAB0A;
+    padding: 2px 5px;
+    color: #fff;
+    top: -16px;
+    font-size: 11px;
+    position: relative;
+}
+
+.zcrightone {
+    background: #D9D9D9;
+    border: 1px solid #F6F6F6;
+    border-radius: 5px 5px 5px 0;
+    float: right;
+    height: 6px;
+    position: absolute;
+    right: -7px;
+    border-left: none;
+    top: 17px;
+    width: 14px;
+}
+
+#slider {
+    float: left;
+    width: 100%;
+    margin: 17px 0px 0 -2px;
+    background: #D9D9D9;
+    border: 1px solid #f6f6f6;
+}
+
+#slider:hover {
+    background: #d4d3d3;
+}
+
+#slider .ui-slider-range {
+    background: #68bf6b;
+    border-radius: 5px;
+}
+
+#slider .ui-slider-handle {
+    border-color: #fff;
+}
+
+.zcsliderpd0 {
+    padding: 0px;
+}
+
+.zcsliderpd0 div {
+    padding: 0px;
+}
+/*
+.ui-widget-content {
+    height: 6px;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    background: #04AB02;
+    border-radius: 20px;
+    height: 18px;
+    margin-left: -8px;
+    width: 18px;
+    box-shadow: 1px 2px 2px #7D7D7D;
+    cursor: pointer;
+    border: 2px solid #f6f6f6;
+    top: -10px;
+}
+
+.ui-state-default:hover {
+    background: #069D04;
+    box-shadow: 0 0 4px #7D7D7D;
+}
+*/
+.zcdrgnrml {
+    background-color: #fff;
+}
+
+.zcdrgnrml:hover {
+    background-color: #f9f9f9;
+    outline: dashed 1px #DA686A;
+    cursor: move;
+}
+
+.zcdrgnrml img {
+    background-color: #fff;
+    opacity: .2;
+}
+
+.zcdrgnrml:hover img {
+    opacity: 1;
+}
+
+.zclist .zclstnme {
+    color: #0B6897;
+    text-decoration: none;
+}
+
+.zclist .zclstnme:hover {
+    color: #0B6897;
+    text-decoration: underline;
+}
+
+.zclist:hover .zcoptns a {
+    font-size: 14px;
+    color: #0B6897;
+    text-decoration: none;
+}
+
+.zclist:hover .zcoptns a:hover {
+    font-size: 14px;
+    color: #0B6897;
+    text-decoration: underline;
+}
+
+.zcpantitle {
+    padding: 15px 20px;
+    background-color: #e9e9e9;
+    border: solid 1px #e9e9e9;
+    font-size: 17px;
+    color: #0B6897;
+    cursor: pointer;
+}
+
+.zclist .zcoptns {
+    font-size: 14px;
+    color: #555;
+}
+
+.zclist .zcoptns a {
+    font-size: 14px;
+    color: #B8B8B8;
+    text-decoration: none;
+}
+
+.zclist .zcoptns a:hover {
+    font-size: 14px;
+    color: #0B6897;
+    text-decoration: underline;
+}
+
+.zcsmallink {
+    color: #0074a2;
+    font-size: 14px;
+}
+
+.zclistheading {
+    font-weight: bold;
+    color: #444;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.zclistheadingtxt {
+    font-size: 20px;
+}
+
+.zcml10 {
+    margin-left: 10px;
+}
+
+.zcml20 {
+    margin-left: 20px;
+}
+
+.zcml25 {
+    margin-left: 25px;
+}
+
+.zctxtnrml {
+    font-size: 13px;
+    color: #555;
+}
+
+.zctxtbld {
+    font-weight: bold;
+}
+
+.zctiptxt {
+    font-size: 12px;
+    color: #B8B8B8;
+}
+
+.zcfright {
+    float: right;
+}
+
+.zcwelcomepansf {
+    background-color: #fff;
+    padding: 40px;
+    width: 90%;
+    box-shadow: 0px 2px 2px #ccc;
+    margin: 0px auto;
+    margin-top: 100px;
+    font-size: 14px;
+}
+
+.zcwelcomepansf h1 {
+    font-size: 30px;
+    color: #555;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.zcbutton {
+    font-size: 12px;
+    color: #fff;
+    border: solid 1px #0074a2;
+    background-color: #2ea2cc;
+    padding: 5px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.zclist .zclstnmeblk {
+    color: #222;
+    text-decoration: none;
+    cursor: default;
+}
+
+.zcmt20 {
+    margin-top: 20px;
+}
+
+.zcsearchcntr {
+    float: right;
+    position: relative;
+}
+
+.zcdrbdwn {
+    border: solid 1px #c5c5c5;
+    background-color: #e0e0e0;
+    font-size: 12px;
+    padding: 7px 10px;
+    float: left;
+    border-radius: 5px;
+    min-width: 150px;
+    margin-top: -5px;
+    margin-right: 20px;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px #e5e5e5;
+    position: relative;
+}
+
+.zcdrbdwnlist {
+    background-color: #fff;
+    border: solid 1px #ccc;
+    position: absolute;
+    width: 150px;
+    left: 0px;
+    top: 29px;
+    box-shadow: 1px 1px 1px #ccc;
+}
+
+.zcdrbdwnlist ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+.zcdrbdwnlist ul li {
+    padding: 0px;
+    list-style: none;
+    background-color: #fff;
+}
+
+.zcdrbdwnlist ul li a {
+    padding: 7px 10px;
+    font-size: 12px;
+    background-color: #fff;
+    display: block;
+    font-weight: normal;
+}
+
+.zcdrbdwnlist ul li a:hover {
+    padding: 7px 10px;
+    font-size: 12px;
+    background-color: #f9f9f9;
+}
+
+.zcsearchbox {
+    background-color: #fff;
+    border: solid 1px #999;
+    padding: 5px 10px;
+    border-radius: 15px;
+    width: 200px;
+    font-size: 12px;
+    height: 30px;
+    margin-top: -5px;
+    padding-right: 30px;
+    transition: all .8s;
+}
+
+.zcsearchbox:focus {
+    background-color: #f0faff;
+    border: solid 1px #339fd6;
+    padding: 5px 10px;
+    border-radius: 15px;
+    width: 300px;
+    font-size: 12px;
+    padding-right: 30px;
+    transition: all .8s;
+}
+
+.zcmorelist {
+    padding: 15px;
+    border: solid 1px #e7e7e7;
+    background-color: #eeeeee;
+    text-align: center;
+    box-shadow: 1px 1px 2px #eee;
+    transition: all .3s;
+}
+
+.zcmorelist div {
+    color: #BBBBBB;
+    font-size: 14px;
+    color: #999;
+    text-decoration: none;
+}
+
+.zcmorelist:hover {
+    padding: 15px;
+    border: solid 1px #e7e7e7;
+    background-color: #eae9e9;
+    text-align: center;
+    box-shadow: 1px 1px 2px #eee;
+    cursor: pointer;
+    transition: all .3s;
+}
+.zcmoreform{
+    background-color: #f9f9f9;
+    border: 1px solid #eee;
+    color:#999; font-size:14px;
+    padding: 15px;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+}
+.zcmoreform:hover {
+    padding:15px;
+    border:solid 1px #e7e7e7;
+    background-color:#f1f1f1;
+    text-align:center;
+    cursor:pointer; 
+    transition:all .3s; color:#111;
+}
+.zccodetxtfield {
+    border: solid 1px #CCC;
+    padding: 2px;
+    font-size: 14px;
+    padding: 5px;
+    color: #555;
+    font-weight: bold;
+    width: 120px;
+    text-align: center;
+    box-shadow: 1px 1px 1px #EEE inset;
+}
+.zcsfrmlstcntr {
+    min-height: 50px;
+    border:solid 1px #ddd;
+    padding:0px 20px;
+    max-height:150px;
+    overflow:auto;
+    font-size:14px;
+    color:#444;
+}
+.zcsfrmlstcntr div {
+    margin:20px 0px;
+}
+.zcsfrmlstcntr .zcdefault {
+    font-style:italic;
+    color:#ebaa70;
+}
+.zcsfrmlsttbl {
+    font-size:14px;
+    color:#444;
+    background-color:#fff;
+}
+.zcsfrmlsttbl th { 
+    font-size:14px;
+    background-color:#CCC;
+    font-weight:bold;
+    padding:20px;
+}
+.zcsfrmlsttbl td { 
+    padding:20px;
+}
+.zcsfrmlsttbl td a {
+    color:#bbb;
+    text-decoration:none;
+}
+.zcsfrmlsttbl:hover td a {
+    color:#0074A2;
+    text-decoration:none;
+}
+.zclstclr0 {
+    background-color: #f6f6f6;
+}
+.zclstclr1 {
+    background-color: #FFF;
+}
+.zcmt40 {
+    margin-top: 40px;
+}
+.zcfldredit {
+    /*background-position:0px -5775px;*/
+    /*width:14px;*/
+    /*height:13px;*/
+    cursor:pointer;
+}
+.zcfldredit {
+    line-height: 0px;
+}
+.zcpopupclose {
+    width:15px;
+    height:13px;
+    background-position:-19px -1537px;
+    cursor:pointer;
+}
+.zctxtfield {
+    border:1px solid;
+    border-color:#CBD3E2 #E2E9EF #E2E9EF;
+    font-size:12px;
+    height:20px;
+    padding:2px 0px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:#444;
+    text-indent:2px;
+}
+.zcsfe {
+    display: none;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+.zcrs {
+    padding-left: 40px;
+}

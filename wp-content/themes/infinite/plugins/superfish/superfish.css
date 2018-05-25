@@ -1,0 +1,31 @@
+/* top level */
+.sf-menu{ list-style: none; margin-left: 0px; }
+.sf-menu > li{ float: left; cursor: pointer; }
+.sf-menu > li > a{ display: block; text-decoration: none; position: relative; z-index: 9; }
+
+/* normal menu */
+.sf-menu > .infinite-normal-menu ul{ margin-left: 0px; list-style: none; position: absolute; display: none; 
+	z-index: 99; min-width: 190px; }
+.sf-menu > .infinite-normal-menu.sfHover > ul,
+.sf-menu > .infinite-normal-menu.sfHover > ul:hover,
+.sf-menu > .infinite-normal-menu li.sfHover > ul{ display: block; }
+.sf-menu > .infinite-normal-menu ul ul{ top: 0px; left: 100%; }
+.sf-menu > .infinite-normal-menu ul ul.sub-menu-right{ left: auto; right: 100%; }
+.sf-menu > .infinite-normal-menu li{ position: relative; white-space: nowrap; }
+.sf-menu > .infinite-normal-menu li a{ text-decoration: none; }
+.sf-menu > .infinite-normal-menu li > a.sf-with-ul-pre{}
+.sf-menu > .infinite-normal-menu li > a.sf-with-ul-pre:after{ content: '>'; }
+
+/* mega menu */
+.sf-menu > .infinite-mega-menu .sf-mega{ position: absolute; display: none; z-index: 99;}
+.sf-menu > .infinite-mega-menu.sfHover .sf-mega,
+.sf-menu > .infinite-mega-menu.sfHover .sf-mega:hover{ display: block; }
+.sf-menu > .infinite-mega-menu .sf-mega-section-inner a{ text-decoration: none; }
+.sf-menu > .infinite-mega-menu .sf-mega-section-inner ul{ list-style: none; margin-left: 0px; }
+
+/* vertical menu */
+.sf-vertical{ list-style: none; margin-left: 0px; left: 100%; top: 0; }
+.sf-vertical li{ position: relative; }
+.sf-vertical ul.sub-menu{ list-style: none; position: absolute; display: none; left: 100%; top: 0px; z-index: 9; min-width: 190px; }
+.sf-vertical ul.sub-menu li{ white-space: nowrap; }
+

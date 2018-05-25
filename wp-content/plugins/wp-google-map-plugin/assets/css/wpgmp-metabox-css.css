@@ -1,0 +1,14 @@
+#wpgmp_google_map_metabox .row_metabox {
+    margin-bottom: 10px;
+}
+
+#wpgmp_google_map_metabox .wpgmp_metabox_left {
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+}
+
+#wpgmp_google_map_metabox .wpgmp_metabox_right {
+    display: inline-block;
+    width: 50%;
+}

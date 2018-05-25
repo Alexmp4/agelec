@@ -1,0 +1,109 @@
+.wbk-outer-container{
+padding: 0 0 0 0;
+margin: 30px 10px 30px 10px;
+border: 1px none 2E5266;
+border-radius: 10px;
+background-color: #d3d0cb;
+}
+.wbk-inner-container{
+padding: 20px 20px 20px 20px;
+border: 1px none #ebebeb;
+border-radius: 10px;
+background-color: #e6ebe0;
+}
+.wbk-separator{
+margin: 30px 0 30px 0;
+border-top: 3px solid #ed6a5a;
+}
+.wbk-input-label{
+padding: 10px 0 20px 0;
+margin: 30px 0 30px 0;
+color: #ed6a5a;
+font-size: 30px;
+font-style: inherit;
+font-weight: bolder;
+}
+.wbk-input{
+background-color: #5ca4a9;
+color: #fcf9f9;
+font-size: 20px;
+font-style: inherit;
+font-weight: inherit;
+height: 60px;
+border: 0px none #9bc1bc;
+border-radius: 10px;
+}
+.wbk-checkbox{
+height: 50px;
+width: 50px;
+}
+.wbk-checkbox:after{
+line-height: 45px;
+font-size: 20px;
+color: #fcf9f9;
+background-color: #ed6a5a;
+border: 0px none #ed6a5a;
+border-radius: 40px;
+}
+.wbk-checkbox-label{
+margin: 12px 0 20px 10px;
+color: #383838;
+font-size: 14px;
+font-style: normal;
+font-weight: normal;
+}
+.wbk-button{
+margin: 40px 0 30px 0;
+height: 50px;
+background-color: #ed6a5a;
+color: #fcf9f9;
+border: 0px none #fcf9f9;
+border-radius: 15px;
+}
+.wbk-day-title{
+text-align: center;
+border-bottom: 1px solid #fcf9f9;
+font-size: 30px;
+color: #5ca4a9;
+font-style: normal;
+font-weight: bold;
+line-height: 60px;
+}
+.wbk-slot-inner{
+margin: 30px 10px 5px 10px;
+border: 1px none #a6a6a6;
+border-radius: 20px;
+background-color: #5ca4a9;
+}
+.wbk-slot-time{
+font-size: 16px;
+color: #fcf9f9;
+font-style: normal;
+font-weight: bold;
+line-height: 40px;
+}
+.wbk-slot-available{
+font-size: 14px;
+color: #e6ebe0;
+font-style: normal;
+font-weight: normal;
+line-height: 30px;
+}
+.wbk-slot-button{
+margin: 10px 0 20px 0;
+background-color: #ed6a5a;
+font-size: 20px;
+color: #fcf9f9;
+line-height: 24px;
+font-style: normal;
+font-weight: bold;
+}
+.wbk-details-title{
+text-align: left;
+border-bottom: 2px solid #fcf9f9;
+font-size: 30px;
+color: #5ca4a9;
+font-style: normal;
+font-weight: bold;
+line-height: 60px;
+}

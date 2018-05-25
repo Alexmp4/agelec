@@ -1,0 +1,14 @@
+{
+  "name": "wordpress-store-locator",
+  "description": "",
+  "authors": [
+      {
+          "name": "Daniel Barenkamp",
+          "email": "support@db-dzine.com"
+      }
+  ],
+  "require":{
+    "phpoffice/phpexcel": "^1.8",
+    "dotzero/gmaps-geocode": "^0.6.0"
+  }
+}

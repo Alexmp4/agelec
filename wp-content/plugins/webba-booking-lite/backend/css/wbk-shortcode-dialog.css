@@ -1,0 +1,19 @@
+/* WEBBA Booking admin 
+   add service dialog style
+*/
+
+#wbk-service-dialog{
+	display: none;
+}
+
+.wbk-input {	 
+	padding: 5px !important;
+	background: #fff !important;
+	color: #000 !important;
+	border: 1px solid #A9A9A9  !important;
+	height: 44px;
+}
+ 
+.wbk-width-100 {
+	width: 100%;
+}

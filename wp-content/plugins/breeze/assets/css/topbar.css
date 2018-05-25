@@ -1,0 +1,6 @@
+#wp-admin-bar-breeze-topbar * {
+    cursor: pointer !important;
+}
+#wp-admin-bar-breeze-topbar *:hover {
+    color: #00b9eb !important;
+}

@@ -1,0 +1,815 @@
+0000.000 (0) Opened log file at time: Sun, 06 May 2018 20:52:23 +0000 on http://new.agelecprotection.com
+0000.001 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.7 WP: 4.9.5 PHP: 7.0.30-1~dotdeb+8.1 (fpm-fcgi, Linux 172889.cloudwaysapps.com 3.16.0-5-amd64 #1 SMP Debian 3.16.51-3+deb8u1 (2018-01-08) x86_64) MySQL: 5.5.60 WPLANG: fr_FR Server: Apache/2.4.10 (Debian) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 34.5M | 36M) multisite: N openssl: OpenSSL 1.0.1t  3 May 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.001 (0) Free space on disk containing Updraft's temporary directory: 43454.3 MB
+0000.003 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB:  (schedule: weekly)
+0000.004 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.010 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1525035893, seconds_ago=604051)
+0000.011 (0) Set semaphore last lock (fd) time to 2018-05-06 20:52:24
+0000.012 (0) Semaphore lock (fd) complete
+0000.016 (0) Backup run: resumption=0, nonce=b79771b9afde, begun at=1525639943 (1s ago), job type=backup
+0000.017 (0) Scheduling a resumption (1) after 300 seconds (1525640244) in case this run gets aborted
+0000.027 (0) Checking if we have a zip executable available
+0000.028 (0) Testing: /usr/bin/zip
+0000.042 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.043 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.043 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.043 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.044 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.056 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.057 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.063 (0) Working binary zip found: /usr/bin/zip
+0000.067 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.067 (0) Creation of backups of directories: beginning
+0000.069 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.297 (0) Total entities for the zip file: 1559 directories, 10139 files (0 skipped as non-modified), 169.6 MB
+0000.299 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.300 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.302 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.303 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.305 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.306 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (11.5 MB, 10139 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0001.019 (0) backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: size is now: 3.90 MB
+0001.022 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 600 files added (on-disk size: 4009.5 KB)
+0001.023 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 700 files added (on-disk size: 4009.5 KB)
+0001.025 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 800 files added (on-disk size: 4009.5 KB)
+0001.026 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 900 files added (on-disk size: 4009.5 KB)
+0001.028 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 1000 files added (on-disk size: 4009.5 KB)
+0001.028 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.5 MB, 10139 files batched, 501 (1002) added so far); re-opening (prior size: 4009.5 KB)
+0001.165 (0) backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: size is now: 4.80 MB
+0001.167 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 1100 files added (on-disk size: 4894.1 KB)
+0001.169 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 1200 files added (on-disk size: 4894.1 KB)
+0001.170 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 1300 files added (on-disk size: 4894.1 KB)
+0001.172 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 1400 files added (on-disk size: 4894.1 KB)
+0001.174 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 1500 files added (on-disk size: 4894.1 KB)
+0001.174 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.2 MB, 10139 files batched, 501 (1503) added so far); re-opening (prior size: 4894.1 KB)
+0001.256 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 1600 files added (on-disk size: 5689.8 KB)
+0001.258 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 1700 files added (on-disk size: 5689.8 KB)
+0001.260 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 1800 files added (on-disk size: 5689.8 KB)
+0001.261 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 1900 files added (on-disk size: 5689.8 KB)
+0001.263 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 2000 files added (on-disk size: 5689.8 KB)
+0001.263 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (22.3 MB, 10139 files batched, 501 (2004) added so far); re-opening (prior size: 5689.8 KB)
+0002.695 (0) backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: size is now: 15.20 MB
+0002.698 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 2100 files added (on-disk size: 15531.5 KB)
+0002.699 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 2200 files added (on-disk size: 15531.5 KB)
+0002.701 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 2300 files added (on-disk size: 15531.5 KB)
+0002.703 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 2400 files added (on-disk size: 15531.5 KB)
+0002.704 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 2500 files added (on-disk size: 15531.5 KB)
+0002.705 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.7 MB, 10139 files batched, 501 (2505) added so far); re-opening (prior size: 15531.5 KB)
+0003.144 (0) backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: size is now: 19.00 MB
+0003.147 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 2600 files added (on-disk size: 19466.8 KB)
+0003.148 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 2700 files added (on-disk size: 19466.8 KB)
+0003.150 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 2800 files added (on-disk size: 19466.8 KB)
+0003.151 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 2900 files added (on-disk size: 19466.8 KB)
+0003.153 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 3000 files added (on-disk size: 19466.8 KB)
+0003.153 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.7 MB, 10139 files batched, 501 (3006) added so far); re-opening (prior size: 19466.8 KB)
+0003.408 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 3100 files added (on-disk size: 20947.1 KB)
+0003.410 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 3200 files added (on-disk size: 20947.1 KB)
+0003.411 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 3300 files added (on-disk size: 20947.1 KB)
+0003.413 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 3400 files added (on-disk size: 20947.1 KB)
+0003.415 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 3500 files added (on-disk size: 20947.1 KB)
+0003.415 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.4 MB, 10139 files batched, 501 (3507) added so far); re-opening (prior size: 20947.1 KB)
+0003.686 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 3600 files added (on-disk size: 22928.2 KB)
+0003.687 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 3700 files added (on-disk size: 22928.2 KB)
+0003.689 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 3800 files added (on-disk size: 22928.2 KB)
+0003.691 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 3900 files added (on-disk size: 22928.2 KB)
+0003.692 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 4000 files added (on-disk size: 22928.2 KB)
+0003.693 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (12.8 MB, 10139 files batched, 501 (4008) added so far); re-opening (prior size: 22928.2 KB)
+0004.309 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 4100 files added (on-disk size: 27155.7 KB)
+0004.311 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 4200 files added (on-disk size: 27155.7 KB)
+0004.313 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 4300 files added (on-disk size: 27155.7 KB)
+0004.314 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 4400 files added (on-disk size: 27155.7 KB)
+0004.316 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 4500 files added (on-disk size: 27155.7 KB)
+0004.316 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (13.8 MB, 10139 files batched, 501 (4509) added so far); re-opening (prior size: 27155.7 KB)
+0005.001 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 4600 files added (on-disk size: 31990.6 KB)
+0005.003 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 4700 files added (on-disk size: 31990.6 KB)
+0005.005 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 4800 files added (on-disk size: 31990.6 KB)
+0005.006 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 4900 files added (on-disk size: 31990.6 KB)
+0005.008 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 5000 files added (on-disk size: 31990.6 KB)
+0005.008 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.1 MB, 10139 files batched, 501 (5010) added so far); re-opening (prior size: 31990.6 KB)
+0005.351 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 5100 files added (on-disk size: 34417.2 KB)
+0005.353 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 5200 files added (on-disk size: 34417.2 KB)
+0005.355 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 5300 files added (on-disk size: 34417.2 KB)
+0005.356 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 5400 files added (on-disk size: 34417.2 KB)
+0005.358 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 5500 files added (on-disk size: 34417.2 KB)
+0005.358 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.1 MB, 10139 files batched, 501 (5511) added so far); re-opening (prior size: 34417.2 KB)
+0005.569 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 5600 files added (on-disk size: 35410.6 KB)
+0005.571 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 5700 files added (on-disk size: 35410.6 KB)
+0005.573 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 5800 files added (on-disk size: 35410.6 KB)
+0005.574 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 5900 files added (on-disk size: 35410.6 KB)
+0005.576 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 6000 files added (on-disk size: 35410.6 KB)
+0005.576 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (12.1 MB, 10139 files batched, 501 (6012) added so far); re-opening (prior size: 35410.6 KB)
+0006.933 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 6100 files added (on-disk size: 38929.4 KB)
+0006.935 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 6200 files added (on-disk size: 38929.4 KB)
+0006.937 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 6300 files added (on-disk size: 38929.4 KB)
+0006.941 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 6400 files added (on-disk size: 38929.4 KB)
+0006.944 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 6500 files added (on-disk size: 38929.4 KB)
+0006.946 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.5 MB, 10139 files batched, 501 (6513) added so far); re-opening (prior size: 38929.4 KB)
+0007.381 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 6600 files added (on-disk size: 43844.7 KB)
+0007.382 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 6700 files added (on-disk size: 43844.7 KB)
+0007.384 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 6800 files added (on-disk size: 43844.7 KB)
+0007.385 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 6900 files added (on-disk size: 43844.7 KB)
+0007.387 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 7000 files added (on-disk size: 43844.7 KB)
+0007.388 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.5 MB, 10139 files batched, 501 (7014) added so far); re-opening (prior size: 43844.7 KB)
+0007.802 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 7100 files added (on-disk size: 46074.4 KB)
+0007.803 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 7200 files added (on-disk size: 46074.4 KB)
+0007.805 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 7300 files added (on-disk size: 46074.4 KB)
+0007.806 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 7400 files added (on-disk size: 46074.4 KB)
+0007.808 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 7500 files added (on-disk size: 46074.4 KB)
+0007.809 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (11.7 MB, 10139 files batched, 501 (7515) added so far); re-opening (prior size: 46074.4 KB)
+0008.491 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 7600 files added (on-disk size: 49976.3 KB)
+0008.493 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 7700 files added (on-disk size: 49976.3 KB)
+0008.495 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 7800 files added (on-disk size: 49976.3 KB)
+0008.496 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 7900 files added (on-disk size: 49976.3 KB)
+0008.498 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 8000 files added (on-disk size: 49976.3 KB)
+0008.498 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.6 MB, 10139 files batched, 501 (8016) added so far); re-opening (prior size: 49976.3 KB)
+0009.097 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 8100 files added (on-disk size: 53182.8 KB)
+0009.099 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 8200 files added (on-disk size: 53182.8 KB)
+0009.100 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 8300 files added (on-disk size: 53182.8 KB)
+0009.102 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 8400 files added (on-disk size: 53182.8 KB)
+0009.103 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 8500 files added (on-disk size: 53182.8 KB)
+0009.104 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.1 MB, 10139 files batched, 501 (8517) added so far); re-opening (prior size: 53182.8 KB)
+0009.351 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 8600 files added (on-disk size: 54296.3 KB)
+0009.353 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 8700 files added (on-disk size: 54296.3 KB)
+0009.354 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 8800 files added (on-disk size: 54296.3 KB)
+0009.356 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 8900 files added (on-disk size: 54296.3 KB)
+0009.357 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 9000 files added (on-disk size: 54296.3 KB)
+0009.358 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.7 MB, 10139 files batched, 501 (9018) added so far); re-opening (prior size: 54296.3 KB)
+0009.669 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 9100 files added (on-disk size: 55878.4 KB)
+0009.671 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 9200 files added (on-disk size: 55878.4 KB)
+0009.672 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 9300 files added (on-disk size: 55878.4 KB)
+0009.674 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 9400 files added (on-disk size: 55878.4 KB)
+0009.676 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 9500 files added (on-disk size: 55878.4 KB)
+0009.676 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.5 MB, 10139 files batched, 501 (9519) added so far); re-opening (prior size: 55878.4 KB)
+0010.005 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 9600 files added (on-disk size: 57688.9 KB)
+0010.006 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 9700 files added (on-disk size: 57688.9 KB)
+0010.008 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 9800 files added (on-disk size: 57688.9 KB)
+0010.010 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 9900 files added (on-disk size: 57688.9 KB)
+0010.011 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 10000 files added (on-disk size: 57688.9 KB)
+0010.012 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.3 MB, 10139 files batched, 501 (10020) added so far); re-opening (prior size: 57688.9 KB)
+0010.532 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip.tmp: 10100 files added (on-disk size: 59570.5 KB)
+0011.417 (0) Created plugins zip (0) - 59921 KB in 11.3 s (5280.6 KB/s) (sha1: a0eab2f9421951c6d20d72cde38ea0b337cf2bd2, sha256: 2c08f8801875d65b240d3e580b8b85a7710568e4d07af64aa3db143c35d538dc)
+0011.418 (0) Beginning creation of dump of themes (split every: 400 MB)
+0011.428 (0) Total entities for the zip file: 140 directories, 787 files (0 skipped as non-modified), 57.7 MB
+0011.430 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0011.432 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0011.433 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0011.435 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0011.436 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (27.7 MB, 787 files batched, 468 (468) added so far); re-opening (prior size: 0 KB)
+0011.903 (0) backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-themes.zip.tmp: size is now: 20.40 MB
+0011.904 (0) A useful amount of data was added after this amount of zip processing: 0.9 s (normalised: 0.8 s, rate: 31413 KB/s)
+0011.905 (0) Performance is good - will increase the amount of data we attempt to batch (time=0.90426993370056, normalised_time=0.81494842303937, max_time=-1, data points known=0, old_max_bytes=26214400, new_max_bytes=193001661)
+0011.906 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-themes.zip.tmp: 500 files added (on-disk size: 20923.1 KB)
+0011.908 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-themes.zip.tmp: 600 files added (on-disk size: 20923.1 KB)
+0011.910 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-themes.zip.tmp: 700 files added (on-disk size: 20923.1 KB)
+0012.503 (0) backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-themes.zip.tmp: size is now: 27.30 MB
+0012.831 (0) Created themes zip (0) - 27927.6 KB in 1.4 s (19780.2 KB/s) (sha1: 20562b87430f694a3db75e2da3c68f514cb1c491, sha256: 8b18c40ee2d64c9e1014c5a434e50d4d5874150c1e1e10aa26870a00a3ea7947)
+0012.832 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0012.833 (0) Looking for candidates to back up in: /home/172889.cloudwaysapps.com/hdrgsxnepb/public_html/wp-content/uploads
+0012.833 (0) finding files: wc-logs: adding to list (1)
+0012.833 (0) finding files: elementor: adding to list (2)
+0012.834 (0) finding files: 2016: adding to list (3)
+0012.834 (0) finding files: 2018: adding to list (4)
+0012.834 (0) finding files: pum: adding to list (5)
+0012.835 (0) finding files: masterslider: adding to list (6)
+0012.835 (0) finding files: 2015: adding to list (7)
+0012.835 (0) finding files: GeoIPv6.dat: adding to list (8)
+0012.836 (0) finding files: woocommerce_uploads: adding to list (9)
+0012.836 (0) finding files: revslider: adding to list (10)
+0012.836 (0) finding files: gdlr-style-custom.css: adding to list (11)
+0012.837 (0) finding files: GeoIP.dat: adding to list (12)
+0012.837 (0) finding files: 2017: adding to list (13)
+0012.837 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0012.861 (0) Total entities for the zip file: 168 directories, 2472 files (0 skipped as non-modified), 153.8 MB
+0012.863 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0012.864 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0012.866 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0012.867 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-uploads.zip.tmp: 400 files added (on-disk size: 0 KB)
+0012.869 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-uploads.zip.tmp: 500 files added (on-disk size: 0 KB)
+0012.869 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.1 MB, 2472 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0012.997 (0) backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-uploads.zip.tmp: size is now: 10.10 MB
+0013.000 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-uploads.zip.tmp: 600 files added (on-disk size: 10319.2 KB)
+0013.001 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-uploads.zip.tmp: 700 files added (on-disk size: 10319.2 KB)
+0013.003 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-uploads.zip.tmp: 800 files added (on-disk size: 10319.2 KB)
+0013.004 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-uploads.zip.tmp: 900 files added (on-disk size: 10319.2 KB)
+0013.006 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-uploads.zip.tmp: 1000 files added (on-disk size: 10319.2 KB)
+0013.006 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (32.5 MB, 2472 files batched, 501 (1002) added so far); re-opening (prior size: 10319.2 KB)
+0013.622 (0) backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-uploads.zip.tmp: size is now: 40.70 MB
+0013.624 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-uploads.zip.tmp: 1100 files added (on-disk size: 41710 KB)
+0013.626 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-uploads.zip.tmp: 1200 files added (on-disk size: 41710 KB)
+0013.627 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-uploads.zip.tmp: 1300 files added (on-disk size: 41710 KB)
+0013.629 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-uploads.zip.tmp: 1400 files added (on-disk size: 41710 KB)
+0013.631 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-uploads.zip.tmp: 1500 files added (on-disk size: 41710 KB)
+0013.631 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (42.5 MB, 2472 files batched, 501 (1503) added so far); re-opening (prior size: 41710 KB)
+0014.016 (0) backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-uploads.zip.tmp: size is now: 83.00 MB
+0014.018 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-uploads.zip.tmp: 1600 files added (on-disk size: 85017.3 KB)
+0014.020 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-uploads.zip.tmp: 1700 files added (on-disk size: 85017.3 KB)
+0014.021 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-uploads.zip.tmp: 1800 files added (on-disk size: 85017.3 KB)
+0014.023 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-uploads.zip.tmp: 1900 files added (on-disk size: 85017.3 KB)
+0014.025 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-uploads.zip.tmp: 2000 files added (on-disk size: 85017.3 KB)
+0014.025 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (53.4 MB, 2472 files batched, 501 (2004) added so far); re-opening (prior size: 85017.3 KB)
+0014.845 (0) backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-uploads.zip.tmp: size is now: 135.40 MB
+0014.847 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-uploads.zip.tmp: 2100 files added (on-disk size: 138628.9 KB)
+0014.849 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-uploads.zip.tmp: 2200 files added (on-disk size: 138628.9 KB)
+0014.851 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-uploads.zip.tmp: 2300 files added (on-disk size: 138628.9 KB)
+0014.852 (0) Zip: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-uploads.zip.tmp: 2400 files added (on-disk size: 138628.9 KB)
+0017.113 (0) Created uploads zip (0) - 153868.6 KB in 4.3 s (35989.4 KB/s) (sha1: 2e7efc34d5115a53a227d39d8bcb2cdd38154eae, sha256: b4cd0289f5b8bb8b2513e0b365b59fbea5a433635c1489b4cb5082c3530389c3)
+0017.115 (0) Beginning backup of other directories found in the content directory (index: 0)
+0017.115 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0017.116 (0) Looking for candidates to back up in: /home/172889.cloudwaysapps.com/hdrgsxnepb/public_html/wp-content
+0017.116 (0) finding files: breeze-config: adding to list (1)
+0017.116 (0) finding files: themes: skipping: this is the themes directory
+0017.117 (0) finding files: ewww: adding to list (2)
+0017.117 (0) finding files: plugins: skipping: this is the plugins directory
+0017.117 (0) finding files: index.php: adding to list (3)
+0017.118 (0) finding files: upgrade: skipping: excluded by options
+0017.118 (0) finding files: cache: skipping: excluded by options
+0017.118 (0) finding files: uploads: skipping: this is the uploads directory
+0017.119 (0) finding files: languages: adding to list (4)
+0017.119 (0) finding files: updraft: skipping: this is the updraft directory
+0017.121 (0) Total entities for the zip file: 5 directories, 51 files (0 skipped as non-modified), 8.2 MB
+0017.640 (0) backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-others.zip.tmp: size is now: 2.80 MB
+0017.674 (0) Created others zip (0) - 2823.1 KB in 0.6 s (5090.6 KB/s) (sha1: 05a8cb64cfeef8899046bc86d753fdfb913f282f, sha256: 490e06386d62eb327385adee139cd73ff0076dc6efdf7e1068581c1e79a83974)
+0017.677 (0) Saving backup status to database (elements: 8)
+0017.678 (0) Beginning creation of database dump (WordPress DB)
+0017.679 (0) Testing: /usr/bin/mysqldump
+0017.690 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `ag_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1091 bytes total)
+0017.691 (0) Binary mysqldump: error (code: 5)
+0017.695 (0) Table ag_options: Total expected rows (approximate): 1115
+0017.792 (0) Table ag_options: Total rows added: 1111 in 0.10 seconds
+0017.793 (0) Table ag_options: finishing file (backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_options.table.gz - 309.6 KB)
+0017.795 (0) Table ag_users: Total expected rows (approximate): 1
+0017.796 (0) Table ag_users: Total rows added: 1 in 0.00 seconds
+0017.796 (0) Table ag_users: finishing file (backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_users.table.gz - 0.5 KB)
+0017.798 (0) Table ag_usermeta: Total expected rows (approximate): 43
+0017.800 (0) Table ag_usermeta: Total rows added: 43 in 0.00 seconds
+0017.801 (0) Table ag_usermeta: finishing file (backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_usermeta.table.gz - 4 KB)
+0017.803 (0) Table ag_commentmeta: Total expected rows (approximate): 0
+0017.804 (0) Table ag_commentmeta: Total rows added: 0 in 0.00 seconds
+0017.804 (0) Table ag_commentmeta: finishing file (backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_commentmeta.table.gz - 0.3 KB)
+0017.806 (0) Table ag_comments: Total expected rows (approximate): 1
+0017.807 (0) Table ag_comments: Total rows added: 1 in 0.00 seconds
+0017.808 (0) Table ag_comments: finishing file (backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_comments.table.gz - 0.8 KB)
+0017.810 (0) Table ag_links: Total expected rows (approximate): 0
+0017.811 (0) Table ag_links: Total rows added: 0 in 0.00 seconds
+0017.811 (0) Table ag_links: finishing file (backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_links.table.gz - 0.4 KB)
+0017.813 (0) Table ag_postmeta: Total expected rows (approximate): 3679
+0017.918 (0) Table ag_postmeta: Total rows added: 3679 in 0.10 seconds
+0017.919 (0) Table ag_postmeta: finishing file (backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_postmeta.table.gz - 351.5 KB)
+0017.921 (0) Table ag_posts: Total expected rows (approximate): 696
+0017.966 (0) Table ag_posts: Total rows added: 696 in 0.04 seconds
+0017.967 (0) Table ag_posts: finishing file (backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_posts.table.gz - 110.9 KB)
+0017.969 (0) Table ag_term_relationships: Total expected rows (approximate): 247
+0017.970 (0) Table ag_term_relationships: Total rows added: 247 in 0.00 seconds
+0017.971 (0) Table ag_term_relationships: finishing file (backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_term_relationships.table.gz - 1 KB)
+0017.973 (0) Table ag_term_taxonomy: Total expected rows (approximate): 88
+0017.974 (0) Table ag_term_taxonomy: Total rows added: 88 in 0.00 seconds
+0017.975 (0) Table ag_term_taxonomy: finishing file (backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_term_taxonomy.table.gz - 1 KB)
+0017.977 (0) Table ag_termmeta: Total expected rows (approximate): 4
+0017.978 (0) Table ag_termmeta: Total rows added: 4 in 0.00 seconds
+0017.978 (0) Table ag_termmeta: finishing file (backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_termmeta.table.gz - 0.4 KB)
+0017.981 (0) Table ag_terms: Total expected rows (approximate): 88
+0017.982 (0) Table ag_terms: Total rows added: 88 in 0.00 seconds
+0017.982 (0) Table ag_terms: finishing file (backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_terms.table.gz - 1.4 KB)
+0017.985 (0) Table ag_woocommerce_order_itemmeta: Total expected rows (approximate): 0
+0017.986 (0) Table ag_woocommerce_order_itemmeta: Total rows added: 0 in 0.00 seconds
+0017.986 (0) Table ag_woocommerce_order_itemmeta: finishing file (backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_woocommerce_order_itemmeta.table.gz - 0.3 KB)
+0017.988 (0) Table ag_woocommerce_payment_tokenmeta: Total expected rows (approximate): 0
+0017.989 (0) Table ag_woocommerce_payment_tokenmeta: Total rows added: 0 in 0.00 seconds
+0017.989 (0) Table ag_woocommerce_payment_tokenmeta: finishing file (backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_woocommerce_payment_tokenmeta.table.gz - 0.3 KB)
+0017.992 (0) Table ag_yoast_seo_links: Total expected rows (approximate): 54
+0017.993 (0) Table ag_yoast_seo_links: Total rows added: 54 in 0.00 seconds
+0017.993 (0) Table ag_yoast_seo_links: finishing file (backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_yoast_seo_links.table.gz - 1 KB)
+0017.995 (0) Table ag_yoast_seo_meta: Total expected rows (approximate): 2214
+0018.002 (0) Table ag_yoast_seo_meta: Total rows added: 2214 in 0.01 seconds
+0018.002 (0) Table ag_yoast_seo_meta: finishing file (backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_yoast_seo_meta.table.gz - 5.5 KB)
+0018.004 (0) Table ag_booking: Total expected rows (approximate): 1
+0018.005 (0) Table ag_booking: Total rows added: 1 in 0.00 seconds
+0018.006 (0) Table ag_booking: finishing file (backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_booking.table.gz - 0.5 KB)
+0018.008 (0) Table ag_bookingdates: Total expected rows (approximate): 3
+0018.009 (0) Table ag_bookingdates: Total rows added: 3 in 0.00 seconds
+0018.009 (0) Table ag_bookingdates: finishing file (backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_bookingdates.table.gz - 0.4 KB)
+0018.011 (0) Table ag_create_map: Total expected rows (approximate): 0
+0018.012 (0) Table ag_create_map: Total rows added: 0 in 0.00 seconds
+0018.013 (0) Table ag_create_map: finishing file (backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_create_map.table.gz - 0.5 KB)
+0018.015 (0) Table ag_ewwwio_images: Total expected rows (approximate): 2193
+0018.046 (0) Table ag_ewwwio_images: Total rows added: 2193 in 0.03 seconds
+0018.047 (0) Table ag_ewwwio_images: finishing file (backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_ewwwio_images.table.gz - 52 KB)
+0018.049 (0) Table ag_frm_fields: Total expected rows (approximate): 57
+0018.052 (0) Table ag_frm_fields: Total rows added: 57 in 0.00 seconds
+0018.053 (0) Table ag_frm_fields: finishing file (backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_frm_fields.table.gz - 6.9 KB)
+0018.055 (0) Table ag_frm_forms: Total expected rows (approximate): 13
+0018.056 (0) Table ag_frm_forms: Total rows added: 13 in 0.00 seconds
+0018.057 (0) Table ag_frm_forms: finishing file (backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_frm_forms.table.gz - 2.1 KB)
+0018.059 (0) Table ag_frm_item_metas: Total expected rows (approximate): 0
+0018.060 (0) Table ag_frm_item_metas: Total rows added: 0 in 0.00 seconds
+0018.060 (0) Table ag_frm_item_metas: finishing file (backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_frm_item_metas.table.gz - 0.3 KB)
+0018.062 (0) Table ag_frm_items: Total expected rows (approximate): 1
+0018.064 (0) Table ag_frm_items: Total rows added: 1 in 0.00 seconds
+0018.064 (0) Table ag_frm_items: finishing file (backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_frm_items.table.gz - 0.7 KB)
+0018.066 (0) Table ag_group_map: Total expected rows (approximate): 0
+0018.067 (0) Table ag_group_map: Total rows added: 0 in 0.00 seconds
+0018.068 (0) Table ag_group_map: finishing file (backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_group_map.table.gz - 0.4 KB)
+0018.070 (0) Table ag_map_locations: Total expected rows (approximate): 0
+0018.071 (0) Table ag_map_locations: Total rows added: 0 in 0.00 seconds
+0018.071 (0) Table ag_map_locations: finishing file (backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_map_locations.table.gz - 0.4 KB)
+0018.073 (0) Table ag_masterslider_options: Total expected rows (approximate): 5
+0018.075 (0) Table ag_masterslider_options: Total rows added: 5 in 0.00 seconds
+0018.076 (0) Table ag_masterslider_options: finishing file (backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_masterslider_options.table.gz - 8.1 KB)
+0018.078 (0) Table ag_masterslider_sliders: Total expected rows (approximate): 1
+0018.079 (0) Table ag_masterslider_sliders: Total rows added: 1 in 0.00 seconds
+0018.080 (0) Table ag_masterslider_sliders: finishing file (backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_masterslider_sliders.table.gz - 3.2 KB)
+0018.082 (0) Table ag_nf3_action_meta: Total expected rows (approximate): 267
+0018.084 (0) Table ag_nf3_action_meta: Total rows added: 267 in 0.00 seconds
+0018.085 (0) Table ag_nf3_action_meta: finishing file (backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_nf3_action_meta.table.gz - 2.6 KB)
+0018.087 (0) Table ag_nf3_actions: Total expected rows (approximate): 13
+0018.088 (0) Table ag_nf3_actions: Total rows added: 13 in 0.00 seconds
+0018.088 (0) Table ag_nf3_actions: finishing file (backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_nf3_actions.table.gz - 0.6 KB)
+0018.090 (0) Table ag_nf3_field_meta: Total expected rows (approximate): 763
+0018.100 (0) Table ag_nf3_field_meta: Total rows added: 763 in 0.01 seconds
+0018.101 (0) Table ag_nf3_field_meta: finishing file (backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_nf3_field_meta.table.gz - 12.8 KB)
+0018.103 (0) Table ag_nf3_fields: Total expected rows (approximate): 36
+0018.104 (0) Table ag_nf3_fields: Total rows added: 36 in 0.00 seconds
+0018.105 (0) Table ag_nf3_fields: finishing file (backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_nf3_fields.table.gz - 1.5 KB)
+0018.107 (0) Table ag_nf3_form_meta: Total expected rows (approximate): 141
+0018.108 (0) Table ag_nf3_form_meta: Total rows added: 141 in 0.00 seconds
+0018.109 (0) Table ag_nf3_form_meta: finishing file (backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_nf3_form_meta.table.gz - 2.2 KB)
+0018.111 (0) Table ag_nf3_forms: Total expected rows (approximate): 3
+0018.112 (0) Table ag_nf3_forms: Total rows added: 3 in 0.00 seconds
+0018.113 (0) Table ag_nf3_forms: finishing file (backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_nf3_forms.table.gz - 0.5 KB)
+0018.115 (0) Table ag_nf3_object_meta: Total expected rows (approximate): 0
+0018.116 (0) Table ag_nf3_object_meta: Total rows added: 0 in 0.00 seconds
+0018.116 (0) Table ag_nf3_object_meta: finishing file (backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_nf3_object_meta.table.gz - 0.3 KB)
+0018.118 (0) Table ag_nf3_objects: Total expected rows (approximate): 0
+0018.119 (0) Table ag_nf3_objects: Total rows added: 0 in 0.00 seconds
+0018.119 (0) Table ag_nf3_objects: finishing file (backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_nf3_objects.table.gz - 0.4 KB)
+0018.122 (0) Table ag_nf3_relationships: Total expected rows (approximate): 0
+0018.123 (0) Table ag_nf3_relationships: Total rows added: 0 in 0.00 seconds
+0018.123 (0) Table ag_nf3_relationships: finishing file (backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_nf3_relationships.table.gz - 0.4 KB)
+0018.125 (0) Table ag_revslider_css: Total expected rows (approximate): 109
+0018.128 (0) Table ag_revslider_css: Total rows added: 109 in 0.00 seconds
+0018.129 (0) Table ag_revslider_css: finishing file (backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_revslider_css.table.gz - 4.8 KB)
+0018.131 (0) Table ag_revslider_layer_animations: Total expected rows (approximate): 0
+0018.132 (0) Table ag_revslider_layer_animations: Total rows added: 0 in 0.00 seconds
+0018.132 (0) Table ag_revslider_layer_animations: finishing file (backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_revslider_layer_animations.table.gz - 0.3 KB)
+0018.134 (0) Table ag_revslider_navigations: Total expected rows (approximate): 0
+0018.135 (0) Table ag_revslider_navigations: Total rows added: 0 in 0.00 seconds
+0018.135 (0) Table ag_revslider_navigations: finishing file (backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_revslider_navigations.table.gz - 0.3 KB)
+0018.138 (0) Table ag_revslider_sliders: Total expected rows (approximate): 1
+0018.139 (0) Table ag_revslider_sliders: Total rows added: 1 in 0.00 seconds
+0018.139 (0) Table ag_revslider_sliders: finishing file (backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_revslider_sliders.table.gz - 3 KB)
+0018.141 (0) Table ag_revslider_slides: Total expected rows (approximate): 3
+0018.144 (0) Table ag_revslider_slides: Total rows added: 3 in 0.00 seconds
+0018.144 (0) Table ag_revslider_slides: finishing file (backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_revslider_slides.table.gz - 5 KB)
+0018.146 (0) Table ag_revslider_static_slides: Total expected rows (approximate): 0
+0018.147 (0) Table ag_revslider_static_slides: Total rows added: 0 in 0.00 seconds
+0018.148 (0) Table ag_revslider_static_slides: finishing file (backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_revslider_static_slides.table.gz - 0.3 KB)
+0018.150 (0) Table ag_wc_download_log: Total expected rows (approximate): 0
+0018.151 (0) Table ag_wc_download_log: Total rows added: 0 in 0.00 seconds
+0018.151 (0) Table ag_wc_download_log: finishing file (backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_wc_download_log.table.gz - 0.3 KB)
+0018.153 (0) Table ag_wc_webhooks: Total expected rows (approximate): 0
+0018.154 (0) Table ag_wc_webhooks: Total rows added: 0 in 0.00 seconds
+0018.155 (0) Table ag_wc_webhooks: finishing file (backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_wc_webhooks.table.gz - 0.4 KB)
+0018.157 (0) Table ag_woocommerce_api_keys: Total expected rows (approximate): 0
+0018.158 (0) Table ag_woocommerce_api_keys: Total rows added: 0 in 0.00 seconds
+0018.158 (0) Table ag_woocommerce_api_keys: finishing file (backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_woocommerce_api_keys.table.gz - 0.4 KB)
+0018.160 (0) Table ag_woocommerce_attribute_taxonomies: Total expected rows (approximate): 0
+0018.161 (0) Table ag_woocommerce_attribute_taxonomies: Total rows added: 0 in 0.00 seconds
+0018.162 (0) Table ag_woocommerce_attribute_taxonomies: finishing file (backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_woocommerce_attribute_taxonomies.table.gz - 0.4 KB)
+0018.164 (0) Table ag_woocommerce_downloadable_product_permissions: Total expected rows (approximate): 0
+0018.165 (0) Table ag_woocommerce_downloadable_product_permissions: Total rows added: 0 in 0.00 seconds
+0018.165 (0) Table ag_woocommerce_downloadable_product_permissions: finishing file (backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_woocommerce_downloadable_product_permissions.table.gz - 0.5 KB)
+0018.173 (0) Table ag_woocommerce_log: Total expected rows (approximate): 0
+0018.174 (0) Table ag_woocommerce_log: Total rows added: 0 in 0.00 seconds
+0018.174 (0) Table ag_woocommerce_log: finishing file (backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_woocommerce_log.table.gz - 0.3 KB)
+0018.176 (0) Table ag_woocommerce_order_items: Total expected rows (approximate): 0
+0018.180 (0) Table ag_woocommerce_order_items: Total rows added: 0 in 0.00 seconds
+0018.180 (0) Table ag_woocommerce_order_items: finishing file (backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_woocommerce_order_items.table.gz - 0.3 KB)
+0018.183 (0) Table ag_woocommerce_payment_tokens: Total expected rows (approximate): 0
+0018.183 (0) Table ag_woocommerce_payment_tokens: Total rows added: 0 in 0.00 seconds
+0018.184 (0) Table ag_woocommerce_payment_tokens: finishing file (backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_woocommerce_payment_tokens.table.gz - 0.4 KB)
+0018.186 (0) Table ag_woocommerce_sessions: Total expected rows (approximate): 2
+0018.187 (0) Table ag_woocommerce_sessions: Total rows added: 2 in 0.00 seconds
+0018.188 (0) Table ag_woocommerce_sessions: finishing file (backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_woocommerce_sessions.table.gz - 0.8 KB)
+0018.190 (0) Table ag_woocommerce_shipping_zone_locations: Total expected rows (approximate): 0
+0018.191 (0) Table ag_woocommerce_shipping_zone_locations: Total rows added: 0 in 0.00 seconds
+0018.191 (0) Table ag_woocommerce_shipping_zone_locations: finishing file (backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_woocommerce_shipping_zone_locations.table.gz - 0.3 KB)
+0018.193 (0) Table ag_woocommerce_shipping_zone_methods: Total expected rows (approximate): 0
+0018.194 (0) Table ag_woocommerce_shipping_zone_methods: Total rows added: 0 in 0.00 seconds
+0018.195 (0) Table ag_woocommerce_shipping_zone_methods: finishing file (backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_woocommerce_shipping_zone_methods.table.gz - 0.3 KB)
+0018.197 (0) Table ag_woocommerce_shipping_zones: Total expected rows (approximate): 0
+0018.198 (0) Table ag_woocommerce_shipping_zones: Total rows added: 0 in 0.00 seconds
+0018.198 (0) Table ag_woocommerce_shipping_zones: finishing file (backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_woocommerce_shipping_zones.table.gz - 0.3 KB)
+0018.200 (0) Table ag_woocommerce_tax_rate_locations: Total expected rows (approximate): 0
+0018.201 (0) Table ag_woocommerce_tax_rate_locations: Total rows added: 0 in 0.00 seconds
+0018.202 (0) Table ag_woocommerce_tax_rate_locations: finishing file (backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_woocommerce_tax_rate_locations.table.gz - 0.3 KB)
+0018.204 (0) Table ag_woocommerce_tax_rates: Total expected rows (approximate): 0
+0018.205 (0) Table ag_woocommerce_tax_rates: Total rows added: 0 in 0.00 seconds
+0018.205 (0) Table ag_woocommerce_tax_rates: finishing file (backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_woocommerce_tax_rates.table.gz - 0.4 KB)
+0018.206 (0) Skipping table (lacks our prefix (ag_)): wbk_email_templates
+0018.206 (0) Skipping table (lacks our prefix (ag_)): wp_commentmeta
+0018.207 (0) Skipping table (lacks our prefix (ag_)): wp_comments
+0018.207 (0) Skipping table (lacks our prefix (ag_)): wp_links
+0018.207 (0) Skipping table (lacks our prefix (ag_)): wp_options
+0018.208 (0) Skipping table (lacks our prefix (ag_)): wp_postmeta
+0018.208 (0) Skipping table (lacks our prefix (ag_)): wp_posts
+0018.208 (0) Skipping table (lacks our prefix (ag_)): wp_term_relationships
+0018.209 (0) Skipping table (lacks our prefix (ag_)): wp_term_taxonomy
+0018.209 (0) Skipping table (lacks our prefix (ag_)): wp_termmeta
+0018.210 (0) Skipping table (lacks our prefix (ag_)): wp_terms
+0018.210 (0) Skipping table (lacks our prefix (ag_)): wp_usermeta
+0018.210 (0) Skipping table (lacks our prefix (ag_)): wp_users
+0018.211 (0) Skipping table (lacks our prefix (ag_)): wp_wc_download_log
+0018.211 (0) Skipping table (lacks our prefix (ag_)): wp_wc_webhooks
+0018.211 (0) Skipping table (lacks our prefix (ag_)): wp_woocommerce_api_keys
+0018.212 (0) Skipping table (lacks our prefix (ag_)): wp_woocommerce_attribute_taxonomies
+0018.212 (0) Skipping table (lacks our prefix (ag_)): wp_woocommerce_downloadable_product_permissions
+0018.212 (0) Skipping table (lacks our prefix (ag_)): wp_woocommerce_log
+0018.213 (0) Skipping table (lacks our prefix (ag_)): wp_woocommerce_order_itemmeta
+0018.213 (0) Skipping table (lacks our prefix (ag_)): wp_woocommerce_order_items
+0018.213 (0) Skipping table (lacks our prefix (ag_)): wp_woocommerce_payment_tokenmeta
+0018.214 (0) Skipping table (lacks our prefix (ag_)): wp_woocommerce_payment_tokens
+0018.214 (0) Skipping table (lacks our prefix (ag_)): wp_woocommerce_sessions
+0018.214 (0) Skipping table (lacks our prefix (ag_)): wp_woocommerce_shipping_zone_locations
+0018.215 (0) Skipping table (lacks our prefix (ag_)): wp_woocommerce_shipping_zone_methods
+0018.215 (0) Skipping table (lacks our prefix (ag_)): wp_woocommerce_shipping_zones
+0018.215 (0) Skipping table (lacks our prefix (ag_)): wp_woocommerce_tax_rate_locations
+0018.216 (0) Skipping table (lacks our prefix (ag_)): wp_woocommerce_tax_rates
+0018.217 (0) backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_options.table.gz (1/86): adding to final database dump
+0018.291 (0) backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_users.table.gz (2/86): adding to final database dump
+0018.291 (0) backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_usermeta.table.gz (3/86): adding to final database dump
+0018.292 (0) backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_commentmeta.table.gz (4/86): adding to final database dump
+0018.293 (0) backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_comments.table.gz (5/86): adding to final database dump
+0018.293 (0) backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_links.table.gz (6/86): adding to final database dump
+0018.294 (0) backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_postmeta.table.gz (7/86): adding to final database dump
+0018.383 (0) backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_posts.table.gz (8/86): adding to final database dump
+0018.412 (0) backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_term_relationships.table.gz (9/86): adding to final database dump
+0018.412 (0) backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_term_taxonomy.table.gz (10/86): adding to final database dump
+0018.413 (0) backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_termmeta.table.gz (11/86): adding to final database dump
+0018.413 (0) backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_terms.table.gz (12/86): adding to final database dump
+0018.414 (0) backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_woocommerce_order_itemmeta.table.gz (13/86): adding to final database dump
+0018.414 (0) backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_woocommerce_payment_tokenmeta.table.gz (14/86): adding to final database dump
+0018.415 (0) backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_yoast_seo_links.table.gz (15/86): adding to final database dump
+0018.415 (0) backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_yoast_seo_meta.table.gz (16/86): adding to final database dump
+0018.418 (0) backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_booking.table.gz (17/86): adding to final database dump
+0018.418 (0) backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_bookingdates.table.gz (18/86): adding to final database dump
+0018.419 (0) backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_create_map.table.gz (19/86): adding to final database dump
+0018.419 (0) backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_ewwwio_images.table.gz (20/86): adding to final database dump
+0018.433 (0) backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_frm_fields.table.gz (21/86): adding to final database dump
+0018.435 (0) backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_frm_forms.table.gz (22/86): adding to final database dump
+0018.436 (0) backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_frm_item_metas.table.gz (23/86): adding to final database dump
+0018.437 (0) backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_frm_items.table.gz (24/86): adding to final database dump
+0018.437 (0) backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_group_map.table.gz (25/86): adding to final database dump
+0018.438 (0) backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_map_locations.table.gz (26/86): adding to final database dump
+0018.438 (0) backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_masterslider_options.table.gz (27/86): adding to final database dump
+0018.440 (0) backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_masterslider_sliders.table.gz (28/86): adding to final database dump
+0018.440 (0) backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_nf3_action_meta.table.gz (29/86): adding to final database dump
+0018.442 (0) backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_nf3_actions.table.gz (30/86): adding to final database dump
+0018.442 (0) backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_nf3_field_meta.table.gz (31/86): adding to final database dump
+0018.448 (0) backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_nf3_fields.table.gz (32/86): adding to final database dump
+0018.449 (0) backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_nf3_form_meta.table.gz (33/86): adding to final database dump
+0018.450 (0) backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_nf3_forms.table.gz (34/86): adding to final database dump
+0018.450 (0) backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_nf3_object_meta.table.gz (35/86): adding to final database dump
+0018.451 (0) backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_nf3_objects.table.gz (36/86): adding to final database dump
+0018.451 (0) backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_nf3_relationships.table.gz (37/86): adding to final database dump
+0018.451 (0) backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_revslider_css.table.gz (38/86): adding to final database dump
+0018.453 (0) backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_revslider_layer_animations.table.gz (39/86): adding to final database dump
+0018.454 (0) backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_revslider_navigations.table.gz (40/86): adding to final database dump
+0018.454 (0) backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_revslider_sliders.table.gz (41/86): adding to final database dump
+0018.455 (0) backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_revslider_slides.table.gz (42/86): adding to final database dump
+0018.457 (0) backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_revslider_static_slides.table.gz (43/86): adding to final database dump
+0018.458 (0) backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_wc_download_log.table.gz (44/86): adding to final database dump
+0018.458 (0) backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_wc_webhooks.table.gz (45/86): adding to final database dump
+0018.459 (0) backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_woocommerce_api_keys.table.gz (46/86): adding to final database dump
+0018.459 (0) backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_woocommerce_attribute_taxonomies.table.gz (47/86): adding to final database dump
+0018.459 (0) backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_woocommerce_downloadable_product_permissions.table.gz (48/86): adding to final database dump
+0018.460 (0) backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_woocommerce_log.table.gz (49/86): adding to final database dump
+0018.460 (0) backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_woocommerce_order_items.table.gz (50/86): adding to final database dump
+0018.461 (0) backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_woocommerce_payment_tokens.table.gz (51/86): adding to final database dump
+0018.461 (0) backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_woocommerce_sessions.table.gz (52/86): adding to final database dump
+0018.462 (0) backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_woocommerce_shipping_zone_locations.table.gz (53/86): adding to final database dump
+0018.462 (0) backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_woocommerce_shipping_zone_methods.table.gz (54/86): adding to final database dump
+0018.462 (0) backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_woocommerce_shipping_zones.table.gz (55/86): adding to final database dump
+0018.463 (0) backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_woocommerce_tax_rate_locations.table.gz (56/86): adding to final database dump
+0018.463 (0) backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db-table-ag_woocommerce_tax_rates.table.gz (57/86): adding to final database dump
+0018.464 (0) backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db.gz: finished writing out complete database file (888 KB)
+0018.477 (0) Total database tables backed up: 57 (backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db.gz, size: 914092, sha256)
+0018.480 (0) backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0018.480 (0) backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0018.481 (0) backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0018.481 (0) backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-others.zip: others: This file has not yet been successfully uploaded: will queue
+0018.481 (0) backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db.gz: db: This file has not yet been successfully uploaded: will queue
+0018.482 (0) Saving backup history. Total backup size: 239.7 MB
+0018.483 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0018.485 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0018.485 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-d4c89ad69f34083ee45117f5c223b623)
+0021.425 (0) Google Drive quota usage: used=81311.2 MB, total=118784 MB, available=37472.8 MB
+0021.426 (0) backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip: Attempting to upload to Google Drive (into folder id: 1ZkBpBbxS1pXJCWLkNTjbS37P-UUIE6jq)
+0021.843 (0) Googledrive chunked upload: 1.7 % uploaded (1048576)
+0022.000 (0) Googledrive chunked upload: 3.4 % uploaded (2097152)
+0022.160 (0) Googledrive chunked upload: 5.1 % uploaded (3145728)
+0022.295 (0) Googledrive chunked upload: 6.8 % uploaded (4194304)
+0022.469 (0) Googledrive chunked upload: 8.5 % uploaded (5242880)
+0022.627 (0) Googledrive chunked upload: 10.3 % uploaded (6291456)
+0022.837 (0) Googledrive chunked upload: 12 % uploaded (7340032)
+0023.021 (0) Googledrive chunked upload: 13.7 % uploaded (8388608)
+0023.173 (0) Googledrive chunked upload: 15.4 % uploaded (9437184)
+0023.332 (0) Googledrive chunked upload: 17.1 % uploaded (10485760)
+0023.468 (0) Googledrive chunked upload: 18.8 % uploaded (11534336)
+0023.637 (0) Googledrive chunked upload: 20.5 % uploaded (12582912)
+0023.809 (0) Googledrive chunked upload: 22.2 % uploaded (13631488)
+0023.967 (0) Googledrive chunked upload: 23.9 % uploaded (14680064)
+0024.144 (0) Googledrive chunked upload: 25.6 % uploaded (15728640)
+0024.286 (0) Googledrive chunked upload: 27.3 % uploaded (16777216)
+0024.484 (0) Googledrive chunked upload: 29.1 % uploaded (17825792)
+0024.631 (0) Googledrive chunked upload: 30.8 % uploaded (18874368)
+0024.802 (0) Googledrive chunked upload: 32.5 % uploaded (19922944)
+0024.948 (0) Googledrive chunked upload: 34.2 % uploaded (20971520)
+0025.184 (0) Googledrive chunked upload: 35.9 % uploaded (22020096)
+0025.330 (0) Googledrive chunked upload: 37.6 % uploaded (23068672)
+0025.477 (0) Googledrive chunked upload: 39.3 % uploaded (24117248)
+0025.629 (0) Googledrive chunked upload: 41 % uploaded (25165824)
+0025.771 (0) Googledrive chunked upload: 42.7 % uploaded (26214400)
+0025.927 (0) Googledrive chunked upload: 44.4 % uploaded (27262976)
+0026.081 (0) Googledrive chunked upload: 46.1 % uploaded (28311552)
+0026.263 (0) Googledrive chunked upload: 47.8 % uploaded (29360128)
+0026.431 (0) Googledrive chunked upload: 49.6 % uploaded (30408704)
+0026.585 (0) Googledrive chunked upload: 51.3 % uploaded (31457280)
+0026.747 (0) Googledrive chunked upload: 53 % uploaded (32505856)
+0026.884 (0) Googledrive chunked upload: 54.7 % uploaded (33554432)
+0027.016 (0) Googledrive chunked upload: 56.4 % uploaded (34603008)
+0027.205 (0) Googledrive chunked upload: 58.1 % uploaded (35651584)
+0027.379 (0) Googledrive chunked upload: 59.8 % uploaded (36700160)
+0027.582 (0) Googledrive chunked upload: 61.5 % uploaded (37748736)
+0027.734 (0) Googledrive chunked upload: 63.2 % uploaded (38797312)
+0027.878 (0) Googledrive chunked upload: 64.9 % uploaded (39845888)
+0028.097 (0) Googledrive chunked upload: 66.6 % uploaded (40894464)
+0028.265 (0) Googledrive chunked upload: 68.4 % uploaded (41943040)
+0028.415 (0) Googledrive chunked upload: 70.1 % uploaded (42991616)
+0028.551 (0) Googledrive chunked upload: 71.8 % uploaded (44040192)
+0028.702 (0) Googledrive chunked upload: 73.5 % uploaded (45088768)
+0028.845 (0) Googledrive chunked upload: 75.2 % uploaded (46137344)
+0028.992 (0) Googledrive chunked upload: 76.9 % uploaded (47185920)
+0029.151 (0) Googledrive chunked upload: 78.6 % uploaded (48234496)
+0029.395 (0) Googledrive chunked upload: 80.3 % uploaded (49283072)
+0029.540 (0) Googledrive chunked upload: 82 % uploaded (50331648)
+0029.717 (0) Googledrive chunked upload: 83.7 % uploaded (51380224)
+0029.856 (0) Googledrive chunked upload: 85.4 % uploaded (52428800)
+0029.977 (0) Googledrive chunked upload: 87.2 % uploaded (53477376)
+0030.142 (0) Googledrive chunked upload: 88.9 % uploaded (54525952)
+0030.282 (0) Googledrive chunked upload: 90.6 % uploaded (55574528)
+0030.425 (0) Googledrive chunked upload: 92.3 % uploaded (56623104)
+0030.567 (0) Googledrive chunked upload: 94 % uploaded (57671680)
+0030.711 (0) Googledrive chunked upload: 95.7 % uploaded (58720256)
+0030.873 (0) Googledrive chunked upload: 97.4 % uploaded (59768832)
+0031.031 (0) Googledrive chunked upload: 99.1 % uploaded (60817408)
+0032.329 (0) Googledrive chunked upload: 100 % uploaded (60817408)
+0032.330 (0) OK: Archive backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip uploaded to Google Drive in 10.9 seconds
+0032.331 (0) Recording as successfully uploaded: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip (cbf8d672cd5298eeb970767f59d1ea92)
+0032.341 (0) Deleting local file: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-plugins.zip: OK
+0032.647 (0) Google Drive quota usage: used=81311.2 MB, total=118784 MB, available=37472.8 MB
+0032.648 (0) backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-themes.zip: Attempting to upload to Google Drive (into folder id: 1ZkBpBbxS1pXJCWLkNTjbS37P-UUIE6jq)
+0033.034 (0) Googledrive chunked upload: 3.7 % uploaded (1048576)
+0033.174 (0) Googledrive chunked upload: 7.3 % uploaded (2097152)
+0033.407 (0) Googledrive chunked upload: 11 % uploaded (3145728)
+0033.556 (0) Googledrive chunked upload: 14.7 % uploaded (4194304)
+0033.697 (0) Googledrive chunked upload: 18.3 % uploaded (5242880)
+0033.842 (0) Googledrive chunked upload: 22 % uploaded (6291456)
+0034.000 (0) Googledrive chunked upload: 25.7 % uploaded (7340032)
+0034.169 (0) Googledrive chunked upload: 29.3 % uploaded (8388608)
+0034.297 (0) Googledrive chunked upload: 33 % uploaded (9437184)
+0034.442 (0) Googledrive chunked upload: 36.7 % uploaded (10485760)
+0034.579 (0) Googledrive chunked upload: 40.3 % uploaded (11534336)
+0034.702 (0) Googledrive chunked upload: 44 % uploaded (12582912)
+0034.837 (0) Googledrive chunked upload: 47.7 % uploaded (13631488)
+0034.984 (0) Googledrive chunked upload: 51.3 % uploaded (14680064)
+0035.137 (0) Googledrive chunked upload: 55 % uploaded (15728640)
+0035.284 (0) Googledrive chunked upload: 58.7 % uploaded (16777216)
+0035.427 (0) Googledrive chunked upload: 62.3 % uploaded (17825792)
+0035.552 (0) Googledrive chunked upload: 66 % uploaded (18874368)
+0035.682 (0) Googledrive chunked upload: 69.7 % uploaded (19922944)
+0035.839 (0) Googledrive chunked upload: 73.3 % uploaded (20971520)
+0035.983 (0) Googledrive chunked upload: 77 % uploaded (22020096)
+0036.131 (0) Googledrive chunked upload: 80.7 % uploaded (23068672)
+0036.289 (0) Googledrive chunked upload: 84.3 % uploaded (24117248)
+0036.463 (0) Googledrive chunked upload: 88 % uploaded (25165824)
+0036.592 (0) Googledrive chunked upload: 91.7 % uploaded (26214400)
+0036.728 (0) Googledrive chunked upload: 95.3 % uploaded (27262976)
+0036.856 (0) Googledrive chunked upload: 99 % uploaded (28311552)
+0037.796 (0) Googledrive chunked upload: 100 % uploaded (28311552)
+0037.799 (0) OK: Archive backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-themes.zip uploaded to Google Drive in 5.15 seconds
+0037.801 (0) Recording as successfully uploaded: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-themes.zip (351fefae3961fc466d58dba47abab12e)
+0037.809 (0) Deleting local file: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-themes.zip: OK
+0038.124 (0) Google Drive quota usage: used=81397 MB, total=118784 MB, available=37387 MB
+0038.125 (0) backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-uploads.zip: Attempting to upload to Google Drive (into folder id: 1ZkBpBbxS1pXJCWLkNTjbS37P-UUIE6jq)
+0038.545 (0) Googledrive chunked upload: 0.7 % uploaded (1048576)
+0038.690 (0) Googledrive chunked upload: 1.3 % uploaded (2097152)
+0038.827 (0) Googledrive chunked upload: 2 % uploaded (3145728)
+0038.968 (0) Googledrive chunked upload: 2.7 % uploaded (4194304)
+0039.108 (0) Googledrive chunked upload: 3.3 % uploaded (5242880)
+0039.268 (0) Googledrive chunked upload: 4 % uploaded (6291456)
+0039.425 (0) Googledrive chunked upload: 4.7 % uploaded (7340032)
+0039.621 (0) Googledrive chunked upload: 5.3 % uploaded (8388608)
+0039.768 (0) Googledrive chunked upload: 6 % uploaded (9437184)
+0039.901 (0) Googledrive chunked upload: 6.7 % uploaded (10485760)
+0040.036 (0) Googledrive chunked upload: 7.3 % uploaded (11534336)
+0040.168 (0) Googledrive chunked upload: 8 % uploaded (12582912)
+0040.337 (0) Googledrive chunked upload: 8.7 % uploaded (13631488)
+0040.490 (0) Googledrive chunked upload: 9.3 % uploaded (14680064)
+0040.648 (0) Googledrive chunked upload: 10 % uploaded (15728640)
+0040.805 (0) Googledrive chunked upload: 10.6 % uploaded (16777216)
+0040.939 (0) Googledrive chunked upload: 11.3 % uploaded (17825792)
+0041.091 (0) Googledrive chunked upload: 12 % uploaded (18874368)
+0041.258 (0) Googledrive chunked upload: 12.6 % uploaded (19922944)
+0041.388 (0) Googledrive chunked upload: 13.3 % uploaded (20971520)
+0041.545 (0) Googledrive chunked upload: 14 % uploaded (22020096)
+0041.721 (0) Googledrive chunked upload: 14.6 % uploaded (23068672)
+0041.875 (0) Googledrive chunked upload: 15.3 % uploaded (24117248)
+0042.025 (0) Googledrive chunked upload: 16 % uploaded (25165824)
+0042.159 (0) Googledrive chunked upload: 16.6 % uploaded (26214400)
+0042.360 (0) Googledrive chunked upload: 17.3 % uploaded (27262976)
+0042.507 (0) Googledrive chunked upload: 18 % uploaded (28311552)
+0042.692 (0) Googledrive chunked upload: 18.6 % uploaded (29360128)
+0042.820 (0) Googledrive chunked upload: 19.3 % uploaded (30408704)
+0042.974 (0) Googledrive chunked upload: 20 % uploaded (31457280)
+0043.122 (0) Googledrive chunked upload: 20.6 % uploaded (32505856)
+0043.268 (0) Googledrive chunked upload: 21.3 % uploaded (33554432)
+0043.411 (0) Googledrive chunked upload: 22 % uploaded (34603008)
+0043.546 (0) Googledrive chunked upload: 22.6 % uploaded (35651584)
+0043.679 (0) Googledrive chunked upload: 23.3 % uploaded (36700160)
+0043.813 (0) Googledrive chunked upload: 24 % uploaded (37748736)
+0043.979 (0) Googledrive chunked upload: 24.6 % uploaded (38797312)
+0044.223 (0) Googledrive chunked upload: 25.3 % uploaded (39845888)
+0044.365 (0) Googledrive chunked upload: 26 % uploaded (40894464)
+0044.522 (0) Googledrive chunked upload: 26.6 % uploaded (41943040)
+0044.685 (0) Googledrive chunked upload: 27.3 % uploaded (42991616)
+0044.856 (0) Googledrive chunked upload: 28 % uploaded (44040192)
+0045.037 (0) Googledrive chunked upload: 28.6 % uploaded (45088768)
+0045.198 (0) Googledrive chunked upload: 29.3 % uploaded (46137344)
+0045.367 (0) Googledrive chunked upload: 29.9 % uploaded (47185920)
+0045.561 (0) Googledrive chunked upload: 30.6 % uploaded (48234496)
+0045.695 (0) Googledrive chunked upload: 31.3 % uploaded (49283072)
+0045.876 (0) Googledrive chunked upload: 31.9 % uploaded (50331648)
+0046.058 (0) Googledrive chunked upload: 32.6 % uploaded (51380224)
+0046.190 (0) Googledrive chunked upload: 33.3 % uploaded (52428800)
+0046.332 (0) Googledrive chunked upload: 33.9 % uploaded (53477376)
+0046.475 (0) Googledrive chunked upload: 34.6 % uploaded (54525952)
+0046.629 (0) Googledrive chunked upload: 35.3 % uploaded (55574528)
+0046.775 (0) Googledrive chunked upload: 35.9 % uploaded (56623104)
+0046.915 (0) Googledrive chunked upload: 36.6 % uploaded (57671680)
+0047.069 (0) Googledrive chunked upload: 37.3 % uploaded (58720256)
+0047.271 (0) Googledrive chunked upload: 37.9 % uploaded (59768832)
+0047.429 (0) Googledrive chunked upload: 38.6 % uploaded (60817408)
+0047.583 (0) Googledrive chunked upload: 39.3 % uploaded (61865984)
+0047.747 (0) Googledrive chunked upload: 39.9 % uploaded (62914560)
+0047.886 (0) Googledrive chunked upload: 40.6 % uploaded (63963136)
+0048.029 (0) Googledrive chunked upload: 41.3 % uploaded (65011712)
+0048.177 (0) Googledrive chunked upload: 41.9 % uploaded (66060288)
+0048.316 (0) Googledrive chunked upload: 42.6 % uploaded (67108864)
+0048.471 (0) Googledrive chunked upload: 43.3 % uploaded (68157440)
+0048.629 (0) Googledrive chunked upload: 43.9 % uploaded (69206016)
+0048.802 (0) Googledrive chunked upload: 44.6 % uploaded (70254592)
+0048.944 (0) Googledrive chunked upload: 45.3 % uploaded (71303168)
+0049.079 (0) Googledrive chunked upload: 45.9 % uploaded (72351744)
+0049.219 (0) Googledrive chunked upload: 46.6 % uploaded (73400320)
+0049.362 (0) Googledrive chunked upload: 47.3 % uploaded (74448896)
+0049.564 (0) Googledrive chunked upload: 47.9 % uploaded (75497472)
+0049.719 (0) Googledrive chunked upload: 48.6 % uploaded (76546048)
+0049.901 (0) Googledrive chunked upload: 49.2 % uploaded (77594624)
+0050.044 (0) Googledrive chunked upload: 49.9 % uploaded (78643200)
+0050.200 (0) Googledrive chunked upload: 50.6 % uploaded (79691776)
+0050.378 (0) Googledrive chunked upload: 51.2 % uploaded (80740352)
+0050.524 (0) Googledrive chunked upload: 51.9 % uploaded (81788928)
+0050.646 (0) Googledrive chunked upload: 52.6 % uploaded (82837504)
+0050.809 (0) Googledrive chunked upload: 53.2 % uploaded (83886080)
+0050.959 (0) Googledrive chunked upload: 53.9 % uploaded (84934656)
+0051.137 (0) Googledrive chunked upload: 54.6 % uploaded (85983232)
+0051.305 (0) Googledrive chunked upload: 55.2 % uploaded (87031808)
+0051.439 (0) Googledrive chunked upload: 55.9 % uploaded (88080384)
+0051.616 (0) Googledrive chunked upload: 56.6 % uploaded (89128960)
+0051.754 (0) Googledrive chunked upload: 57.2 % uploaded (90177536)
+0051.916 (0) Googledrive chunked upload: 57.9 % uploaded (91226112)
+0052.038 (0) Googledrive chunked upload: 58.6 % uploaded (92274688)
+0052.287 (0) Googledrive chunked upload: 59.2 % uploaded (93323264)
+0052.434 (0) Googledrive chunked upload: 59.9 % uploaded (94371840)
+0052.603 (0) Googledrive chunked upload: 60.6 % uploaded (95420416)
+0052.744 (0) Googledrive chunked upload: 61.2 % uploaded (96468992)
+0052.945 (0) Googledrive chunked upload: 61.9 % uploaded (97517568)
+0053.186 (0) Googledrive chunked upload: 62.6 % uploaded (98566144)
+0053.347 (0) Googledrive chunked upload: 63.2 % uploaded (99614720)
+0053.507 (0) Googledrive chunked upload: 63.9 % uploaded (100663296)
+0053.671 (0) Googledrive chunked upload: 64.6 % uploaded (101711872)
+0053.817 (0) Googledrive chunked upload: 65.2 % uploaded (102760448)
+0053.991 (0) Googledrive chunked upload: 65.9 % uploaded (103809024)
+0054.192 (0) Googledrive chunked upload: 66.6 % uploaded (104857600)
+0054.381 (0) Googledrive chunked upload: 67.2 % uploaded (105906176)
+0054.542 (0) Googledrive chunked upload: 67.9 % uploaded (106954752)
+0054.690 (0) Googledrive chunked upload: 68.5 % uploaded (108003328)
+0054.829 (0) Googledrive chunked upload: 69.2 % uploaded (109051904)
+0055.018 (0) Googledrive chunked upload: 69.9 % uploaded (110100480)
+0055.172 (0) Googledrive chunked upload: 70.5 % uploaded (111149056)
+0055.334 (0) Googledrive chunked upload: 71.2 % uploaded (112197632)
+0055.487 (0) Googledrive chunked upload: 71.9 % uploaded (113246208)
+0055.633 (0) Googledrive chunked upload: 72.5 % uploaded (114294784)
+0055.812 (0) Googledrive chunked upload: 73.2 % uploaded (115343360)
+0056.000 (0) Googledrive chunked upload: 73.9 % uploaded (116391936)
+0056.197 (0) Googledrive chunked upload: 74.5 % uploaded (117440512)
+0056.366 (0) Googledrive chunked upload: 75.2 % uploaded (118489088)
+0056.525 (0) Googledrive chunked upload: 75.9 % uploaded (119537664)
+0056.688 (0) Googledrive chunked upload: 76.5 % uploaded (120586240)
+0056.828 (0) Googledrive chunked upload: 77.2 % uploaded (121634816)
+0056.960 (0) Googledrive chunked upload: 77.9 % uploaded (122683392)
+0057.082 (0) Googledrive chunked upload: 78.5 % uploaded (123731968)
+0057.251 (0) Googledrive chunked upload: 79.2 % uploaded (124780544)
+0057.370 (0) Googledrive chunked upload: 79.9 % uploaded (125829120)
+0057.496 (0) Googledrive chunked upload: 80.5 % uploaded (126877696)
+0057.660 (0) Googledrive chunked upload: 81.2 % uploaded (127926272)
+0057.801 (0) Googledrive chunked upload: 81.9 % uploaded (128974848)
+0057.932 (0) Googledrive chunked upload: 82.5 % uploaded (130023424)
+0058.077 (0) Googledrive chunked upload: 83.2 % uploaded (131072000)
+0058.244 (0) Googledrive chunked upload: 83.9 % uploaded (132120576)
+0058.372 (0) Googledrive chunked upload: 84.5 % uploaded (133169152)
+0058.530 (0) Googledrive chunked upload: 85.2 % uploaded (134217728)
+0058.700 (0) Googledrive chunked upload: 85.8 % uploaded (135266304)
+0058.830 (0) Googledrive chunked upload: 86.5 % uploaded (136314880)
+0058.990 (0) Googledrive chunked upload: 87.2 % uploaded (137363456)
+0059.172 (0) Googledrive chunked upload: 87.8 % uploaded (138412032)
+0059.319 (0) Googledrive chunked upload: 88.5 % uploaded (139460608)
+0059.477 (0) Googledrive chunked upload: 89.2 % uploaded (140509184)
+0059.634 (0) Googledrive chunked upload: 89.8 % uploaded (141557760)
+0059.797 (0) Googledrive chunked upload: 90.5 % uploaded (142606336)
+0059.975 (0) Googledrive chunked upload: 91.2 % uploaded (143654912)
+0060.132 (0) Googledrive chunked upload: 91.8 % uploaded (144703488)
+0060.319 (0) Googledrive chunked upload: 92.5 % uploaded (145752064)
+0060.458 (0) Googledrive chunked upload: 93.2 % uploaded (146800640)
+0060.592 (0) Googledrive chunked upload: 93.8 % uploaded (147849216)
+0060.748 (0) Googledrive chunked upload: 94.5 % uploaded (148897792)
+0060.894 (0) Googledrive chunked upload: 95.2 % uploaded (149946368)
+0061.058 (0) Googledrive chunked upload: 95.8 % uploaded (150994944)
+0061.232 (0) Googledrive chunked upload: 96.5 % uploaded (152043520)
+0061.402 (0) Googledrive chunked upload: 97.2 % uploaded (153092096)
+0061.563 (0) Googledrive chunked upload: 97.8 % uploaded (154140672)
+0061.701 (0) Googledrive chunked upload: 98.5 % uploaded (155189248)
+0061.847 (0) Googledrive chunked upload: 99.2 % uploaded (156237824)
+0062.000 (0) Googledrive chunked upload: 99.8 % uploaded (157286400)
+0063.036 (0) Googledrive chunked upload: 100 % uploaded (157286400)
+0063.038 (0) OK: Archive backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-uploads.zip uploaded to Google Drive in 24.91 seconds
+0063.039 (0) Recording as successfully uploaded: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-uploads.zip (d48e28532b674da7f158f24020f38b69)
+0063.055 (0) Deleting local file: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-uploads.zip: OK
+0063.398 (0) Google Drive quota usage: used=81547.2 MB, total=118784 MB, available=37236.8 MB
+0063.399 (0) backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-others.zip: Attempting to upload to Google Drive (into folder id: 1ZkBpBbxS1pXJCWLkNTjbS37P-UUIE6jq)
+0063.862 (0) Googledrive chunked upload: 36.3 % uploaded (1048576)
+0064.033 (0) Googledrive chunked upload: 72.5 % uploaded (2097152)
+0065.088 (0) Googledrive chunked upload: 100 % uploaded (2097152)
+0065.090 (0) OK: Archive backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-others.zip uploaded to Google Drive in 1.69 seconds
+0065.092 (0) Recording as successfully uploaded: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-others.zip (65194dac36f3bec73d09712cb0fcfeb4)
+0065.094 (0) Deleting local file: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-others.zip: OK
+0065.372 (0) Google Drive quota usage: used=81547.2 MB, total=118784 MB, available=37236.8 MB
+0065.373 (0) backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db.gz: Attempting to upload to Google Drive (into folder id: 1ZkBpBbxS1pXJCWLkNTjbS37P-UUIE6jq)
+0066.678 (0) Googledrive chunked upload: 100 % uploaded
+0066.682 (0) OK: Archive backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db.gz uploaded to Google Drive in 1.31 seconds
+0066.684 (0) Recording as successfully uploaded: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db.gz (04134fe08a631ea6303108e4b7ab18e0)
+0066.688 (0) Deleting local file: backup_2018-05-06-2252_AGELEC_Protection_b79771b9afde-db.gz: OK
+0066.690 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0066.691 (0) Number of backup sets in history: 3; groups (db): 1
+0066.692 (0) Examining (for databases) backup set with group_id=0, nonce=b79771b9afde, datestamp=1525639943 (May 06 2018 20:52:23)
+0066.692 (0) This backup set is the backup set just made, so will not be deleted.
+0066.692 (0) Examining (for databases) backup set with group_id=0, nonce=e6c7a4966e58, datestamp=1525035892 (Apr 29 2018 21:04:52)
+0066.692 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0066.693 (0) Examining (for databases) backup set with group_id=0, nonce=1114676b8942, datestamp=1524581047 (Apr 24 2018 14:44:07)
+0066.693 (0) 1524581047: db: this set includes a database (backup_2018-04-24-1644_AGELEC_Protection_1114676b8942-db.gz); db count is now 2
+0066.693 (0) 1524581047: db: over retain limit (2); will delete this database
+0066.693 (0) Delete file: backup_2018-04-24-1644_AGELEC_Protection_1114676b8942-db.gz, service=googledrive
+0067.203 (0) backup_2018-04-24-1644_AGELEC_Protection_1114676b8942-db.gz: Deletion failed: file was not found
+0067.205 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0067.206 (0) Number of backup sets in history: 3; groups (files): 1
+0067.207 (0) Examining (for files) backup set with nonce=b79771b9afde, datestamp=1525639943 (May 06 2018 20:52:23)
+0067.207 (0) This backup set is the backup set just made, so will not be deleted.
+0067.207 (0) This backup set is the backup set just made, so will not be deleted.
+0067.207 (0) This backup set is the backup set just made, so will not be deleted.
+0067.207 (0) This backup set is the backup set just made, so will not be deleted.
+0067.208 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0067.208 (0) Examining (for files) backup set with nonce=e6c7a4966e58, datestamp=1525035892 (Apr 29 2018 21:04:52)
+0067.208 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0067.208 (0) Examining (for files) backup set with nonce=1114676b8942, datestamp=1524581047 (Apr 24 2018 14:44:07)
+0067.208 (0) plugins: over retain limit (2); will delete this file entity
+0067.208 (0) themes: over retain limit (2); will delete this file entity
+0067.208 (0) uploads: over retain limit (2); will delete this file entity
+0067.208 (0) others: over retain limit (2); will delete this file entity
+0067.209 (0) Delete file: backup_2018-04-24-1644_AGELEC_Protection_1114676b8942-plugins.zip, service=googledrive
+0067.209 (0) Delete file: backup_2018-04-24-1644_AGELEC_Protection_1114676b8942-themes.zip, service=googledrive
+0067.210 (0) Delete file: backup_2018-04-24-1644_AGELEC_Protection_1114676b8942-uploads.zip, service=googledrive
+0067.210 (0) Delete file: backup_2018-04-24-1644_AGELEC_Protection_1114676b8942-others.zip, service=googledrive
+0067.728 (0) backup_2018-04-24-1644_AGELEC_Protection_1114676b8942-plugins.zip: Deletion failed: file was not found
+0067.729 (0) backup_2018-04-24-1644_AGELEC_Protection_1114676b8942-themes.zip: Deletion failed: file was not found
+0067.730 (0) backup_2018-04-24-1644_AGELEC_Protection_1114676b8942-uploads.zip: Deletion failed: file was not found
+0067.730 (0) backup_2018-04-24-1644_AGELEC_Protection_1114676b8942-others.zip: Deletion failed: file was not found
+0067.732 (0) This backup set is now empty; will remove from history
+0067.733 (0) Corresponding log file (log.1114676b8942.txt) not found - must have already been deleted
+0067.734 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0067.737 (0) Resume backup (b79771b9afde, 0): finish run
+0067.738 (0) Decremented the semaphore (fd) by 1
+0067.739 (0) Semaphore (fd) unlocked
+0067.739 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0067.742 (0) The backup apparently succeeded and is now complete
+0067.743 (0) No email will/can be sent - the user has not configured an email address.
+0067.744 (0) La sauvegarde a réussie. Elle est maintenant terminée.

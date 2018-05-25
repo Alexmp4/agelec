@@ -1,0 +1,234 @@
+.breeze-input-group .blur {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.breeze-notice {
+    background-color: #FFF;
+    padding: 10px;
+    margin: 15px 0 15px 0;
+    border: 1px solid #CCC;
+}
+
+.breeze-header {
+    width: 200px;
+}
+
+.breeze-header .breeze-logo {
+    background-image: url("../images/breez-logo200x46.png");
+    height: 70px;
+    background-repeat: no-repeat;
+}
+
+.breeze-header a {
+    text-decoration: none;
+    color: #000;
+}
+
+#breeze-tabs {
+    border-bottom: none;
+}
+
+#breeze-tabs .nav-tab.active {
+    background-color: #FFF;
+    color: #464646;
+}
+
+.tab-child {
+    overflow: hidden;
+    background: #fff;
+    border: 1px solid #CCC;
+    padding: 10px 10px 30px 10px
+}
+
+#breeze-tabs-content .tab-pane {
+    display: none;
+    float: left;
+    width: 80%;
+}
+
+#breeze-tabs-content .tab-pane.active {
+    display: block
+}
+
+.tab-content {
+    overflow: auto;
+}
+
+.tabs-below > .nav-tabs,
+.tabs-right > .nav-tabs,
+.tabs-left > .nav-tabs {
+    border-bottom: 0;
+}
+
+.tab-content > .tab-pane {
+    display: none;
+}
+
+.tab-content > .active {
+    display: block;
+}
+
+/*Table*/
+#breeze-tabs-content table tr td:first-child {
+    width: 20%;
+    font-weight: bold;
+}
+
+#breeze-tabs-content table tr td.last-td {
+    font-weight: normal;
+    padding-top: 30px;
+}
+
+#breeze-tabs-content table tr td {
+    vertical-align: top;
+    padding: 3px;
+}
+
+#breeze-tabs-content table ul {
+    margin: 0;
+}
+
+#breeze-tabs-content table tr td label {
+    vertical-align: top;
+}
+
+#breeze-tabs-content table tr td.input-middle {
+    vertical-align: middle;
+}
+
+.breeze-top-notice {
+    margin: 10px 0 5px 0;
+}
+
+.breeze-top-notice p {
+    padding-left: 15px;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.breeze_tool_tip {
+    vertical-align: middle !important;
+}
+
+.ui-accordion-header:after {
+    font-family: dashicons;
+    content: "\f347";
+    float: right;
+}
+
+.ui-accordion-header[aria-expanded='true']:after {
+    content: "\f343";
+}
+
+.tab-child textarea {
+    width: 95%;
+    max-width: 630px;
+}
+
+.breeze-list-url .breeze-input-group {
+    white-space: nowrap;
+}
+
+.breeze-input-group .breeze-input-url {
+    width: 85%;
+    max-width: 560px;
+}
+
+.breeze-input-group span {
+    vertical-align: text-bottom;
+    cursor: pointer;
+}
+
+.breeze-input-group span.sort-handle {
+    cursor: move;
+}
+
+.breeze-input-group span.sort-handle span.moveUp:before,
+.breeze-input-group span.sort-handle span.moveDown:before {
+    font-size: 30px;
+    margin-left: -7px;
+}
+
+/*Style for FAQ tab*/
+#breeze-tabs-content #tab-content-faq {
+    width: 100%;
+}
+
+#faq-content {
+    margin: 20px;
+}
+
+.faq-block {
+    border: 1px solid;
+    border-color: #eee transparent;
+    padding-bottom: 10px;
+}
+
+.faq-question {
+    cursor: pointer;
+    margin: 0;
+    padding: 1em 0;
+}
+
+.faq-question:focus {
+    outline: none;
+}
+
+.faq-answer * {
+    font-size: 14px;
+}
+
+/*Right-side content*/
+#breeze-and-cloudways {
+    display: none;
+    float: left;
+    max-width: calc(20% - 20px);
+    margin-left: 20px;
+}
+
+#breeze-and-cloudways .rs-title {
+    padding: 0 5px 10px;
+    margin: 0;
+    border-bottom: 1px solid #11acdf;
+    color: #11acdf;
+    font-size: 20px;
+    line-height: 120%;
+    margin-bottom: 15px;
+}
+
+#breeze-and-cloudways .rs-content {
+    margin-bottom: 15px;
+}
+
+#breeze-and-cloudways .rs-content:not(:last-child) {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+#breeze-and-cloudways .rs-content p {
+    color: #000;
+    margin: 0 0 15px;
+}
+
+#breeze-and-cloudways .rs-content h4 {
+    margin: 0 0 5px;
+    color: #000;
+}
+
+#breeze-and-cloudways .rs-content ul {
+    list-style: disc;
+    margin: 15px 0 15px 20px;
+    color: #000;
+    font-weight: 500;
+}
+
+#breeze-and-cloudways .rs-content ul li {
+    margin-bottom: 10px;
+}
+
+#breeze-and-cloudways .rs-content button a {
+    color: #fff;
+    text-decoration: none;
+}

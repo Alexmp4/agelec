@@ -1,0 +1,1071 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress Product Catalog\n"
+"POT-Creation-Date: 2016-04-12 11:35+0200\n"
+"PO-Revision-Date: 2016-04-12 11:38+0200\n"
+"Last-Translator: Daniel Barenkamp\n"
+"Language-Team: DB-Dzine <contact@db-dzine.de>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: admin/redux-framework\n"
+"X-Poedit-SearchPathExcluded-1: admin/redux-extensions\n"
+"X-Poedit-SearchPathExcluded-2: admin/meta-box\n"
+
+#: admin/Tax-meta-class/Tax-meta-class.php:379
+#: admin/Tax-meta-class/Tax-meta-class.php:426
+msgid "Remove"
+msgstr "Entfernen"
+
+#: admin/Tax-meta-class/Tax-meta-class.php:392
+msgid "Add"
+msgstr "Hinzufügen"
+
+#: admin/Tax-meta-class/Tax-meta-class.php:725
+msgid "Remove Image"
+msgstr "Bild entfernen"
+
+#: admin/Tax-meta-class/Tax-meta-class.php:727
+msgid "Upload Image"
+msgstr "Bild Hochladen"
+
+#: admin/class-wordpress-store-locator-post-type.php:64
+msgid "Store"
+msgstr "Filiale"
+
+#: admin/class-wordpress-store-locator-post-type.php:65
+msgid "Stores"
+msgstr "Filialen"
+
+#: admin/class-wordpress-store-locator-post-type.php:68
+#: admin/options-init.php:138
+msgid "Store Locator"
+msgstr "Filialsuche"
+
+#: admin/class-wordpress-store-locator-post-type.php:69
+#: admin/class-wordpress-store-locator-post-type.php:119
+#: admin/class-wordpress-store-locator-post-type.php:149
+#, php-format
+msgid "All %s"
+msgstr "Alle %s"
+
+#: admin/class-wordpress-store-locator-post-type.php:71
+#: admin/class-wordpress-store-locator-post-type.php:74
+#, php-format
+msgid "New %s"
+msgstr "Neue %s"
+
+#: admin/class-wordpress-store-locator-post-type.php:72
+#: admin/class-wordpress-store-locator-post-type.php:124
+#: admin/class-wordpress-store-locator-post-type.php:154
+#, php-format
+msgid "Add New %s"
+msgstr "Neue %s hinzufügen"
+
+#: admin/class-wordpress-store-locator-post-type.php:73
+#: admin/class-wordpress-store-locator-post-type.php:122
+#: admin/class-wordpress-store-locator-post-type.php:152
+#, php-format
+msgid "Edit %s"
+msgstr "Editiere %s"
+
+#: admin/class-wordpress-store-locator-post-type.php:75
+#, php-format
+msgid "View %s"
+msgstr "Zeige %s"
+
+#: admin/class-wordpress-store-locator-post-type.php:76
+#: admin/class-wordpress-store-locator-post-type.php:118
+#: admin/class-wordpress-store-locator-post-type.php:148
+#, php-format
+msgid "Search %s"
+msgstr "Suche %s"
+
+#: admin/class-wordpress-store-locator-post-type.php:77
+#, php-format
+msgid "No %s found"
+msgstr "Keine %s gefunden"
+
+#: admin/class-wordpress-store-locator-post-type.php:78
+#, php-format
+msgid "No %s found in trash"
+msgstr "Keine %s im Papierkorb gefunden"
+
+#: admin/class-wordpress-store-locator-post-type.php:112
+msgid "Store Category"
+msgstr "Filialkategorie"
+
+#: admin/class-wordpress-store-locator-post-type.php:113
+msgid "Store Categories"
+msgstr "Filialkategorien"
+
+#: admin/class-wordpress-store-locator-post-type.php:116
+#: admin/class-wordpress-store-locator-post-type.php:117
+#: admin/class-wordpress-store-locator-post-type.php:126
+#: admin/class-wordpress-store-locator-post-type.php:146
+#: admin/class-wordpress-store-locator-post-type.php:147
+#: admin/class-wordpress-store-locator-post-type.php:156
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#: admin/class-wordpress-store-locator-post-type.php:120
+#: admin/class-wordpress-store-locator-post-type.php:150
+#, php-format
+msgid "Parent %s"
+msgstr "Übergeordnetes %s"
+
+#: admin/class-wordpress-store-locator-post-type.php:121
+#: admin/class-wordpress-store-locator-post-type.php:151
+#, php-format
+msgid "Parent %s:"
+msgstr "Übergeordnetes %s:"
+
+#: admin/class-wordpress-store-locator-post-type.php:123
+#: admin/class-wordpress-store-locator-post-type.php:153
+#, php-format
+msgid "Update %s"
+msgstr "Aktualisiere %s"
+
+#: admin/class-wordpress-store-locator-post-type.php:125
+#: admin/class-wordpress-store-locator-post-type.php:155
+#, php-format
+msgid "New %s Name"
+msgstr "Neuer %s Name"
+
+#: admin/class-wordpress-store-locator-post-type.php:143
+#: admin/class-wordpress-store-locator-post-type.php:144
+msgid "Store Filter"
+msgstr "Filter"
+
+#: admin/class-wordpress-store-locator-post-type.php:209
+msgid "Link to Product Category "
+msgstr "Link zu Produktkategorie"
+
+#: admin/class-wordpress-store-locator-post-type.php:235
+#: admin/meta-boxes.php:33
+msgid "Address"
+msgstr "Adresse"
+
+#: admin/class-wordpress-store-locator-post-type.php:236
+msgid "Contact"
+msgstr "Kontakt"
+
+#: admin/class-wordpress-store-locator-post-type.php:271
+msgid "Tel.:"
+msgstr "Tel.:"
+
+#: admin/class-wordpress-store-locator-post-type.php:272
+msgid "Mobile:"
+msgstr "Mobil"
+
+#: admin/class-wordpress-store-locator-post-type.php:273
+msgid "Email:"
+msgstr "Email"
+
+#: admin/class-wordpress-store-locator-post-type.php:274
+msgid "Website:"
+msgstr "Webseite"
+
+#: admin/meta-boxes.php:38
+msgid "Address Line 1"
+msgstr "Adresse 1"
+
+#: admin/meta-boxes.php:44
+msgid "Address Line 2"
+msgstr "Adresse 2"
+
+#: admin/meta-boxes.php:50
+msgid "ZIP"
+msgstr "PLZ"
+
+#: admin/meta-boxes.php:56
+msgid "City"
+msgstr "Stadt"
+
+#: admin/meta-boxes.php:62
+msgid "State / Province / Region"
+msgstr ""
+
+#: admin/meta-boxes.php:68
+msgid "Country"
+msgstr "Land"
+
+#: admin/meta-boxes.php:75
+msgid "Location"
+msgstr "Ort"
+
+#: admin/meta-boxes.php:85
+msgid "Contact Information"
+msgstr "Kontaktinformation"
+
+#: admin/meta-boxes.php:90
+msgid "Telephone"
+msgstr "Telefon"
+
+#: admin/meta-boxes.php:96
+msgid "Mobile"
+msgstr "Mobil"
+
+#: admin/meta-boxes.php:102
+msgid "Fax"
+msgstr "Fax"
+
+#: admin/meta-boxes.php:108
+msgid "Email"
+msgstr "Email"
+
+#: admin/meta-boxes.php:114
+msgid "Website"
+msgstr "Webseite"
+
+#: admin/meta-boxes.php:120
+msgid "Premium Store"
+msgstr "Premium Filiale"
+
+#: admin/meta-boxes.php:162
+msgid "Be Careful"
+msgstr "Sei vorsichtig"
+
+#: admin/meta-boxes.php:167
+msgid "Opening Hours"
+msgstr "Öffnungszeiten"
+
+#: admin/options-init.php:115
+msgid "Information"
+msgstr "Informationen"
+
+#: admin/options-init.php:116
+msgid "<p>Need support? Please use the comment function on codecanyon.</p>"
+msgstr ""
+"<p>Brauchen Sie Hilfe? Dann schildern Sie uns bitte Ihr Problem auf "
+"Codecanyon.</p>"
+
+#: admin/options-init.php:140
+msgid "Need support? Please use the comment function on codecanyon."
+msgstr ""
+"Brauchen Sie Hilfe? Dann schildern Sie uns bitte Ihr Problem auf Codecanyon."
+
+#: admin/options-init.php:145
+msgid "General"
+msgstr "Allgemein"
+
+#: admin/options-init.php:153 admin/options-init.php:838
+msgid "Enable"
+msgstr "Aktivieren"
+
+#: admin/options-init.php:154
+msgid "Enable store locator."
+msgstr "Aktiveren den Filialfinder"
+
+#: admin/options-init.php:160
+msgid "Google Api Key"
+msgstr "Google Api Key"
+
+#: admin/options-init.php:161
+msgid ""
+"No key? <a href=\"https://console.developers.google.com/flows/enableapi?"
+"apiid=maps_backend&keyType=CLIENT_SIDE&reusekey=true\" target=\"_blank\">Get "
+"it now!</a>"
+msgstr ""
+
+#: admin/options-init.php:167
+msgid "Map"
+msgstr "Karte"
+
+#: admin/options-init.php:168 admin/options-init.php:346
+msgid "Default Map Settings"
+msgstr ""
+
+#: admin/options-init.php:175
+msgid "Enable Map"
+msgstr "Karte Aktivieren"
+
+#: admin/options-init.php:181 admin/options-init.php:372
+#: admin/options-init.php:488
+msgid "Width (in Columns)"
+msgstr "Weite (in Spalten)"
+
+#: admin/options-init.php:191
+msgid "Default Latitude"
+msgstr ""
+
+#: admin/options-init.php:198
+msgid "Default Longitude"
+msgstr ""
+
+#: admin/options-init.php:205
+msgid "Default Map Type"
+msgstr ""
+
+#: admin/options-init.php:206
+msgid "Choose the default Map Type."
+msgstr ""
+
+#: admin/options-init.php:208
+msgid "Roadmap"
+msgstr ""
+
+#: admin/options-init.php:209
+msgid "Satellite"
+msgstr ""
+
+#: admin/options-init.php:210
+msgid "Hybrid"
+msgstr ""
+
+#: admin/options-init.php:211
+msgid "Terrain"
+msgstr ""
+
+#: admin/options-init.php:219
+msgid "Default Map Zoom"
+msgstr ""
+
+#: admin/options-init.php:220
+msgid "Choose the default Zoom Level."
+msgstr ""
+
+#: admin/options-init.php:230
+msgid "Distance Unit"
+msgstr ""
+
+#: admin/options-init.php:231
+msgid "Choose the Distance Unit."
+msgstr ""
+
+#: admin/options-init.php:233
+msgid "Kilometer (KM)"
+msgstr ""
+
+#: admin/options-init.php:234
+msgid "Miles"
+msgstr ""
+
+#: admin/options-init.php:242
+msgid "Radius"
+msgstr ""
+
+#: admin/options-init.php:243
+msgid "Choose the default Radius."
+msgstr ""
+
+#: admin/options-init.php:253
+msgid "Draw Radius Circle"
+msgstr ""
+
+#: admin/options-init.php:260
+msgid "Radius Select Steps"
+msgstr ""
+
+#: admin/options-init.php:261
+msgid "Split the values by comma."
+msgstr ""
+
+#: admin/options-init.php:268
+msgid "Default Store Icon"
+msgstr ""
+
+#: admin/options-init.php:275
+msgid "Default Store Icon on Hover"
+msgstr ""
+
+#: admin/options-init.php:282
+msgid "Default User Icon"
+msgstr ""
+
+#: admin/options-init.php:290
+msgid "Infowindow "
+msgstr ""
+
+#: admin/options-init.php:291
+msgid "Maps Infowindow settings"
+msgstr ""
+
+#: admin/options-init.php:298
+msgid "Enable Infowindow"
+msgstr ""
+
+#: admin/options-init.php:304
+msgid "Width"
+msgstr ""
+
+#: admin/options-init.php:314
+msgid "Details Width (in Columns)"
+msgstr ""
+
+#: admin/options-init.php:324
+msgid "Image Width (in Columns)"
+msgstr ""
+
+#: admin/options-init.php:334
+msgid "Opening Hours Width (in Columns)"
+msgstr ""
+
+#: admin/options-init.php:345
+msgid "Result List"
+msgstr "Ergebnisliste"
+
+#: admin/options-init.php:353
+msgid "Enable Result List"
+msgstr ""
+
+#: admin/options-init.php:359 admin/options-init.php:475
+msgid "Position"
+msgstr ""
+
+#: admin/options-init.php:361
+msgid "Left Sidebar"
+msgstr ""
+
+#: admin/options-init.php:362 admin/options-init.php:478
+msgid "Above Map"
+msgstr ""
+
+#: admin/options-init.php:363 admin/options-init.php:479
+msgid "Below Map"
+msgstr ""
+
+#: admin/options-init.php:364
+msgid "Right Sidebar"
+msgstr ""
+
+#: admin/options-init.php:382
+msgid "No Results Text"
+msgstr ""
+
+#: admin/options-init.php:389
+msgid "Maximum Results"
+msgstr ""
+
+#: admin/options-init.php:399
+msgid "Show Result List Icon"
+msgstr ""
+
+#: admin/options-init.php:406
+msgid "Result List Icon"
+msgstr ""
+
+#: admin/options-init.php:416
+msgid "Result List Icon Size"
+msgstr ""
+
+#: admin/options-init.php:431
+msgid "Result List Icon Color"
+msgstr ""
+
+#: admin/options-init.php:440
+msgid "Search Box"
+msgstr ""
+
+#: admin/options-init.php:441
+msgid "Search Box Settings"
+msgstr ""
+
+#: admin/options-init.php:448
+msgid "Enable Search Box"
+msgstr ""
+
+#: admin/options-init.php:454
+msgid "Enable Auto Geolocation"
+msgstr ""
+
+#: admin/options-init.php:461
+msgid "Save Auto Geolocation in Cookie?"
+msgstr ""
+
+#: admin/options-init.php:468
+msgid "Enable Autocomplete"
+msgstr ""
+
+#: admin/options-init.php:477
+msgid "Before Result List"
+msgstr ""
+
+#: admin/options-init.php:480
+msgid "After Result List"
+msgstr ""
+
+#: admin/options-init.php:499
+msgid "Loading"
+msgstr ""
+
+#: admin/options-init.php:500
+msgid "Loading Settings"
+msgstr "Ladebildschirm"
+
+#: admin/options-init.php:507
+msgid "Loading Icon"
+msgstr ""
+
+#: admin/options-init.php:516
+msgid "Loading Animation"
+msgstr ""
+
+#: admin/options-init.php:527
+msgid "Loading Icon Size"
+msgstr ""
+
+#: admin/options-init.php:541
+msgid "Loading Icon Color"
+msgstr ""
+
+#: admin/options-init.php:548
+msgid "Overlay Color"
+msgstr ""
+
+#: admin/options-init.php:555
+msgid "Overlay Transparency"
+msgstr ""
+
+#: admin/options-init.php:565
+msgid "Data to Show"
+msgstr ""
+
+#: admin/options-init.php:566
+msgid "Data you want to show."
+msgstr ""
+
+#: admin/options-init.php:573
+msgid "Show Name"
+msgstr ""
+
+#: admin/options-init.php:579
+msgid "Show Description"
+msgstr ""
+
+#: admin/options-init.php:585
+msgid "Show Street"
+msgstr ""
+
+#: admin/options-init.php:591
+msgid "Show City"
+msgstr ""
+
+#: admin/options-init.php:597
+msgid "Show Country"
+msgstr ""
+
+#: admin/options-init.php:603
+msgid "Show Website"
+msgstr ""
+
+#: admin/options-init.php:609
+msgid "Website Text"
+msgstr "Webseite Text"
+
+#: admin/options-init.php:616
+msgid "Show Email"
+msgstr ""
+
+#: admin/options-init.php:622
+msgid "Email Text"
+msgstr "Email Text"
+
+#: admin/options-init.php:629
+msgid "Show Telephone"
+msgstr ""
+
+#: admin/options-init.php:635 admin/options-init.php:674
+msgid "Opening Hours Text"
+msgstr ""
+
+#: admin/options-init.php:642
+msgid "Show Mobile Phone"
+msgstr ""
+
+#: admin/options-init.php:648
+msgid "Mobile Text"
+msgstr "Mobil Text"
+
+#: admin/options-init.php:655
+msgid "Show Fax"
+msgstr ""
+
+#: admin/options-init.php:661
+msgid "Fax Text"
+msgstr ""
+
+#: admin/options-init.php:668
+msgid "Show Opening Hours"
+msgstr ""
+
+#: admin/options-init.php:681
+msgid "Opening Hours Clock"
+msgstr ""
+
+#: admin/options-init.php:688
+msgid "Monday Text"
+msgstr "Montag Text"
+
+#: admin/options-init.php:695
+msgid "Tuesday Text"
+msgstr ""
+
+#: admin/options-init.php:702
+msgid "Wednesday Text"
+msgstr ""
+
+#: admin/options-init.php:709
+msgid "Thursday Text"
+msgstr ""
+
+#: admin/options-init.php:716
+msgid "Friday Text"
+msgstr ""
+
+#: admin/options-init.php:723
+msgid "Saturday Text"
+msgstr ""
+
+#: admin/options-init.php:730
+msgid "Sunday Text"
+msgstr "Sonntag Text"
+
+#: admin/options-init.php:737
+msgid "Show Stores Categories"
+msgstr "Zeige Filialkategorien"
+
+#: admin/options-init.php:743
+msgid "Show Stores Filter"
+msgstr ""
+
+#: admin/options-init.php:749
+msgid "Show Active Filter"
+msgstr ""
+
+#: admin/options-init.php:755
+msgid "Show Filter"
+msgstr ""
+
+#: admin/options-init.php:761
+msgid "Show Get Direction"
+msgstr ""
+
+#: admin/options-init.php:767
+msgid "Get Direction Text"
+msgstr "Wegbeschreibung Text"
+
+#: admin/options-init.php:774
+msgid "Show Call Now"
+msgstr ""
+
+#: admin/options-init.php:780
+msgid "Call Now Text"
+msgstr ""
+
+#: admin/options-init.php:787
+msgid "Show Visit Website"
+msgstr ""
+
+#: admin/options-init.php:793
+msgid "Visit Website Text"
+msgstr ""
+
+#: admin/options-init.php:800
+msgid "Show Write Email"
+msgstr ""
+
+#: admin/options-init.php:806
+msgid "Write Email Text"
+msgstr ""
+
+#: admin/options-init.php:813
+msgid "Show Image"
+msgstr ""
+
+#: admin/options-init.php:820
+msgid "Image Dimensions"
+msgstr ""
+
+#: admin/options-init.php:831
+msgid "Button"
+msgstr "Button"
+
+#: admin/options-init.php:839
+msgid "Enables the single product custom button."
+msgstr "Aktiviert den Einzelprodukt-Seiten Button"
+
+#: admin/options-init.php:845
+msgid "Button Text"
+msgstr "Button Text"
+
+#: admin/options-init.php:846
+msgid "Text inside the custom button."
+msgstr "Text im Button"
+
+#: admin/options-init.php:852
+msgid "Button Position"
+msgstr "Button Position"
+
+#: admin/options-init.php:853
+msgid "Specify the positon of the Button."
+msgstr ""
+
+#: admin/options-init.php:856 admin/options-init.php:916
+msgid "Before Single Product"
+msgstr ""
+
+#: admin/options-init.php:857 admin/options-init.php:917
+msgid "Before Single Product Summary"
+msgstr ""
+
+#: admin/options-init.php:858 admin/options-init.php:918
+msgid "In Single Product Summary"
+msgstr ""
+
+#: admin/options-init.php:859 admin/options-init.php:919
+msgid "Before Meta Information"
+msgstr ""
+
+#: admin/options-init.php:860 admin/options-init.php:920
+msgid "After Meta Information"
+msgstr ""
+
+#: admin/options-init.php:861 admin/options-init.php:921
+msgid "After Single Product Summary"
+msgstr ""
+
+#: admin/options-init.php:862 admin/options-init.php:922
+msgid "After Single Product"
+msgstr ""
+
+#: admin/options-init.php:863 admin/options-init.php:923
+msgid "After Main Product"
+msgstr ""
+
+#: admin/options-init.php:869
+msgid "Button Action"
+msgstr "Button Aktion"
+
+#: admin/options-init.php:870
+msgid "What happens when the User clicks the button."
+msgstr "Was passiert wenn der Nutzer den Button klickt."
+
+#: admin/options-init.php:872
+msgid "Open Store Locator Modal"
+msgstr ""
+
+#: admin/options-init.php:873
+msgid "Go to custom URL"
+msgstr "Gehe zu URL"
+
+#: admin/options-init.php:880
+msgid "Button custom URL"
+msgstr "Eigene URL"
+
+#: admin/options-init.php:881
+msgid "The URL where the user will be sent to when he clicked the button."
+msgstr "URL wo der Nutzer hingeleitet wird, falls er auf den Button klickt."
+
+#: admin/options-init.php:888
+msgid "Custom Button URL target"
+msgstr "Ziel der URL"
+
+#: admin/options-init.php:889
+msgid "The target attribute of the link."
+msgstr "Das Ziel-Attribut des Links."
+
+#: admin/options-init.php:891
+msgid "_self (same Window)"
+msgstr "_self (selbes Fenster)"
+
+#: admin/options-init.php:892
+msgid "_blank (new Window)"
+msgstr "_blank (neues Fenster)"
+
+#: admin/options-init.php:893
+msgid "_parent (parent Window)"
+msgstr "_parent (Eltern-Fenster)"
+
+#: admin/options-init.php:894
+msgid "_top (full body of the Window)"
+msgstr "_top (ganzes Fenster)"
+
+#: admin/options-init.php:902
+msgid "Store locator Title"
+msgstr ""
+
+#: admin/options-init.php:903
+msgid "The title of the Store locator Modal"
+msgstr "Der Titel des Filialfinders"
+
+#: admin/options-init.php:910
+msgid "Modal Code Position"
+msgstr ""
+
+#: admin/options-init.php:911
+msgid "The position of the Store locator."
+msgstr ""
+
+#: admin/options-init.php:914
+msgid "Footer"
+msgstr ""
+
+#: admin/options-init.php:915
+msgid "Before Main Content"
+msgstr ""
+
+#: admin/options-init.php:930
+msgid "Modal size"
+msgstr "Größe des Pop-Up-Fensters"
+
+#: admin/options-init.php:931
+msgid "Size of the modal."
+msgstr "Die Größe des Pop-Up-Fensters"
+
+#: admin/options-init.php:933
+msgid "Normal"
+msgstr "Normal"
+
+#: admin/options-init.php:934
+msgid "Small"
+msgstr "Klein"
+
+#: admin/options-init.php:935
+msgid "Large"
+msgstr "Groß"
+
+#: admin/options-init.php:944
+msgid "Defaults"
+msgstr ""
+
+#: admin/options-init.php:951
+msgid "Default Address 1"
+msgstr ""
+
+#: admin/options-init.php:957
+msgid "Default Address 2"
+msgstr ""
+
+#: admin/options-init.php:963
+msgid "Default ZIP"
+msgstr ""
+
+#: admin/options-init.php:969
+msgid "Default City"
+msgstr ""
+
+#: admin/options-init.php:975
+msgid "Default Region"
+msgstr ""
+
+#: admin/options-init.php:981
+msgid "Default Country"
+msgstr ""
+
+#: admin/options-init.php:987
+msgid "Default Telephone"
+msgstr ""
+
+#: admin/options-init.php:993
+msgid "Default Mobile"
+msgstr ""
+
+#: admin/options-init.php:999
+msgid "Default Fax"
+msgstr ""
+
+#: admin/options-init.php:1005
+msgid "Default Email"
+msgstr ""
+
+#: admin/options-init.php:1011
+msgid "Default Website"
+msgstr ""
+
+#: admin/options-init.php:1017
+msgid "Default Open (Mo - Fr)"
+msgstr ""
+
+#: admin/options-init.php:1023
+msgid "Default Close (Mo - Fr)"
+msgstr ""
+
+#: admin/options-init.php:1030
+msgid "Advanced settings"
+msgstr "Erweiterte Einstellungen"
+
+#: admin/options-init.php:1031
+msgid "Custom stylesheet / javascript."
+msgstr "Eigenes Stylesheet / Javascript."
+
+#: admin/options-init.php:1038
+msgid "Custom CSS"
+msgstr "Eigenes CSS"
+
+#: admin/options-init.php:1039
+msgid "Add some stylesheet if you want."
+msgstr "Gib dem Plugin dein eigenes Styling."
+
+#: admin/options-init.php:1044
+msgid "Custom JS"
+msgstr "Eigenes JS"
+
+#: admin/options-init.php:1045
+msgid "Add some javascript if you want."
+msgstr "Gib dem Plugin eigene Funktionen."
+
+#: admin/options-init.php:1050
+msgid "Do Not load Bootstrap JS"
+msgstr ""
+
+#: public/class-wordpress-store-locator-public.php:387
+msgid "Get my Position"
+msgstr "Verwende meine aktuelle Adresse"
+
+#: public/class-wordpress-store-locator-public.php:419
+msgid "Results"
+msgstr "Ergebnisse"
+
+#: public/class-wordpress-store-locator-public.php:457
+msgid "Filter"
+msgstr "Filter"
+
+#: public/class-wordpress-store-locator-public.php:462
+msgid "Select a Category"
+msgstr "Wähle eine Kategorie"
+
+#~ msgid "Attribute Groups"
+#~ msgstr "Attribut Gruppen"
+
+#~ msgid "Attribute Group"
+#~ msgstr "Attribut Gruppe"
+
+#~ msgid "Add New Attribute Group"
+#~ msgstr "Neue Attribut-Gruppe hinzufügen"
+
+#~ msgid "Edit Attribute Group"
+#~ msgstr "Attribut-Gruppe editieren"
+
+#~ msgid "New Attribute Group"
+#~ msgstr "Neue Attribut-Gruppe"
+
+#~ msgid "View Attribute Group"
+#~ msgstr "Attribut-Gruppe anzeigen"
+
+#~ msgid "Attributes"
+#~ msgstr "Attribute"
+
+#~ msgid "Attribute Group Image"
+#~ msgstr "Bild der Attributgruppe"
+
+#, fuzzy
+#~ msgid "Group Attributes"
+#~ msgstr "Attribut Gruppen"
+
+#~ msgid "Enable group attributes."
+#~ msgstr "Aktiviere die Attributsgruppierung"
+
+#, fuzzy
+#~ msgid "Multiple Attributes"
+#~ msgstr "Attribut-Gruppe anzeigen"
+
+#~ msgid ""
+#~ "WordPress Store Locator requires the WordPress plugin. Please install "
+#~ "or activate WordPress!"
+#~ msgstr "WordPress Store Locator benötigt das WordPress plugin!"
+
+#~ msgid "Catalog Mode"
+#~ msgstr "Katalog Modus"
+
+#~ msgid "Enable catalog mode to use the options below"
+#~ msgstr ""
+#~ "Aktiviere den Katalog-Modus um die Optionen unten benutzen zu können"
+
+#~ msgid "Remove add to cart button"
+#~ msgstr "Entferne den Warenkorb-Button"
+
+#~ msgid "Removes the add to cart button on single product and category pages."
+#~ msgstr ""
+#~ "Entfernt den „Zum Warenkorb hinzufügen“-Button auf Produkt- und "
+#~ "Kategorieseiten."
+
+#~ msgid "Removes price on single product and category pages."
+#~ msgstr "Entfernt den Preis auf Produkt- und Kategorieseiten."
+
+#~ msgid "Redirect Cart / Checkout Page"
+#~ msgstr "Warenkorb und Kassen-Seiten Umleiten"
+
+#~ msgid "Redirects the cart and checkout page to your home page."
+#~ msgstr "Richtet eine Weiterleitung für die Warenkorb und Kassen-Seite ein."
+
+#~ msgid "Apply for users"
+#~ msgstr "Anwenden auf Nutzer"
+
+#~ msgid "Which user group should be affected by the catalog mode."
+#~ msgstr "Welche Nutzer sollen betroffen sein?"
+
+#~ msgid "All"
+#~ msgstr "Alle"
+
+#~ msgid "Only NOT logged in"
+#~ msgstr "Nur „NICHT“ eingeloggte User"
+
+#~ msgid "Only Logged in"
+#~ msgstr "Nur eingeloggte User"
+
+#~ msgid "Exclusions"
+#~ msgstr "Ausnahmen"
+
+#~ msgid ""
+#~ "With the below settings you can exclude products / categories so that the "
+#~ "price and add to cart will be shown."
+#~ msgstr "Der Preis und Warenkorb-Button wird trotzdem angezeigt."
+
+#~ msgid "Exclude Product Categories"
+#~ msgstr "Ausnahmen für Produktkategorien"
+
+#~ msgid "Which product categories should be excluded by the catalog mode."
+#~ msgstr "Welche Produktkategorien sollen nicht betroffen werden?"
+
+#~ msgid "Exclude Products "
+#~ msgstr "Ausnahmen für Produkte"
+
+#~ msgid "Which products should be excluded by the catalog mode."
+#~ msgstr "Welche Produkte sollen nicht betroffen werden?"
+
+#~ msgid ""
+#~ "Replace the add to cart button on category / archive / tag pages with "
+#~ "your own button."
+#~ msgstr ""
+#~ "Ersetzt den Warenkorb-Button auf Kategorie, Archiv und Tag-Seiten durch "
+#~ "einen eigenen."
+
+#~ msgid "Enables the custom button on loop pages."
+#~ msgstr "Aktivere den eigenen Button auf Schleifen-Seiten"
+
+#~ msgid "Go to product page"
+#~ msgstr "Gehe zur Produktseite"
+
+#~ msgid "Button custom URL target"
+#~ msgstr "Button URL-Target"
+
+#~ msgid ""
+#~ "Replace the add to cart button on single product pages with your own."
+#~ msgstr ""
+#~ "Ersetzt den Warenkorb-Button auf Einzelprodukt-Seiten durch Ihren eigenen."
+
+#~ msgid "Open enquiry form"
+#~ msgstr "Öffne ein Kontaktformular"
+
+#~ msgid "Enquiry Title"
+#~ msgstr "Kontaktformular Titel"
+
+#~ msgid "Enquiry contact form"
+#~ msgstr "Kontaktformular"
+
+#~ msgid "Please insert your contact form shortcode."
+#~ msgstr "Shortcode des Kontaktformulars."
+
+#~ msgid "Loop Button"
+#~ msgstr "Schleifen-Button"
+
+#~ msgid "What happens when the User clicks this button."
+#~ msgstr "Was passiert wenn der Nutzer den Button klickt."

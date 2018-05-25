@@ -1,0 +1,10 @@
+ .store_locator_street{display:none;} .store_locator_country{display:none;} .store_locator_fax{display:none;} .store_locator_distance{display:none;} .store_locator_mobile{display:none;} .store_locator_website{display:none;} .store_locator_email{display:none;} .store_locator_description{display:none;}#store_locator_filter_active_filter_box{display:none;}#store_locator_filter{display:none;} .store_locator_get_direction{display:none !important;} .store_locator_visit_website{display:none !important;} .store_locator_write_email{display:none !important;} .store_locator_show_on_map{display:none !important;} .store_locator_image{display:none !important;} .store_locator_loading{background-color:#FFFFFF;opacity: 0.8;} .store_locator_loading i{color:#000000;} .store_locator_infowindow{width: 300px;}.store_locator_result_list_description, .store_locator_get_direction {
+      display: none;
+}
+#store_locator_result_list {
+    max-height: 650px !important;
+}
+
+#store_locator_sidebar {
+    min-height: 800px;
+}

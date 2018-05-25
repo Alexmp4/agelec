@@ -1,0 +1,194 @@
+.zcctmzfldpan {
+    font-size: 14px !important;
+    color: #555 !important;
+    height: 30px !important;
+    font-size: 12px !important;
+    border-spacing: 0px !important;
+    width: 100% !important;
+    clear: both !important;
+    margin: 0px !important;
+}
+
+.zcctmzfldpan:focus {
+    border: solid 1px #00a0d4 !important;
+    font-size: 14px !important;
+    color: #555 !important;
+    height: 30px !important;
+    font-size: 12px !important;
+    box-shadow: 0px 1px 5px #90e4ff !important;
+    border-spacing: 0px !important;
+    width: 100% !important;
+    clear: both !important;
+    margin: 0px !important;
+}
+
+.zcwelcomepan .zcbtncntr {
+    margin-top: 30px;
+}
+
+.zcwelcomepan .zcgraycontent {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #888;
+    margin-top: 30px;
+}
+
+.zcwelcomepanouter {
+    margin: 0px auto;
+    width: 80%;
+    box-shadow: 0px 2px 2px #ccc;
+}
+
+.zcwelcomepan {
+    padding: 40px;
+    width: 100%;
+    background-color: #fff;
+    margin-top: 100px;
+}
+
+.zcwelcomepan .zclogo {
+    text-align: center;
+}
+
+.zcwelcomepan h1 {
+    font-size: 30px;
+    color: #555;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.zcwelcomepan .zcsubcontent {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #b0b0b0;
+    text-align: center;
+}
+
+.zcwelcomepan .zccontent {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #444;
+}
+
+.zcwelcomepan .zcsteptitle {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #444;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+.zcwelcomepan .zcstepcontent {
+    font-size: 14px;
+    line-height: 1.8;
+    color: #888;
+    margin-top: 10px;
+    width: 250px;
+}
+
+.zcwelcomepan .zcstepsno {
+    background-color: #fff0c3;
+    border-radius: 50%;
+    font-size: 16px;
+    color: #444;
+    display: table;
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    padding: 15px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.zcwelcomepan .zcstepline {
+    position: absolute;
+    border-bottom: 2px dotted #FFF0C3;
+    width: 200%;
+    left: 50%;
+    top: -25px;
+    z-index: 1;
+}
+
+.zcwelcomebtncntr {
+    padding: 30px;
+    background-color: #fafafa;
+    text-align: center;
+    border-top: solid 1px #f4f4f4;
+}
+
+.zcwelcomepan .zcdtdbdrbtm {
+    border-bottom: dotted 1px #bbb;
+}
+
+.zcwelcomepan ol {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.zcwelcomepan ol li {
+    font-size: 14px;
+    color: #888;
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+.zctable {
+    font-size: 14px;
+    color: #444;
+}
+
+.zctable .zclabel {
+    color: #999;
+    background-color: #fcfcfc;
+}
+
+.zctblbdr {
+    border: solid 1px #f5f5f5;
+    border-collapse: collapse;
+}
+
+.zctblbdr td {
+    border: solid 1px #f5f5f5;
+    border-collapse: collapse;
+    padding-left: 15px;
+}
+
+.zcwelheading {
+    font-size: 30px;
+    color: #555;
+    font-weight: normal;
+    margin: 0px;
+}
+
+.zcgreentxt {
+    font-size: 16px;
+    color: #3ea35b;
+}
+
+.zctcntr {
+    text-align: center;
+}
+
+.zcmt10 {
+    margin-top: 10px;
+}
+
+.zcmt20 {
+    margin-top: 20px;
+}
+
+.zcgreentxt {
+    color: #55b667;
+}
+
+.zcredtxt {
+    color: #bd574d;
+}
+
+.zcf14 {
+    font-size: 14px;
+}

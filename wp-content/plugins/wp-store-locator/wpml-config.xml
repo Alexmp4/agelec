@@ -1,0 +1,29 @@
+<wpml-config>
+    <admin-texts>
+        <key name="wpsl_settings">
+            <key name="editor_country"/>
+            <key name="start_label"/>
+            <key name="search_label"/> 
+            <key name="search_btn_label"/>
+            <key name="preloader_label"/>             
+            <key name="radius_label"/>
+            <key name="no_results_label"/>             
+            <key name="results_label"/>
+            <key name="category_label"/>
+            <key name="category_default_label"/>
+            <key name="more_label"/> 
+            <key name="directions_label"/>
+            <key name="no_directions_label"/> 
+            <key name="back_label"/>
+            <key name="street_view_label"/>
+            <key name="zoom_here_label"/>             
+            <key name="error_label"/>
+            <key name="limit_label"/> 
+            <key name="phone_label"/>
+            <key name="fax_label"/> 
+            <key name="email_label"/>
+            <key name="url_label"/> 
+            <key name="hours_label"/>                                                 
+        </key>
+    </admin-texts>
+</wpml-config>
